@@ -94,7 +94,7 @@ const NewArrivals = () => {
             >
 
               {/* IMAGE CARD */}
-              <div className="relative overflow-hidden rounded-2xl shadow-sm">
+              <div className="relative overflow-hidden rounded-xs shadow-sm">
 
                 {/* IMAGE */}
                 <img

@@ -100,7 +100,7 @@ const MensWear = () => {
             >
 
               {/* IMAGE CARD */}
-              <div className="relative overflow-hidden rounded-2xl shadow-lg">
+              <div className="relative overflow-hidden rounded-xs shadow-lg">
 
                 {/* IMAGE */}
                 <img

@@ -618,7 +618,7 @@ export default function JewelryCollection() {
       <div className="relative py-28 mt-12 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="https://images.unsplash.com/photo-1588444837495-c6cfeb53f32d?w=1200&q=90"
+          src="https://images.unsplash.com/photo-1588444837495-c6cfeb53f32d?w=1200&q=90"
             alt="Featured Collection"
             fill
             className="object-cover"

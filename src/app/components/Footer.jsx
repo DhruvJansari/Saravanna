@@ -1,4 +1,5 @@
 "use client";
+ import Link from "next/link";
 
 const FONT_STYLE = {
   heading: "font-[Playfair_Display]",
@@ -27,42 +28,70 @@ const Footer = () => {
           </div>
 
           {/* LINKS */}
-          <div>
-            <h3 className="text-sm uppercase tracking-wider text-gray-500 mb-4">
-              Quick Links
-            </h3>
-            <ul className="space-y-2 text-sm">
-              {["Home", "About", "Collections", "Contact"].map((item) => (
-                <li key={item}>
-                  <a
-                    href="#"
-                    className="text-gray-700 hover:text-black transition"
-                  >
-                    {item}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
+      
 
-          {/* CATEGORIES */}
-          <div>
-            <h3 className="text-sm uppercase tracking-wider text-gray-500 mb-4">
-              Categories
-            </h3>
-            <ul className="space-y-2 text-sm">
-              {["Men", "Women", "Kids", "Jewellery"].map((item) => (
-                <li key={item}>
-                  <a
-                    href="#"
-                    className="text-gray-700 hover:text-black transition"
-                  >
-                    {item}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
+<div>
+  <h3 className="text-sm uppercase tracking-wider text-gray-500 mb-4">
+    Quick Links
+  </h3>
+
+  <ul className="space-y-2 text-sm">
+
+    {/* ABOUT → scroll to section */}
+    <li>
+      <Link
+        href="/#about"
+        className="text-gray-700 hover:text-black transition"
+      >
+        About
+      </Link>
+    </li>
+
+    {/* CONTACT → go to page */}
+    <li>
+      <Link
+        href="/contact"
+        className="text-gray-700 hover:text-black transition"
+      >
+        Contact
+      </Link>
+    </li>
+
+  </ul>
+</div>
+
+
+<div>
+  <h3 className="text-sm uppercase tracking-wider text-gray-500 mb-4">
+    Categories
+  </h3>
+
+  <ul className="space-y-2 text-sm">
+    <li>
+      <Link href="/mens" className="text-gray-700 hover:text-black transition">
+        Men
+      </Link>
+    </li>
+
+    <li>
+      <Link href="/womens" className="text-gray-700 hover:text-black transition">
+        Women
+      </Link>
+    </li>
+
+    <li>
+      <Link href="/kids" className="text-gray-700 hover:text-black transition">
+        Kids
+      </Link>
+    </li>
+
+    <li>
+      <Link href="/jewellery" className="text-gray-700 hover:text-black transition">
+        Jewellery
+      </Link>
+    </li>
+  </ul>
+</div>
 
           {/* CONTACT */}
           <div>
@@ -70,32 +99,20 @@ const Footer = () => {
               Contact
             </h3>
             <ul className="space-y-2 text-sm text-gray-700">
-              <li>Usilampatti, Tamil Nadu</li>
-              <li>+91 98765 43210</li>
-              <li>info@yourbrand.com</li>
+              <li>USILAMPATTI, Madurai, Tamil Nadu, Pincode-625532</li>
+              <li>+91 9443052199</li>
+              <li>kandanmonica@gmail.com</li>
             </ul>
           </div>
 
         </div>
 
-        {/* DIVIDER */}
-        <div className="border-t border-gray-200 my-8"></div>
-
         {/* BOTTOM */}
-        <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-500">
-          
-          <p>© {new Date().getFullYear()} YourBrand. All rights reserved.</p>
+      <div className="border-t border-gray-200 my-5"></div>
 
-          <div className="flex gap-6">
-            <a href="#" className="hover:text-black transition">
-              Privacy Policy
-            </a>
-            <a href="#" className="hover:text-black transition">
-              Terms
-            </a>
-          </div>
-
-        </div>
+<div className="flex justify-center items-center text-sm text-gray-500">
+  <p>© {new Date().getFullYear()} YourBrand. All rights reserved.</p>
+</div>
 
       </div>
     </footer>
