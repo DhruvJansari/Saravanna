@@ -467,8 +467,8 @@ export default function KidsCollection() {
       initial={{ opacity: 0, y: 40 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 1 }}
-    >
-      <h1 className="text-[34px] sm:text-[52px] md:text-[90px] lg:text-[120px] font-['Playfair_Display'] text-white leading-[1] tracking-tight">
+    > 
+     <h1 className="text-[34px] sm:text-[52px] md:text-[90px] lg:text-[120px] font-['Playfair_Display'] text-white leading-[1] tracking-tight">
         Kids'
         <br />
         Collection
