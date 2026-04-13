@@ -11,7 +11,8 @@ export default function WomensCollection() {
   const sections = [
     {
       title: "Evening Gowns",
-      description: "Exquisite couture gowns that command attention, crafted for unforgettable evenings.",
+      description:
+        "Exquisite couture gowns that command attention, crafted for unforgettable evenings.",
       category: "Formal Wear",
       items: [
         "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=800&q=80",
@@ -20,24 +21,38 @@ export default function WomensCollection() {
         "https://images.unsplash.com/photo-1564257631407-4deb1f99d992?w=800&q=80",
         "https://images.unsplash.com/photo-1539008835657-9e8e9680c956?w=800&q=80",
       ],
-      names: ["Midnight Velvet Gown", "Silk Chiffon Dress", "Embellished Ball Gown", "Sequin Mermaid Dress", "Lace Column Dress"],
+      names: [
+        "Midnight Velvet Gown",
+        "Silk Chiffon Dress",
+        "Embellished Ball Gown",
+        "Sequin Mermaid Dress",
+        "Lace Column Dress",
+      ],
     },
     {
       title: "Designer Suits & Blazers",
-      description: "Powerful silhouettes that blend sophistication with contemporary elegance.",
+      description:
+        "Powerful silhouettes that blend sophistication with contemporary elegance.",
       category: "Power Wear",
       items: [
-        "https://images.unsplash.com/photo-1591041719828-60e550030184?w=800&q=80",
+        "https://images.unsplash.com/photo-1619470149201-63960dec27cf?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?w=800&q=80",
-        "https://images.unsplash.com/photo-1598623172979-6ee4e0dda9f2?w=800&q=80",
-        "https://images.unsplash.com/photo-1591041719828-60e550030184?w=800&q=80",
+        "https://images.unsplash.com/photo-1581954768700-06ff9c582704?q=80&w=763&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1712160059102-19368c085984?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?w=800&q=80",
       ],
-      names: ["Cream Wool Blazer", "Pinstripe Power Suit", "Double-Breasted Blazer", "Tweed Jacket", "Silk Lapel Tuxedo"],
+      names: [
+        "Cream Wool Blazer",
+        "Pinstripe Power Suit",
+        "Double-Breasted Blazer",
+        "Tweed Jacket",
+        "Silk Lapel Tuxedo",
+      ],
     },
     {
       title: "Cocktail Dresses",
-      description: "Effortlessly chic dresses for every celebration, from day to night.",
+      description:
+        "Effortlessly chic dresses for every celebration, from day to night.",
       category: "Party Wear",
       items: [
         "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=800&q=80",
@@ -46,11 +61,18 @@ export default function WomensCollection() {
         "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=800&q=80",
         "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=800&q=80",
       ],
-      names: ["Little Black Dress", "Floral Wrap Dress", "Satin Slip Dress", "Bodycon Midi", "Pleated Mini Dress"],
+      names: [
+        "Little Black Dress",
+        "Floral Wrap Dress",
+        "Satin Slip Dress",
+        "Bodycon Midi",
+        "Pleated Mini Dress",
+      ],
     },
     {
       title: "Luxury Tops & Blouses",
-      description: "Impeccably crafted tops that elevate any ensemble with refined detail.",
+      description:
+        "Impeccably crafted tops that elevate any ensemble with refined detail.",
       category: "Everyday Luxury",
       items: [
         "https://images.unsplash.com/photo-1539008835657-9e8e9680c956?w=800&q=80",
@@ -59,7 +81,13 @@ export default function WomensCollection() {
         "https://images.unsplash.com/photo-1539008835657-9e8e9680c956?w=800&q=80",
         "https://images.unsplash.com/photo-1591369822096-ffd140ec948f?w=800&q=80",
       ],
-      names: ["Silk Satin Blouse", "Lace Detail Top", "Cashmere Sweater", "Off-Shoulder Top", "Beaded Mesh Top"],
+      names: [
+        "Silk Satin Blouse",
+        "Lace Detail Top",
+        "Cashmere Sweater",
+        "Off-Shoulder Top",
+        "Beaded Mesh Top",
+      ],
     },
     {
       title: "Skirts & Trousers",
@@ -67,29 +95,43 @@ export default function WomensCollection() {
       category: "Bottoms",
       items: [
         "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?w=800&q=80",
-        "https://images.unsplash.com/photo-1591041719828-60e550030184?w=800&q=80",
+        "https://images.unsplash.com/photo-1654512697735-d7ff21350443?q=80&w=688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=800&q=80",
         "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?w=800&q=80",
-        "https://images.unsplash.com/photo-1591041719828-60e550030184?w=800&q=80",
+        "https://images.unsplash.com/photo-1649315324621-3d63b5aae680?q=80&w=1176&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       ],
-      names: ["Pleated Midi Skirt", "Tailored Wool Pants", "Leather Pencil Skirt", "Wide Leg Trousers", "A-Line Mini Skirt"],
+      names: [
+        "Pleated Midi Skirt",
+        "Tailored Wool Pants",
+        "Leather Pencil Skirt",
+        "Wide Leg Trousers",
+        "A-Line Mini Skirt",
+      ],
     },
     {
       title: "Luxury Footwear",
-      description: "Step into perfection with our handcrafted heels, flats, and boots.",
+      description:
+        "Step into perfection with our handcrafted heels, flats, and boots.",
       category: "Footwear",
       items: [
         "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=800&q=80",
         "https://images.unsplash.com/photo-1533867617858-e7b97e060509?w=800&q=80",
-        "https://images.unsplash.com/photo-1549298920-e41d82d1ec1c?w=800&q=80",
+        "https://images.unsplash.com/photo-1604136172384-b2e9c43271ec?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=800&q=80",
         "https://images.unsplash.com/photo-1533867617858-e7b97e060509?w=800&q=80",
       ],
-      names: ["Stiletto Heels", "Leather Ankle Boots", "Ballet Flats", "Platform Sandals", "Knee High Boots"],
+      names: [
+        "Stiletto Heels",
+        "Leather Ankle Boots",
+        "Ballet Flats",
+        "Platform Sandals",
+        "Knee High Boots",
+      ],
     },
     {
       title: "Accessories",
-      description: "The perfect finishing touch - curated accessories that speak of understated luxury.",
+      description:
+        "The perfect finishing touch - curated accessories that speak of understated luxury.",
       category: "Accessories",
       items: [
         "https://images.unsplash.com/photo-1599643477877-530eb83abc8e?w=800&q=80",
@@ -98,7 +140,13 @@ export default function WomensCollection() {
         "https://images.unsplash.com/photo-1599643477877-530eb83abc8e?w=800&q=80",
         "https://images.unsplash.com/photo-1588444837495-c6cfeb53f32d?w=800&q=80",
       ],
-      names: ["Diamond Drop Earrings", "Gold Chain Necklace", "Leather Handbag", "Silk Scarf", "Statement Cuff"],
+      names: [
+        "Diamond Drop Earrings",
+        "Gold Chain Necklace",
+        "Leather Handbag",
+        "Silk Scarf",
+        "Statement Cuff",
+      ],
     },
   ];
 
@@ -116,8 +164,8 @@ export default function WomensCollection() {
     const handleMouseMove = (e) => {
       setCursorPosition({ x: e.clientX, y: e.clientY });
     };
-    window.addEventListener('mousemove', handleMouseMove);
-    return () => window.removeEventListener('mousemove', handleMouseMove);
+    window.addEventListener("mousemove", handleMouseMove);
+    return () => window.removeEventListener("mousemove", handleMouseMove);
   }, []);
 
   const applyInertia = (container, vel) => {
@@ -125,12 +173,14 @@ export default function WomensCollection() {
       setAnimationFrame(null);
       return;
     }
-    
+
     container.scrollLeft -= vel;
     const newVelocity = vel * 0.95;
     setVelocity(newVelocity);
-    
-    const frame = requestAnimationFrame(() => applyInertia(container, newVelocity));
+
+    const frame = requestAnimationFrame(() =>
+      applyInertia(container, newVelocity),
+    );
     setAnimationFrame(frame);
   };
 
@@ -139,30 +189,30 @@ export default function WomensCollection() {
       cancelAnimationFrame(animationFrame);
       setAnimationFrame(null);
     }
-    
+
     const container = scrollRefs.current[index];
     setIsDragging(true);
     setActiveIndex(index);
     setVelocity(0);
     setLastX(e.pageX);
-    
+
     setDragStart({
       x: e.pageX - container.offsetLeft,
-      scrollLeft: container.scrollLeft
+      scrollLeft: container.scrollLeft,
     });
-    container.style.cursor = 'grabbing';
-    container.style.scrollBehavior = 'auto';
+    container.style.cursor = "grabbing";
+    container.style.scrollBehavior = "auto";
   };
 
   const handleMouseMoveDrag = (e, index) => {
     if (!isDragging || activeIndex !== index) return;
     e.preventDefault();
-    
+
     const container = scrollRefs.current[index];
     const x = e.pageX - container.offsetLeft;
     const walk = (x - dragStart.x) * 1.2;
     container.scrollLeft = dragStart.scrollLeft - walk;
-    
+
     const currentX = e.pageX;
     const deltaX = currentX - lastX;
     setVelocity(deltaX * 0.8);
@@ -176,13 +226,13 @@ export default function WomensCollection() {
         applyInertia(container, velocity);
       }
     }
-    
+
     setIsDragging(false);
     setActiveIndex(null);
     sections.forEach((_, index) => {
       if (scrollRefs.current[index]) {
-        scrollRefs.current[index].style.cursor = 'grab';
-        scrollRefs.current[index].style.scrollBehavior = 'smooth';
+        scrollRefs.current[index].style.cursor = "grab";
+        scrollRefs.current[index].style.scrollBehavior = "smooth";
       }
     });
   };
@@ -190,29 +240,29 @@ export default function WomensCollection() {
   const scrollTo = (index, direction) => {
     const container = scrollRefs.current[index];
     if (container) {
-      const scrollAmount = direction === 'left' ? -400 : 400;
-      container.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+      const scrollAmount = direction === "left" ? -400 : 400;
+      container.scrollBy({ left: scrollAmount, behavior: "smooth" });
     }
   };
 
   useEffect(() => {
     if (isDragging) {
-      window.addEventListener('mouseup', handleMouseUp);
-      return () => window.removeEventListener('mouseup', handleMouseUp);
+      window.addEventListener("mouseup", handleMouseUp);
+      return () => window.removeEventListener("mouseup", handleMouseUp);
     }
   }, [isDragging, velocity, activeIndex]);
 
   return (
     <div className="bg-[#FDFBF7] min-h-screen overflow-x-hidden">
       <style jsx global>{`
-        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Cormorant+Garamond:wght@300;400;500;600&display=swap');
+        @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Cormorant+Garamond:wght@300;400;500;600&display=swap");
 
         * {
           cursor: default;
         }
 
         .section-title {
-          font-family: 'Playfair Display', serif;
+          font-family: "Playfair Display", serif;
           font-size: 32px;
           letter-spacing: 0.02em;
           color: #1a1a1a;
@@ -220,7 +270,7 @@ export default function WomensCollection() {
         }
 
         .section-description {
-          font-family: 'Cormorant Garamond', serif;
+          font-family: "Cormorant Garamond", serif;
           font-size: 18px;
           color: #666;
           font-weight: 300;
@@ -236,7 +286,7 @@ export default function WomensCollection() {
           flex-shrink: 0;
           width: 320px;
           background: #fff;
-          box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+          box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
           will-change: transform;
         }
 
@@ -246,7 +296,7 @@ export default function WomensCollection() {
 
         .image-card:hover {
           transform: translateY(-6px);
-          box-shadow: 0 20px 35px rgba(0,0,0,0.08);
+          box-shadow: 0 20px 35px rgba(0, 0, 0, 0.08);
         }
 
         .image-card img {
@@ -264,7 +314,11 @@ export default function WomensCollection() {
         .image-overlay {
           position: absolute;
           inset: 0;
-          background: linear-gradient(135deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.8) 100%);
+          background: linear-gradient(
+            135deg,
+            rgba(0, 0, 0, 0.7) 0%,
+            rgba(0, 0, 0, 0.8) 100%
+          );
           display: flex;
           flex-direction: column;
           align-items: center;
@@ -279,7 +333,7 @@ export default function WomensCollection() {
         }
 
         .view-btn {
-          font-family: 'Cormorant Garamond', serif;
+          font-family: "Cormorant Garamond", serif;
           font-size: 14px;
           letter-spacing: 3px;
           color: white;
@@ -302,13 +356,13 @@ export default function WomensCollection() {
         }
 
         .product-name {
-          font-family: 'Cormorant Garamond', serif;
+          font-family: "Cormorant Garamond", serif;
           font-size: 22px;
           color: white;
           text-align: center;
           font-weight: 500;
           letter-spacing: 1px;
-          text-shadow: 0 2px 8px rgba(0,0,0,0.3);
+          text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
         }
 
         .custom-cursor {
@@ -323,15 +377,18 @@ export default function WomensCollection() {
           justify-content: center;
           pointer-events: none;
           z-index: 9999;
-          transition: transform 0.12s ease, width 0.2s ease, height 0.2s ease;
+          transition:
+            transform 0.12s ease,
+            width 0.2s ease,
+            height 0.2s ease;
           transform: translate(-50%, -50%);
-          box-shadow: 0 0 30px rgba(0,0,0,0.15);
-          border: 1px solid rgba(255,255,255,0.15);
+          box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+          border: 1px solid rgba(255, 255, 255, 0.15);
         }
 
         .custom-cursor span {
-          color: #FDFBF7;
-          font-family: 'Cormorant Garamond', serif;
+          color: #fdfbf7;
+          font-family: "Cormorant Garamond", serif;
           font-size: 13px;
           letter-spacing: 3px;
           font-weight: 300;
@@ -363,7 +420,7 @@ export default function WomensCollection() {
         }
 
         .arrow-btn:hover {
-          background: #8B4513;
+          background: #8b4513;
           color: white;
           transform: translateX(5px);
         }
@@ -374,7 +431,7 @@ export default function WomensCollection() {
         }
 
         .back-btn:hover {
-          background: rgba(255,255,255,0.15);
+          background: rgba(255, 255, 255, 0.15);
           transform: translateX(-5px);
         }
 
@@ -390,18 +447,30 @@ export default function WomensCollection() {
         }
 
         @keyframes zoomSlow {
-          0% { transform: scale(1); }
-          100% { transform: scale(1.1); }
+          0% {
+            transform: scale(1);
+          }
+          100% {
+            transform: scale(1.1);
+          }
         }
 
         @keyframes zoomSlow2 {
-          0% { transform: scale(1); }
-          100% { transform: scale(1.12); }
+          0% {
+            transform: scale(1);
+          }
+          100% {
+            transform: scale(1.12);
+          }
         }
 
         @keyframes zoomSlow3 {
-          0% { transform: scale(1); }
-          100% { transform: scale(1.08); }
+          0% {
+            transform: scale(1);
+          }
+          100% {
+            transform: scale(1.08);
+          }
         }
 
         .animate-zoomSlow {
@@ -419,117 +488,113 @@ export default function WomensCollection() {
 
       {/* Custom Cursor */}
       {isHoveringImage && (
-        <div 
+        <div
           className="custom-cursor"
-          style={{ left: `${cursorPosition.x}px`, top: `${cursorPosition.y}px` }}
+          style={{
+            left: `${cursorPosition.x}px`,
+            top: `${cursorPosition.y}px`,
+          }}
         >
           <span>DRAG</span>
         </div>
       )}
 
-    {/* Hero Section - Multiple Women with Different Outfits */}
-<div className="relative h-[85vh] md:h-screen flex items-center justify-center overflow-hidden bg-black">
+      {/* Hero Section - Multiple Women with Different Outfits */}
+      <div className="relative h-[85vh] md:h-screen flex items-center justify-center overflow-hidden bg-black">
+        {/* Cinematic Overlay */}
+        <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/40 to-black/80 z-10" />
 
-  {/* Cinematic Overlay */}
-  <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/40 to-black/80 z-10" />
+        {/* 🔥 RESPONSIVE IMAGE GRID */}
+        <div className="absolute inset-0 z-0 grid grid-cols-1 md:grid-cols-3">
+          {/* Woman 1 (VISIBLE ON MOBILE) */}
+          <div className="relative overflow-hidden">
+            <Image
+              src="https://images.unsplash.com/photo-1539008835657-9e8e9680c956?w=1200&q=90"
+              alt="Woman in evening gown"
+              fill
+              className="object-cover object-center scale-105 md:scale-110 animate-zoomSlow"
+              priority
+            />
+            <div className="absolute inset-0 bg-black/50 md:bg-gradient-to-r md:from-black/60 md:via-black/20 md:to-transparent" />
+          </div>
 
-  {/* 🔥 RESPONSIVE IMAGE GRID */}
-  <div className="absolute inset-0 z-0 grid grid-cols-1 md:grid-cols-3">
-    
-    {/* Woman 1 (VISIBLE ON MOBILE) */}
-    <div className="relative overflow-hidden">
-      <Image
-        src="https://images.unsplash.com/photo-1539008835657-9e8e9680c956?w=1200&q=90"
-        alt="Woman in evening gown"
-        fill
-        className="object-cover object-center scale-105 md:scale-110 animate-zoomSlow"
-        priority
-      />
-      <div className="absolute inset-0 bg-black/50 md:bg-gradient-to-r md:from-black/60 md:via-black/20 md:to-transparent" />
-    </div>
+          {/* Woman 2 (HIDDEN ON MOBILE) */}
+          <div className="relative overflow-hidden hidden md:block">
+            <Image
+              src="https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?w=1200&q=90"
+              alt="Woman in power suit"
+              fill
+              className="object-cover object-center scale-110 animate-zoomSlow2"
+              priority
+            />
+            <div className="absolute inset-0 bg-black/30 backdrop-blur-[2px]" />
+          </div>
 
-    {/* Woman 2 (HIDDEN ON MOBILE) */}
-    <div className="relative overflow-hidden hidden md:block">
-      <Image
-        src="https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?w=1200&q=90"
-        alt="Woman in power suit"
-        fill
-        className="object-cover object-center scale-110 animate-zoomSlow2"
-        priority
-      />
-      <div className="absolute inset-0 bg-black/30 backdrop-blur-[2px]" />
-    </div>
+          {/* Woman 3 (HIDDEN ON MOBILE) */}
+          <div className="relative overflow-hidden hidden md:block">
+            <Image
+              src="https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=1200&q=90"
+              alt="Woman in casual outfit"
+              fill
+              className="object-cover object-center scale-110 animate-zoomSlow3"
+              priority
+            />
+            <div className="absolute inset-0 bg-gradient-to-l from-black/60 via-black/20 to-transparent" />
+          </div>
+        </div>
 
-    {/* Woman 3 (HIDDEN ON MOBILE) */}
-    <div className="relative overflow-hidden hidden md:block">
-      <Image
-        src="https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=1200&q=90"
-        alt="Woman in casual outfit"
-        fill
-        className="object-cover object-center scale-110 animate-zoomSlow3"
-        priority
-      />
-      <div className="absolute inset-0 bg-gradient-to-l from-black/60 via-black/20 to-transparent" />
-    </div>
-  </div>
+        {/* CONTENT */}
+        <div className="relative z-20 text-center px-4 sm:px-6 max-w-5xl mx-auto">
+          <motion.div
+            initial={{ opacity: 0, y: 40 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1 }}
+          >
+            <h1 className="font-['Playfair_Display'] text-white tracking-wide font-normal leading-[1.05] text-[34px] sm:text-[50px] md:text-8xl lg:text-9xl">
+              {/* MOBILE */}
+              <span className="block md:hidden">Women's Collection</span>
 
-  {/* CONTENT */}
-  <div className="relative z-20 text-center px-4 sm:px-6 max-w-5xl mx-auto">
+              {/* DESKTOP */}
+              <span className="hidden md:block">
+                Women's <br /> Collection
+              </span>
+            </h1>
+          </motion.div>
 
-    <motion.div
-      initial={{ opacity: 0, y: 40 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 1 }}
-    >
-      <h1 className="font-['Playfair_Display'] text-white tracking-wide font-normal leading-[1.05] text-[34px] sm:text-[50px] md:text-8xl lg:text-9xl">
+          {/* LINE */}
+          <motion.div
+            initial={{ width: 0 }}
+            animate={{ width: "60px" }}
+            transition={{ duration: 0.8, delay: 0.3 }}
+            className="h-px bg-white/40 mx-auto mt-5 sm:mt-6"
+          />
 
-        {/* MOBILE */}
-        <span className="block md:hidden">
-          Women's Collection
-        </span>
-
-        {/* DESKTOP */}
-        <span className="hidden md:block">
-          Women's <br /> Collection
-        </span>
-      </h1>
-    </motion.div>
-
-    {/* LINE */}
-    <motion.div
-      initial={{ width: 0 }}
-      animate={{ width: "60px" }}
-      transition={{ duration: 0.8, delay: 0.3 }}
-      className="h-px bg-white/40 mx-auto mt-5 sm:mt-6"
-    />
-
-    {/* TEXT */}
-    <motion.p
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ delay: 0.5 }}
-      className="text-white/60 mt-4 sm:mt-6 font-['Cormorant_Garamond']
+          {/* TEXT */}
+          <motion.p
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.5 }}
+            className="text-white/60 mt-4 sm:mt-6 font-['Cormorant_Garamond']
       text-[10px] sm:text-sm tracking-[0.25em] sm:tracking-[0.3em] font-light"
-    >
-      TIMELESS ELEGANCE • MODERN SOPHISTICATION
-    </motion.p>
+          >
+            TIMELESS ELEGANCE • MODERN SOPHISTICATION
+          </motion.p>
 
-    {/* BUTTON */}
-    <motion.button
-      initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ delay: 0.7 }}
-      className="mt-6 sm:mt-10 px-6 sm:px-10 py-2.5 sm:py-3
+          {/* BUTTON */}
+          <motion.button
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.7 }}
+            className="mt-6 sm:mt-10 px-6 sm:px-10 py-2.5 sm:py-3
       border border-white/40 text-white
       text-[10px] sm:text-xs tracking-[0.2em] uppercase
       hover:bg-white hover:text-black
       transition-all duration-500 font-['Cormorant_Garamond']"
-    >
-      Explore Collection
-    </motion.button>
-
-  </div>
-</div>
+          >
+            Explore Collection
+          </motion.button>
+        </div>
+      </div>
 
       {/* Main Content */}
       <div className="max-w-[1400px] mx-auto px-6 py-24">
@@ -555,25 +620,45 @@ export default function WomensCollection() {
                     {section.description}
                   </p>
                 </div>
-                
+
                 {/* Navigation Arrows */}
                 <div className="flex gap-3">
-                  <button 
-                    onClick={() => scrollTo(index, 'left')}
+                  <button
+                    onClick={() => scrollTo(index, "left")}
                     className="arrow-btn w-12 h-12 rounded-full border border-[#8B4513]/20 flex items-center justify-center text-[#8B4513] hover:bg-[#8B4513] hover:text-white transition-all duration-300"
-                    style={{ cursor: 'pointer' }}
+                    style={{ cursor: "pointer" }}
                   >
-                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 19l-7-7 7-7" />
+                    <svg
+                      className="w-5 h-5"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={1.5}
+                        d="M15 19l-7-7 7-7"
+                      />
                     </svg>
                   </button>
-                  <button 
-                    onClick={() => scrollTo(index, 'right')}
+                  <button
+                    onClick={() => scrollTo(index, "right")}
                     className="arrow-btn w-12 h-12 rounded-full border border-[#8B4513]/20 flex items-center justify-center text-[#8B4513] hover:bg-[#8B4513] hover:text-white transition-all duration-300"
-                    style={{ cursor: 'pointer' }}
+                    style={{ cursor: "pointer" }}
                   >
-                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 5l7 7-7 7" />
+                    <svg
+                      className="w-5 h-5"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={1.5}
+                        d="M9 5l7 7-7 7"
+                      />
                     </svg>
                   </button>
                 </div>
@@ -581,7 +666,7 @@ export default function WomensCollection() {
 
               {/* Horizontal Scroll Carousel */}
               <div
-                ref={el => scrollRefs.current[index] = el}
+                ref={(el) => (scrollRefs.current[index] = el)}
                 className="scroll-container pb-6"
                 onMouseDown={(e) => handleMouseDown(e, index)}
                 onMouseMove={(e) => handleMouseMoveDrag(e, index)}
@@ -592,18 +677,15 @@ export default function WomensCollection() {
                     setIsDragging(false);
                   }
                 }}
-                style={{ 
-                  userSelect: 'none',
-                  overflowX: 'auto',
-                  overflowY: 'hidden'
+                style={{
+                  userSelect: "none",
+                  overflowX: "auto",
+                  overflowY: "hidden",
                 }}
               >
-                <div className="flex gap-7" style={{ width: 'max-content' }}>
+                <div className="flex gap-7" style={{ width: "max-content" }}>
                   {section.items.map((img, i) => (
-                    <div
-                      key={i}
-                      className="image-card group"
-                    >
+                    <div key={i} className="image-card group">
                       <div className="relative overflow-hidden">
                         <Image
                           src={img}
@@ -614,13 +696,15 @@ export default function WomensCollection() {
                           draggable={false}
                           priority={index === 0 && i < 3}
                         />
-                        
+
                         {/* Clean Hover Overlay - Single Background */}
                         <div className="image-overlay">
-                          <span className="product-name">{section.names[i]}</span>
-                          <button 
+                          <span className="product-name">
+                            {section.names[i]}
+                          </span>
+                          <button
                             className="view-btn"
-                            style={{ cursor: 'pointer' }}
+                            style={{ cursor: "pointer" }}
                             onMouseEnter={() => setIsHoveringImage(false)}
                             onMouseLeave={() => setIsHoveringImage(true)}
                           >
@@ -648,7 +732,7 @@ export default function WomensCollection() {
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/40" />
         </div>
-        
+
         <div className="relative z-10 max-w-[1400px] mx-auto px-6 text-left">
           <motion.div
             initial={{ opacity: 0, x: -40 }}
@@ -665,18 +749,18 @@ export default function WomensCollection() {
             </h2>
             <div className="w-16 h-px bg-[#D4A574] mt-6 mb-6" />
             <p className="text-white/60 font-['Cormorant_Garamond'] text-lg max-w-md font-light">
-              Experience personalized craftsmanship with our master couturiers. Each piece is meticulously crafted to your exact measurements.
+              Experience personalized craftsmanship with our master couturiers.
+              Each piece is meticulously crafted to your exact measurements.
             </p>
-            <button 
+            <button
               className="mt-8 px-10 py-3 border border-white/30 text-white hover:bg-white/10 hover:border-white/50 transition-all duration-500 font-['Cormorant_Garamond'] text-sm tracking-[0.2em] font-light"
-              style={{ cursor: 'pointer' }}
+              style={{ cursor: "pointer" }}
             >
               INQUIRE NOW
             </button>
           </motion.div>
         </div>
       </div>
-
     </div>
   );
 }

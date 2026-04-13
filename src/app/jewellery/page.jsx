@@ -11,7 +11,8 @@ export default function JewelryCollection() {
   const sections = [
     {
       title: "Necklaces",
-      description: "Discover elegance that adorns your neckline with our exquisite necklace collection, perfect for every occasion.",
+      description:
+        "Discover elegance that adorns your neckline with our exquisite necklace collection, perfect for every occasion.",
       category: "Necklaces",
       items: [
         "https://images.unsplash.com/photo-1599643477877-530eb83abc8e?w=800&q=80",
@@ -20,24 +21,38 @@ export default function JewelryCollection() {
         "https://images.unsplash.com/photo-1599643477877-530eb83abc8e?w=800&q=80",
         "https://images.unsplash.com/photo-1588444837495-c6cfeb53f32d?w=800&q=80",
       ],
-      names: ["Diamond Pendant", "Pearl Cascade", "Sapphire Choker", "Gold Locket", "Ruby Necklace"],
+      names: [
+        "Diamond Pendant",
+        "Pearl Cascade",
+        "Sapphire Choker",
+        "Gold Locket",
+        "Ruby Necklace",
+      ],
     },
     {
       title: "Earrings",
-      description: "Frame your face with sparkle and sophistication from our stunning earring collection that catches every eye.",
+      description:
+        "Frame your face with sparkle and sophistication from our stunning earring collection that catches every eye.",
       category: "Earrings",
       items: [
         "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=800&q=80",
-        "https://images.unsplash.com/photo-1635767798638-3e25273a8239?w=800&q=80",
+        "https://images.unsplash.com/photo-1682822801057-d05f74a07a2f?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "https://images.unsplash.com/photo-1589128777073-263566ae5e4d?w=800&q=80",
         "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=800&q=80",
         "https://images.unsplash.com/photo-1635767798638-3e25273a8239?w=800&q=80",
       ],
-      names: ["Diamond Drops", "Pearl Studs", "Gold Hoops", "Emerald Tears", "Sapphire Studs"],
+      names: [
+        "Diamond Drops",
+        "Pearl Studs",
+        "Gold Hoops",
+        "Emerald Tears",
+        "Sapphire Studs",
+      ],
     },
     {
       title: "Rings",
-      description: "Celebrate life's precious moments with our timeless and elegant ring collection that symbolizes forever.",
+      description:
+        "Celebrate life's precious moments with our timeless and elegant ring collection that symbolizes forever.",
       category: "Rings",
       items: [
         "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=800&q=80",
@@ -46,24 +61,38 @@ export default function JewelryCollection() {
         "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=800&q=80",
         "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?w=800&q=80",
       ],
-      names: ["Solitaire Ring", "Emerald Halo", "Vintage Gold", "Eternity Band", "Sapphire Crown"],
+      names: [
+        "Solitaire Ring",
+        "Emerald Halo",
+        "Vintage Gold",
+        "Eternity Band",
+        "Sapphire Crown",
+      ],
     },
     {
       title: "Bracelets",
-      description: "Add the perfect finishing touch to any ensemble with our elegant bracelet designs that grace your wrist.",
+      description:
+        "Add the perfect finishing touch to any ensemble with our elegant bracelet designs that grace your wrist.",
       category: "Bracelets",
       items: [
         "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=800&q=80",
         "https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?w=800&q=80",
-        "https://images.unsplash.com/photo-1598620617137-2ab990cadd1a?w=800&q=80",
+        "https://images.unsplash.com/photo-1728381019685-2332018a8a24?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=800&q=80",
         "https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?w=800&q=80",
       ],
-      names: ["Tennis Bracelet", "Gold Chain", "Diamond Bangle", "Pearl Bracelet", "Sapphire Cuff"],
+      names: [
+        "Tennis Bracelet",
+        "Gold Chain",
+        "Diamond Bangle",
+        "Pearl Bracelet",
+        "Sapphire Cuff",
+      ],
     },
     {
       title: "Pendants",
-      description: "Express your personal style with our meaningful pendant collection, each piece tells a unique story.",
+      description:
+        "Express your personal style with our meaningful pendant collection, each piece tells a unique story.",
       category: "Pendants",
       items: [
         "https://images.unsplash.com/photo-1611085583191-a3b181a88401?w=800&q=80",
@@ -72,20 +101,33 @@ export default function JewelryCollection() {
         "https://images.unsplash.com/photo-1611085583191-a3b181a88401?w=800&q=80",
         "https://images.unsplash.com/photo-1599643477877-530eb83abc8e?w=800&q=80",
       ],
-      names: ["Infinity Pendant", "Heart Locket", "Star Charm", "Cross Pendant", "Evil Eye"],
+      names: [
+        "Infinity Pendant",
+        "Heart Locket",
+        "Star Charm",
+        "Cross Pendant",
+        "Evil Eye",
+      ],
     },
     {
       title: "Accessories",
-      description: "Complete your look with our curated selection of jewelry accessories that add that extra sparkle.",
+      description:
+        "Complete your look with our curated selection of jewelry accessories that add that extra sparkle.",
       category: "Accessories",
       items: [
         "https://images.unsplash.com/photo-1589128777073-263566ae5e4d?w=800&q=80",
         "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=800&q=80",
-        "https://images.unsplash.com/photo-1635767798638-3e25273a8239?w=800&q=80",
+        "https://images.unsplash.com/photo-1721807644619-106dd7b95db4?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "https://images.unsplash.com/photo-1589128777073-263566ae5e4d?w=800&q=80",
         "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=800&q=80",
       ],
-      names: ["Brooch Pin", "Hair Jewelry", "Anklet Set", "Cufflinks", "Tie Pin"],
+      names: [
+        "Brooch Pin",
+        "Hair Jewelry",
+        "Anklet Set",
+        "Cufflinks",
+        "Tie Pin",
+      ],
     },
   ];
 
@@ -103,8 +145,8 @@ export default function JewelryCollection() {
     const handleMouseMove = (e) => {
       setCursorPosition({ x: e.clientX, y: e.clientY });
     };
-    window.addEventListener('mousemove', handleMouseMove);
-    return () => window.removeEventListener('mousemove', handleMouseMove);
+    window.addEventListener("mousemove", handleMouseMove);
+    return () => window.removeEventListener("mousemove", handleMouseMove);
   }, []);
 
   const applyInertia = (container, vel) => {
@@ -112,12 +154,14 @@ export default function JewelryCollection() {
       setAnimationFrame(null);
       return;
     }
-    
+
     container.scrollLeft -= vel;
     const newVelocity = vel * 0.95;
     setVelocity(newVelocity);
-    
-    const frame = requestAnimationFrame(() => applyInertia(container, newVelocity));
+
+    const frame = requestAnimationFrame(() =>
+      applyInertia(container, newVelocity),
+    );
     setAnimationFrame(frame);
   };
 
@@ -126,30 +170,30 @@ export default function JewelryCollection() {
       cancelAnimationFrame(animationFrame);
       setAnimationFrame(null);
     }
-    
+
     const container = scrollRefs.current[index];
     setIsDragging(true);
     setActiveIndex(index);
     setVelocity(0);
     setLastX(e.pageX);
-    
+
     setDragStart({
       x: e.pageX - container.offsetLeft,
-      scrollLeft: container.scrollLeft
+      scrollLeft: container.scrollLeft,
     });
-    container.style.cursor = 'grabbing';
-    container.style.scrollBehavior = 'auto';
+    container.style.cursor = "grabbing";
+    container.style.scrollBehavior = "auto";
   };
 
   const handleMouseMoveDrag = (e, index) => {
     if (!isDragging || activeIndex !== index) return;
     e.preventDefault();
-    
+
     const container = scrollRefs.current[index];
     const x = e.pageX - container.offsetLeft;
     const walk = (x - dragStart.x) * 1.2;
     container.scrollLeft = dragStart.scrollLeft - walk;
-    
+
     const currentX = e.pageX;
     const deltaX = currentX - lastX;
     setVelocity(deltaX * 0.8);
@@ -163,13 +207,13 @@ export default function JewelryCollection() {
         applyInertia(container, velocity);
       }
     }
-    
+
     setIsDragging(false);
     setActiveIndex(null);
     sections.forEach((_, index) => {
       if (scrollRefs.current[index]) {
-        scrollRefs.current[index].style.cursor = 'grab';
-        scrollRefs.current[index].style.scrollBehavior = 'smooth';
+        scrollRefs.current[index].style.cursor = "grab";
+        scrollRefs.current[index].style.scrollBehavior = "smooth";
       }
     });
   };
@@ -177,29 +221,29 @@ export default function JewelryCollection() {
   const scrollTo = (index, direction) => {
     const container = scrollRefs.current[index];
     if (container) {
-      const scrollAmount = direction === 'left' ? -400 : 400;
-      container.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+      const scrollAmount = direction === "left" ? -400 : 400;
+      container.scrollBy({ left: scrollAmount, behavior: "smooth" });
     }
   };
 
   useEffect(() => {
     if (isDragging) {
-      window.addEventListener('mouseup', handleMouseUp);
-      return () => window.removeEventListener('mouseup', handleMouseUp);
+      window.addEventListener("mouseup", handleMouseUp);
+      return () => window.removeEventListener("mouseup", handleMouseUp);
     }
   }, [isDragging, velocity, activeIndex]);
 
   return (
     <div className="bg-[#FDFBF7] min-h-screen overflow-x-hidden">
       <style jsx global>{`
-        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Cormorant+Garamond:wght@300;400;500;600&display=swap');
+        @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Cormorant+Garamond:wght@300;400;500;600&display=swap");
 
         * {
           cursor: default;
         }
 
         .section-title {
-          font-family: 'Playfair Display', serif;
+          font-family: "Playfair Display", serif;
           font-size: 32px;
           letter-spacing: 0.02em;
           color: #1a1a1a;
@@ -207,7 +251,7 @@ export default function JewelryCollection() {
         }
 
         .section-description {
-          font-family: 'Cormorant Garamond', serif;
+          font-family: "Cormorant Garamond", serif;
           font-size: 18px;
           color: #666;
           font-weight: 300;
@@ -223,7 +267,7 @@ export default function JewelryCollection() {
           flex-shrink: 0;
           width: 320px;
           background: #fff;
-          box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+          box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
           will-change: transform;
         }
 
@@ -233,7 +277,7 @@ export default function JewelryCollection() {
 
         .image-card:hover {
           transform: translateY(-6px);
-          box-shadow: 0 20px 35px rgba(0,0,0,0.08);
+          box-shadow: 0 20px 35px rgba(0, 0, 0, 0.08);
         }
 
         .image-card img {
@@ -251,7 +295,11 @@ export default function JewelryCollection() {
         .image-overlay {
           position: absolute;
           inset: 0;
-          background: linear-gradient(135deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.8) 100%);
+          background: linear-gradient(
+            135deg,
+            rgba(0, 0, 0, 0.7) 0%,
+            rgba(0, 0, 0, 0.8) 100%
+          );
           display: flex;
           flex-direction: column;
           align-items: center;
@@ -266,7 +314,7 @@ export default function JewelryCollection() {
         }
 
         .view-btn {
-          font-family: 'Cormorant Garamond', serif;
+          font-family: "Cormorant Garamond", serif;
           font-size: 14px;
           letter-spacing: 3px;
           color: white;
@@ -289,13 +337,13 @@ export default function JewelryCollection() {
         }
 
         .product-name {
-          font-family: 'Cormorant Garamond', serif;
+          font-family: "Cormorant Garamond", serif;
           font-size: 22px;
           color: white;
           text-align: center;
           font-weight: 500;
           letter-spacing: 1px;
-          text-shadow: 0 2px 8px rgba(0,0,0,0.3);
+          text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
         }
 
         .custom-cursor {
@@ -310,15 +358,18 @@ export default function JewelryCollection() {
           justify-content: center;
           pointer-events: none;
           z-index: 9999;
-          transition: transform 0.12s ease, width 0.2s ease, height 0.2s ease;
+          transition:
+            transform 0.12s ease,
+            width 0.2s ease,
+            height 0.2s ease;
           transform: translate(-50%, -50%);
-          box-shadow: 0 0 30px rgba(0,0,0,0.15);
-          border: 1px solid rgba(255,255,255,0.15);
+          box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+          border: 1px solid rgba(255, 255, 255, 0.15);
         }
 
         .custom-cursor span {
-          color: #FDFBF7;
-          font-family: 'Cormorant Garamond', serif;
+          color: #fdfbf7;
+          font-family: "Cormorant Garamond", serif;
           font-size: 13px;
           letter-spacing: 3px;
           font-weight: 300;
@@ -361,7 +412,7 @@ export default function JewelryCollection() {
         }
 
         .back-btn:hover {
-          background: rgba(255,255,255,0.15);
+          background: rgba(255, 255, 255, 0.15);
           transform: translateX(-5px);
         }
 
@@ -377,18 +428,30 @@ export default function JewelryCollection() {
         }
 
         @keyframes zoomSlow {
-          0% { transform: scale(1); }
-          100% { transform: scale(1.1); }
+          0% {
+            transform: scale(1);
+          }
+          100% {
+            transform: scale(1.1);
+          }
         }
 
         @keyframes zoomSlow2 {
-          0% { transform: scale(1); }
-          100% { transform: scale(1.12); }
+          0% {
+            transform: scale(1);
+          }
+          100% {
+            transform: scale(1.12);
+          }
         }
 
         @keyframes zoomSlow3 {
-          0% { transform: scale(1); }
-          100% { transform: scale(1.08); }
+          0% {
+            transform: scale(1);
+          }
+          100% {
+            transform: scale(1.08);
+          }
         }
 
         .animate-zoomSlow {
@@ -406,122 +469,118 @@ export default function JewelryCollection() {
 
       {/* Custom Cursor */}
       {isHoveringImage && (
-        <div 
+        <div
           className="custom-cursor"
-          style={{ left: `${cursorPosition.x}px`, top: `${cursorPosition.y}px` }}
+          style={{
+            left: `${cursorPosition.x}px`,
+            top: `${cursorPosition.y}px`,
+          }}
         >
           <span>DRAG</span>
         </div>
       )}
 
-  {/* Hero Section - Multiple Jewelry Pieces */}
-<div className="relative h-[85vh] md:h-screen flex items-center justify-center overflow-hidden bg-black">
+      {/* Hero Section - Multiple Jewelry Pieces */}
+      <div className="relative h-[85vh] md:h-screen flex items-center justify-center overflow-hidden bg-black">
+        {/* Cinematic Overlay */}
+        <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/40 to-black/80 z-10" />
 
-  {/* Cinematic Overlay */}
-  <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/40 to-black/80 z-10" />
+        {/* 🔥 RESPONSIVE IMAGE GRID */}
+        <div className="absolute inset-0 z-0 grid grid-cols-1 md:grid-cols-3">
+          {/* Jewelry 1 - (VISIBLE ON MOBILE) */}
+          <div className="relative overflow-hidden">
+            <Image
+              src="https://images.unsplash.com/photo-1599643477877-530eb83abc8e?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0"
+              alt="Diamond Necklace"
+              fill
+              className="object-cover object-center scale-110 md:scale-110 animate-zoomSlow"
+              priority
+            />
+            <div className="absolute inset-0 bg-black/50 md:bg-gradient-to-r md:from-black/50 md:via-black/20 md:to-transparent" />
+          </div>
 
-  {/* 🔥 RESPONSIVE IMAGE GRID */}
-  <div className="absolute inset-0 z-0 grid grid-cols-1 md:grid-cols-3">
+          {/* Jewelry 2 (HIDDEN ON MOBILE) */}
+          <div className="relative overflow-hidden hidden md:block">
+            <Image
+              src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=1200&q=90"
+              alt="Diamond Earrings"
+              fill
+              className="object-cover object-center scale-110 animate-zoomSlow2"
+              priority
+            />
+            <div className="absolute inset-0 bg-black/20 backdrop-blur-[1px]" />
+          </div>
 
-    {/* Jewelry 1 - (VISIBLE ON MOBILE) */}
-    <div className="relative overflow-hidden">
-      <Image
-        src="https://images.unsplash.com/photo-1599643477877-530eb83abc8e?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0"
-        alt="Diamond Necklace"
-        fill
-        className="object-cover object-center scale-110 md:scale-110 animate-zoomSlow"
-        priority
-      />
-      <div className="absolute inset-0 bg-black/50 md:bg-gradient-to-r md:from-black/50 md:via-black/20 md:to-transparent" />
-    </div>
+          {/* Jewelry 3 (HIDDEN ON MOBILE) */}
+          <div className="relative overflow-hidden hidden md:block">
+            <Image
+              src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=1200&q=90"
+              alt="Diamond Ring"
+              fill
+              className="object-cover object-center scale-110 animate-zoomSlow3"
+              priority
+            />
+            <div className="absolute inset-0 bg-gradient-to-l from-black/50 via-black/20 to-transparent" />
+          </div>
+        </div>
 
-    {/* Jewelry 2 (HIDDEN ON MOBILE) */}
-    <div className="relative overflow-hidden hidden md:block">
-      <Image
-        src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=1200&q=90"
-        alt="Diamond Earrings"
-        fill
-        className="object-cover object-center scale-110 animate-zoomSlow2"
-        priority
-      />
-      <div className="absolute inset-0 bg-black/20 backdrop-blur-[1px]" />
-    </div>
+        {/* CONTENT */}
+        <div className="relative z-20 text-center px-4 sm:px-6 max-w-5xl mx-auto">
+          <motion.div
+            initial={{ opacity: 0, y: 40 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1 }}
+          >
+            <span className="text-white/50 tracking-[0.25em] text-[10px] sm:text-xs font-['Cormorant_Garamond'] block mb-3 sm:mb-4">
+              LUXURY COLLECTION
+            </span>
 
-    {/* Jewelry 3 (HIDDEN ON MOBILE) */}
-    <div className="relative overflow-hidden hidden md:block">
-      <Image
-        src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=1200&q=90"
-        alt="Diamond Ring"
-        fill
-        className="object-cover object-center scale-110 animate-zoomSlow3"
-        priority
-      />
-      <div className="absolute inset-0 bg-gradient-to-l from-black/50 via-black/20 to-transparent" />
-    </div>
-  </div>
+            <h1 className="font-['Playfair_Display'] text-white tracking-tight leading-[0.95] text-[34px] sm:text-[50px] md:text-[90px] lg:text-[120px]">
+              {/* MOBILE → SINGLE LINE */}
+              <span className="block md:hidden">Fine Jewelry</span>
 
-  {/* CONTENT */}
-  <div className="relative z-20 text-center px-4 sm:px-6 max-w-5xl mx-auto">
+              {/* DESKTOP → SPLIT */}
+              <span className="hidden md:block">
+                Fine <br /> Jewelry
+              </span>
+            </h1>
+          </motion.div>
 
-    <motion.div
-      initial={{ opacity: 0, y: 40 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 1 }}
-    >
-      <span className="text-white/50 tracking-[0.25em] text-[10px] sm:text-xs font-['Cormorant_Garamond'] block mb-3 sm:mb-4">
-        LUXURY COLLECTION
-      </span>
+          {/* LINE */}
+          <motion.div
+            initial={{ width: 0 }}
+            animate={{ width: "60px" }}
+            transition={{ duration: 0.8, delay: 0.3 }}
+            className="h-px bg-white/40 mx-auto mt-5 sm:mt-6"
+          />
 
-      <h1 className="font-['Playfair_Display'] text-white tracking-tight leading-[0.95] text-[34px] sm:text-[50px] md:text-[90px] lg:text-[120px]">
-        
-        {/* MOBILE → SINGLE LINE */}
-        <span className="block md:hidden">
-          Fine Jewelry
-        </span>
-
-        {/* DESKTOP → SPLIT */}
-        <span className="hidden md:block">
-          Fine <br /> Jewelry
-        </span>
-      </h1>
-    </motion.div>
-
-    {/* LINE */}
-    <motion.div
-      initial={{ width: 0 }}
-      animate={{ width: "60px" }}
-      transition={{ duration: 0.8, delay: 0.3 }}
-      className="h-px bg-white/40 mx-auto mt-5 sm:mt-6"
-    />
-
-    {/* DESCRIPTION */}
-    <motion.p
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ delay: 0.5 }}
-      className="text-white/60 mt-4 sm:mt-6 
+          {/* DESCRIPTION */}
+          <motion.p
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.5 }}
+            className="text-white/60 mt-4 sm:mt-6 
       font-['Cormorant_Garamond'] 
       text-[10px] sm:text-sm tracking-[0.25em] sm:tracking-[0.3em] font-light"
-    >
-      TIMELESS ELEGANCE • EXQUISITE CRAFTSMANSHIP
-    </motion.p>
+          >
+            TIMELESS ELEGANCE • EXQUISITE CRAFTSMANSHIP
+          </motion.p>
 
-    {/* BUTTON */}
-    <motion.button
-      initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ delay: 0.7 }}
-      className="mt-6 sm:mt-10 px-6 sm:px-10 py-2.5 sm:py-3 
+          {/* BUTTON */}
+          <motion.button
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.7 }}
+            className="mt-6 sm:mt-10 px-6 sm:px-10 py-2.5 sm:py-3 
       border border-white/40 text-white 
       text-[10px] sm:text-xs tracking-[0.2em] uppercase 
       hover:bg-white hover:text-black 
       transition-all duration-500 font-['Cormorant_Garamond']"
-    >
-      Explore Collection
-    </motion.button>
-
-  </div>
-</div>
+          >
+            Explore Collection
+          </motion.button>
+        </div>
+      </div>
 
       {/* Main Content */}
       <div className="max-w-[1400px] mx-auto px-6 py-24">
@@ -547,25 +606,45 @@ export default function JewelryCollection() {
                     {section.description}
                   </p>
                 </div>
-                
+
                 {/* Navigation Arrows */}
                 <div className="flex gap-3">
-                  <button 
-                    onClick={() => scrollTo(index, 'left')}
+                  <button
+                    onClick={() => scrollTo(index, "left")}
                     className="arrow-btn w-12 h-12 rounded-full border border-[#1a1a2e]/20 flex items-center justify-center text-[#1a1a2e] hover:bg-[#1a1a2e] hover:text-white transition-all duration-300"
-                    style={{ cursor: 'pointer' }}
+                    style={{ cursor: "pointer" }}
                   >
-                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 19l-7-7 7-7" />
+                    <svg
+                      className="w-5 h-5"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={1.5}
+                        d="M15 19l-7-7 7-7"
+                      />
                     </svg>
                   </button>
-                  <button 
-                    onClick={() => scrollTo(index, 'right')}
+                  <button
+                    onClick={() => scrollTo(index, "right")}
                     className="arrow-btn w-12 h-12 rounded-full border border-[#1a1a2e]/20 flex items-center justify-center text-[#1a1a2e] hover:bg-[#1a1a2e] hover:text-white transition-all duration-300"
-                    style={{ cursor: 'pointer' }}
+                    style={{ cursor: "pointer" }}
                   >
-                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 5l7 7-7 7" />
+                    <svg
+                      className="w-5 h-5"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={1.5}
+                        d="M9 5l7 7-7 7"
+                      />
                     </svg>
                   </button>
                 </div>
@@ -573,7 +652,7 @@ export default function JewelryCollection() {
 
               {/* Horizontal Scroll Carousel */}
               <div
-                ref={el => scrollRefs.current[index] = el}
+                ref={(el) => (scrollRefs.current[index] = el)}
                 className="scroll-container pb-6"
                 onMouseDown={(e) => handleMouseDown(e, index)}
                 onMouseMove={(e) => handleMouseMoveDrag(e, index)}
@@ -584,18 +663,15 @@ export default function JewelryCollection() {
                     setIsDragging(false);
                   }
                 }}
-                style={{ 
-                  userSelect: 'none',
-                  overflowX: 'auto',
-                  overflowY: 'hidden'
+                style={{
+                  userSelect: "none",
+                  overflowX: "auto",
+                  overflowY: "hidden",
                 }}
               >
-                <div className="flex gap-7" style={{ width: 'max-content' }}>
+                <div className="flex gap-7" style={{ width: "max-content" }}>
                   {section.items.map((img, i) => (
-                    <div
-                      key={i}
-                      className="image-card group"
-                    >
+                    <div key={i} className="image-card group">
                       <div className="relative overflow-hidden">
                         <Image
                           src={img}
@@ -606,13 +682,15 @@ export default function JewelryCollection() {
                           draggable={false}
                           priority={index === 0 && i < 3}
                         />
-                        
+
                         {/* Clean Hover Overlay - Single Background */}
                         <div className="image-overlay">
-                          <span className="product-name">{section.names[i]}</span>
-                          <button 
+                          <span className="product-name">
+                            {section.names[i]}
+                          </span>
+                          <button
                             className="view-btn"
-                            style={{ cursor: 'pointer' }}
+                            style={{ cursor: "pointer" }}
                             onMouseEnter={() => setIsHoveringImage(false)}
                             onMouseLeave={() => setIsHoveringImage(true)}
                           >
@@ -633,14 +711,14 @@ export default function JewelryCollection() {
       <div className="relative py-28 mt-12 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-          src="https://images.unsplash.com/photo-1588444837495-c6cfeb53f32d?w=1200&q=90"
+            src="https://images.unsplash.com/photo-1588444837495-c6cfeb53f32d?w=1200&q=90"
             alt="Featured Collection"
             fill
             className="object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/40" />
         </div>
-          
+
         <div className="relative z-10 max-w-[1400px] mx-auto px-6 text-left">
           <motion.div
             initial={{ opacity: 0, x: -40 }}
@@ -657,18 +735,18 @@ export default function JewelryCollection() {
             </h2>
             <div className="w-16 h-px bg-[#C4A77D] mt-6 mb-6" />
             <p className="text-white/60 font-['Cormorant_Garamond'] text-lg max-w-md font-light">
-              Experience personalized luxury with our master craftsmen. Each piece is meticulously crafted to your unique vision.
+              Experience personalized luxury with our master craftsmen. Each
+              piece is meticulously crafted to your unique vision.
             </p>
-            <button 
+            <button
               className="mt-8 px-10 py-3 border border-white/30 text-white hover:bg-white/10 hover:border-white/50 transition-all duration-500 font-['Cormorant_Garamond'] text-sm tracking-[0.2em] font-light"
-              style={{ cursor: 'pointer' }}
+              style={{ cursor: "pointer" }}
             >
               INQUIRE NOW
             </button>
           </motion.div>
         </div>
       </div>
-
     </div>
   );
 }

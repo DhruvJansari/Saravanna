@@ -13,12 +13,12 @@ const playfair = Playfair_Display({
 });
 
 const NAV_LINKS = [
-  { name: "Home",      href: "/" },
+  { name: "Home", href: "/" },
   { name: "Jewellery", href: "/jewellery" },
-  { name: "Men",       href: "/mens" },
-  { name: "Women",     href: "/womens" },
-  { name: "Kids",      href: "/kids" },
-  { name: "Contact",   href: "/contact" },
+  { name: "Men", href: "/mens" },
+  { name: "Women", href: "/womens" },
+  { name: "Kids", href: "/kids" },
+  { name: "Contact", href: "/contact" },
 ];
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -30,15 +30,15 @@ const NAV_LINKS = [
 //  1.6s → bars start opening
 //  2.2s → bars fully open, curtain unmounts
 // ─────────────────────────────────────────────────────────────────────────────
-const CLOSE_DUR   = 0.6;    // Bars close faster
-const LINE_START  = 0.6;    // Progress starts when bars meet
-const LINE_DUR    = 1.0;    // Progress fills over 1 second
-const OPEN_START  = 1.6;    // Bars start opening after progress
-const OPEN_DUR    = 0.6;    // Bars open faster
-const TOTAL       = 2.2;    // Total animation time
+const CLOSE_DUR = 0.6; // Bars close faster
+const LINE_START = 0.6; // Progress starts when bars meet
+const LINE_DUR = 1.0; // Progress fills over 1 second
+const OPEN_START = 1.6; // Bars start opening after progress
+const OPEN_DUR = 0.6; // Bars open faster
+const TOTAL = 2.2; // Total animation time
 
-const NAVIGATE_AT_MS = (LINE_START + 0.05) * 1000;   // navigate just after bars close
-const UNMOUNT_AT_MS  = TOTAL * 1000 + 150;           // unmount after all done
+const NAVIGATE_AT_MS = (LINE_START + 0.05) * 1000; // navigate just after bars close
+const UNMOUNT_AT_MS = TOTAL * 1000 + 150; // unmount after all done
 
 // ─────────────────────────────────────────────────────────────────────────────
 // Percentage counter: animates 100→0 during the LINE window (reversed)
@@ -49,7 +49,10 @@ const PercentCounter = ({ startMs, durationMs }) => {
     let raf;
     const tick = (now) => {
       const elapsed = now - origin;
-      if (elapsed < 0) { raf = requestAnimationFrame(tick); return; }
+      if (elapsed < 0) {
+        raf = requestAnimationFrame(tick);
+        return;
+      }
       const p = Math.max(0, Math.round(100 - (elapsed / durationMs) * 100));
       setPct(p);
       if (p > 0) raf = requestAnimationFrame(tick);
@@ -65,19 +68,23 @@ const PercentCounter = ({ startMs, durationMs }) => {
 const ScreenTransition = ({ onNavigate, onDone }) => {
   useEffect(() => {
     const t1 = setTimeout(onNavigate, NAVIGATE_AT_MS);
-    const t2 = setTimeout(onDone,     UNMOUNT_AT_MS);
-    return () => { clearTimeout(t1); clearTimeout(t2); };
+    const t2 = setTimeout(onDone, UNMOUNT_AT_MS);
+    return () => {
+      clearTimeout(t1);
+      clearTimeout(t2);
+    };
   }, [onNavigate, onDone]);
 
-  const T  = TOTAL;
-  
+  const T = TOTAL;
+
   // normalised time helpers
   const t = (s) => s / T;
 
   return (
     <div
       style={{
-        position: "fixed", inset: 0,
+        position: "fixed",
+        inset: 0,
         zIndex: 99999,
         pointerEvents: "none",
         overflow: "hidden",
@@ -91,11 +98,14 @@ const ScreenTransition = ({ onNavigate, onDone }) => {
         }}
         transition={{
           duration: T,
-          times:    [0, t(CLOSE_DUR), t(OPEN_START), 1],
-          ease:     ["easeInOut", "linear", "easeInOut"],
+          times: [0, t(CLOSE_DUR), t(OPEN_START), 1],
+          ease: ["easeInOut", "linear", "easeInOut"],
         }}
         style={{
-          position: "absolute", top: 0, left: 0, right: 0,
+          position: "absolute",
+          top: 0,
+          left: 0,
+          right: 0,
           height: "50%",
           backgroundColor: "#ffffff",
           zIndex: 1,
@@ -110,11 +120,14 @@ const ScreenTransition = ({ onNavigate, onDone }) => {
         }}
         transition={{
           duration: T,
-          times:    [0, t(CLOSE_DUR), t(OPEN_START), 1],
-          ease:     ["easeInOut", "linear", "easeInOut"],
+          times: [0, t(CLOSE_DUR), t(OPEN_START), 1],
+          ease: ["easeInOut", "linear", "easeInOut"],
         }}
         style={{
-          position: "absolute", bottom: 0, left: 0, right: 0,
+          position: "absolute",
+          bottom: 0,
+          left: 0,
+          right: 0,
           height: "50%",
           backgroundColor: "#ffffff",
           zIndex: 1,
@@ -129,35 +142,38 @@ const ScreenTransition = ({ onNavigate, onDone }) => {
         }}
         transition={{
           duration: T,
-          times:    [0, t(LINE_START), t(LINE_START + 0.05), t(OPEN_START), t(OPEN_START + 0.1)],
-          ease:     "linear",
+          times: [
+            0,
+            t(LINE_START),
+            t(LINE_START + 0.05),
+            t(OPEN_START),
+            t(OPEN_START + 0.1),
+          ],
+          ease: "linear",
         }}
         style={{
           position: "absolute",
           top: "50%",
-          left: "15%", right: "15%",
+          left: "15%",
+          right: "15%",
           height: "2px",
           backgroundColor: "rgba(0,0,0,0.1)",
           transform: "translateY(-50%)",
           zIndex: 2,
         }}
       />
-
-  
-
-      
     </div>
   );
 };
 
 // ─────────────────────────────────────────────────────────────────────────────
 const Navbar = () => {
-  const [isMenuOpen,  setIsMenuOpen]  = useState(false);
-  const [isScrolled,  setIsScrolled]  = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
   const [showCurtain, setShowCurtain] = useState(false);
   const pendingHref = useRef(null);
-  const pathname    = usePathname();
-  const router      = useRouter();
+  const pathname = usePathname();
+  const router = useRouter();
 
   useEffect(() => {
     const onScroll = () => setIsScrolled(window.scrollY > 30);
@@ -165,13 +181,15 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  useEffect(() => { setIsMenuOpen(false); }, [pathname]);
+  useEffect(() => {
+    setIsMenuOpen(false);
+  }, [pathname]);
 
   const handleNavigation = (e, href) => {
     e.preventDefault();
-    if (pathname === href) { 
-      setIsMenuOpen(false); 
-      return; 
+    if (pathname === href) {
+      setIsMenuOpen(false);
+      return;
     }
     setIsMenuOpen(false);
     pendingHref.current = href;
@@ -182,13 +200,13 @@ const Navbar = () => {
     <>
       {showCurtain && (
         <ScreenTransition
-          onNavigate={() => { 
+          onNavigate={() => {
             if (pendingHref.current) {
               router.push(pendingHref.current);
             }
           }}
-          onDone={() => { 
-            setShowCurtain(false); 
+          onDone={() => {
+            setShowCurtain(false);
             pendingHref.current = null;
           }}
         />
@@ -203,28 +221,28 @@ const Navbar = () => {
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10">
           <div className="flex items-center justify-between">
-{/* Logo */}
-<Link
-  href="/"
-  onClick={(e) => handleNavigation(e, "/")}
-  className="flex items-center gap-2"
->
-  {/* Logo Image */}
-  <div className="relative w-[110px] md:w-[180px] h-[50px]">
-    <Image
-      src="/logo1.png"
-      alt="Logo"
-      fill
-      className="object-contain transition-transform duration-300 hover:scale-105"
-      priority
-    />
-  </div>
+            {/* Logo */}
+            <Link
+              href="/"
+              onClick={(e) => handleNavigation(e, "/")}
+              className="flex items-center gap-2"
+            >
+              {/* Logo Image */}
+              <div className="relative w-[110px] md:w-[180px] h-[50px]">
+                <Image
+                  src="/logo1.png"
+                  alt="Logo"
+                  fill
+                  className="object-contain transition-transform duration-300 hover:scale-105"
+                  priority
+                />
+              </div>
 
-  {/* Mobile Text Only */}
-  <span className="block md:hidden font-['Playfair_Display']  text-lg text-black font-semibold tracking-wide">
-    SARAVANA
-  </span>
-</Link>
+              {/* Mobile Text Only */}
+              <span className="block font-['Playfair_Display'] text-lg text-black font-semibold tracking-wide md:-translate-x-10 lg:-translate-x-12">
+                SARAVANA
+              </span>
+            </Link>
 
             {/* Desktop Nav */}
             <div className="hidden md:flex absolute left-1/2 -translate-x-1/2">
@@ -258,10 +276,26 @@ const Navbar = () => {
               aria-label="Toggle menu"
               className="md:hidden p-2 rounded-lg text-black hover:bg-gray-100 transition"
             >
-              <svg className="w-6 h-6" fill="none" strokeWidth="2" stroke="currentColor" viewBox="0 0 24 24">
-                {isMenuOpen
-                  ? <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
-                  : <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />}
+              <svg
+                className="w-6 h-6"
+                fill="none"
+                strokeWidth="2"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                {isMenuOpen ? (
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                ) : (
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M4 6h16M4 12h16M4 18h16"
+                  />
+                )}
               </svg>
             </button>
           </div>
@@ -291,7 +325,9 @@ const Navbar = () => {
                           href={link.href}
                           onClick={(e) => handleNavigation(e, link.href)}
                           className={`${playfair.className} font-medium block px-4 py-3 rounded-xl text-base transition ${
-                            isActive ? "bg-black text-white" : "text-gray-700 hover:bg-gray-100"
+                            isActive
+                              ? "bg-black text-white"
+                              : "text-gray-700 hover:bg-gray-100"
                           }`}
                         >
                           {link.name}
