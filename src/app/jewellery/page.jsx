@@ -15,11 +15,11 @@ export default function JewelryCollection() {
         "Discover elegance that adorns your neckline with our exquisite necklace collection, perfect for every occasion.",
       category: "Necklaces",
       items: [
-        "https://images.unsplash.com/photo-1724937721228-f7bf3df2a4d8?q=80&w=1315&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "https://images.unsplash.com/photo-1727333011028-ab6f7589f713?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "https://images.unsplash.com/photo-1767921804162-9c55a278768d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "https://images.unsplash.com/photo-1761211106346-939cb32005d7?q=80&w=1113&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "https://images.unsplash.com/photo-1667013829296-ce44608fe210?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://i.pinimg.com/1200x/81/28/21/812821effc86bf1d4b45aa057d100ba3.jpg",
+        "https://i.pinimg.com/1200x/9d/6d/7c/9d6d7c1ef92f1fcbde353f81c20b0378.jpg",
+        "https://i.pinimg.com/736x/86/0e/23/860e2341ee10a731cc1bc8f838b48b45.jpg",
+        "https://i.pinimg.com/736x/ab/4e/5d/ab4e5d4f759b3928473f7a7bdc3a06f3.jpg",
+        "https://i.pinimg.com/736x/1b/73/02/1b730284588a878d79c10a2367074a80.jpg",
       ],
       names: [
         "Diamond Pendant",
@@ -35,11 +35,11 @@ export default function JewelryCollection() {
         "Frame your face with sparkle and sophistication from our stunning earring collection that catches every eye.",
       category: "Earrings",
       items: [
-        "https://plus.unsplash.com/premium_photo-1680181362119-5c9bf196805f?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "https://images.unsplash.com/photo-1682822801057-d05f74a07a2f?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "https://plus.unsplash.com/premium_photo-1732706751101-86004396885d?q=80&w=763&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "https://plus.unsplash.com/premium_photo-1681276170610-8d9264aaccd8?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "https://plus.unsplash.com/premium_photo-1693221161572-da8c7b72b085?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://i.pinimg.com/1200x/61/99/a2/6199a2c1d0d05ae9ed3416fa2331fc8b.jpg",
+        "https://i.pinimg.com/1200x/35/a4/ba/35a4bafc5d91f0ac9382f5e4c96d10b6.jpg",
+        "https://i.pinimg.com/1200x/aa/59/05/aa59057f200a5e7a308af5ddac011adc.jpg",
+        "https://i.pinimg.com/1200x/72/93/44/7293445cd29a076753b627d5664ccd4b.jpg",
+        "https://i.pinimg.com/1200x/84/3b/36/843b367f4ed6e012684620e6dc239d11.jpg",
       ],
       names: [
         "Diamond Drops",
@@ -55,11 +55,11 @@ export default function JewelryCollection() {
         "Celebrate life's precious moments with our timeless and elegant ring collection that symbolizes forever.",
       category: "Rings",
       items: [
-        "https://images.unsplash.com/photo-1768423685978-42fe24ec39a0?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "https://images.unsplash.com/photo-1586104180458-e42615276cda?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "https://images.unsplash.com/photo-1611955167811-4711904bb9f8?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "https://images.unsplash.com/photo-1761115138039-ee9c0a42a843?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "https://plus.unsplash.com/premium_photo-1678185087123-598e06f3880f?q=80&w=784&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://i.pinimg.com/736x/64/62/91/6462913b7c5397f10b3e8e02e535fcad.jpg",
+        "https://i.pinimg.com/736x/f8/30/82/f83082961e79ee29b30b5c177313aac7.jpg",
+        "https://i.pinimg.com/736x/b9/78/1b/b9781b4bb9d62b3aaac44077821cf33d.jpg",
+        "https://i.pinimg.com/736x/17/81/65/1781654fc4f7efa40c9ae758b8fdcfe5.jpg",
+        "https://i.pinimg.com/736x/65/fd/b1/65fdb17b08f4aa6142998fb66112a69b.jpg",
       ],
       names: [
         "Solitaire Ring",
@@ -75,11 +75,11 @@ export default function JewelryCollection() {
         "Add the perfect finishing touch to any ensemble with our elegant bracelet designs that grace your wrist.",
       category: "Bracelets",
       items: [
-        "https://images.unsplash.com/photo-1639065643006-e217c4fee12e?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "https://images.unsplash.com/photo-1684616289712-dd118c126fae?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "https://images.unsplash.com/photo-1728381019685-2332018a8a24?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=800&q=80",
-        "https://images.unsplash.com/photo-1770722272510-ef28c6f57541?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://i.pinimg.com/736x/e1/e9/58/e1e9585cc8127a823cd0600c5b292d9b.jpg",
+        "https://i.pinimg.com/736x/82/9e/a8/829ea80ecd133622f095ce32bc4107b6.jpg",
+        "https://i.pinimg.com/1200x/81/25/45/812545403ac407a98940373cf4f99df9.jpg",
+        "https://i.pinimg.com/736x/e1/35/07/e135072ab8afb8a22701fbcb550e8e9c.jpg",
+        "https://i.pinimg.com/1200x/13/a0/2e/13a02e6e4edc1639665a0f578f0bd98d.jpg",
       ],
       names: [
         "Tennis Bracelet",
@@ -95,11 +95,11 @@ export default function JewelryCollection() {
         "Express your personal style with our meaningful pendant collection, each piece tells a unique story.",
       category: "Pendants",
       items: [
-        "https://images.unsplash.com/photo-1677201795049-014caaa6b1cd?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "https://images.unsplash.com/photo-1588444837495-c6cfeb53f32d?w=800&q=80",
-        "https://images.unsplash.com/photo-1611583027838-515a1087afdb?q=80&w=765&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "https://plus.unsplash.com/premium_photo-1716912661293-53f0d52d4ff4?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "https://images.unsplash.com/photo-1674554875210-49b2a1c163d4?q=80&w=718&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://i.pinimg.com/1200x/19/b2/28/19b22895f70a378443a1124b8da7c087.jpg",
+        "https://i.pinimg.com/736x/8a/b7/30/8ab730225c0bef77e9986916bb4f4b24.jpg",
+        "https://i.pinimg.com/1200x/d8/4d/1c/d84d1cdc9a293d79e670587e6247d7dc.jpg",
+        "https://i.pinimg.com/736x/69/f9/97/69f997ea2205a0338375afad42c72169.jpg",
+        "https://i.pinimg.com/736x/df/e3/7e/dfe37e1d74f25cd688405338b455cb90.jpg",
       ],
       names: [
         "Infinity Pendant",
@@ -115,11 +115,11 @@ export default function JewelryCollection() {
         "Complete your look with our curated selection of jewelry accessories that add that extra sparkle.",
       category: "Accessories",
       items: [
-        "https://images.unsplash.com/photo-1693834084392-fa61a52a81c0?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "https://images.unsplash.com/photo-1601057836844-a8a336439a27?q=80&w=685&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "https://images.unsplash.com/photo-1671513578788-a0129af392ce?q=80&w=2001&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "https://images.unsplash.com/photo-1708551362497-c6c6a9b85d8f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "https://images.unsplash.com/photo-1602810316481-0d5d7401737a?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://i.pinimg.com/736x/5e/00/d6/5e00d6489fb27e55e5966c8b16e67e21.jpg",
+        "https://i.pinimg.com/1200x/dc/f1/7e/dcf17e9bad4394e33b5e51368ec0977c.jpg",
+        "https://i.pinimg.com/1200x/0e/a9/41/0ea9410f8aee06525c96faa1d948f2f8.jpg",
+        "https://i.pinimg.com/1200x/d9/49/ce/d949ce5916da10d2c4d41fda0a155604.jpg",
+        "https://i.pinimg.com/736x/41/e5/db/41e5dbe05e305b6d236f63dcd6fc4d14.jpg",
       ],
       names: [
         "Brooch Pin",
@@ -488,21 +488,11 @@ export default function JewelryCollection() {
         {/* 🔥 RESPONSIVE IMAGE GRID */}
         <div className="absolute inset-0 z-0 grid grid-cols-1 md:grid-cols-3">
           {/* Jewelry 1 - (VISIBLE ON MOBILE) */}
-          <div className="relative overflow-hidden">
-            <Image
-              src="https://images.unsplash.com/photo-1599643477877-530eb83abc8e?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0"
-              alt="Diamond Necklace"
-              fill
-              className="object-cover object-center scale-110 md:scale-110 animate-zoomSlow"
-              priority
-            />
-            <div className="absolute inset-0 bg-black/50 md:bg-gradient-to-r md:from-black/50 md:via-black/20 md:to-transparent" />
-          </div>
 
           {/* Jewelry 2 (HIDDEN ON MOBILE) */}
           <div className="relative overflow-hidden hidden md:block">
             <Image
-              src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=1200&q=90"
+              src="https://i.pinimg.com/1200x/f6/8f/30/f68f30f993851facd04f33bc45da1d1d.jpg"
               alt="Diamond Earrings"
               fill
               className="object-cover object-center scale-110 animate-zoomSlow2"
@@ -510,11 +500,20 @@ export default function JewelryCollection() {
             />
             <div className="absolute inset-0 bg-black/20 backdrop-blur-[1px]" />
           </div>
-
+          <div className="relative overflow-hidden">
+            <Image
+              src="https://i.pinimg.com/736x/93/1c/4a/931c4a8fd9b981c61d6e199e6290b792.jpg"
+              alt="Diamond Necklace"
+              fill
+              className="object-cover object-center scale-110 md:scale-110 animate-zoomSlow"
+              priority
+            />
+            <div className="absolute inset-0 bg-black/50 md:bg-gradient-to-r md:from-black/50 md:via-black/20 md:to-transparent" />
+          </div>
           {/* Jewelry 3 (HIDDEN ON MOBILE) */}
           <div className="relative overflow-hidden hidden md:block">
             <Image
-              src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=1200&q=90"
+              src="https://i.pinimg.com/1200x/d9/ba/02/d9ba02ebf863347cb4be9586be3b196e.jpg"
               alt="Diamond Ring"
               fill
               className="object-cover object-center scale-110 animate-zoomSlow3"
@@ -711,7 +710,7 @@ export default function JewelryCollection() {
       <div className="relative py-28 mt-12 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="https://images.unsplash.com/photo-1588444837495-c6cfeb53f32d?w=1200&q=90"
+            src="https://i.pinimg.com/736x/ff/e7/77/ffe777780cde4fcdc68c1c6b1228ca63.jpg"
             alt="Featured Collection"
             fill
             className="object-cover"

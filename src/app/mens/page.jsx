@@ -19,7 +19,7 @@ export default function MensCollection() {
         "https://images.unsplash.com/photo-1585412459212-8def26f7e84c?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "https://images.unsplash.com/photo-1740710748146-a15d840d6f40?q=80&w=798&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "https://images.unsplash.com/photo-1593032465175-481ac7f401a0?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "https://images.unsplash.com/photo-1770283555098-e152e212fec8?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://i.pinimg.com/1200x/aa/2a/ac/aa2aac870c53989e8ae89a0855e1c41f.jpg",
       ],
       names: [
         "Midnight Tuxedo",
@@ -55,11 +55,11 @@ export default function MensCollection() {
         "Elevate your silhouette with our sophisticated outerwear, from leather jackets to wool coats.",
       category: "Clothing",
       items: [
-        "https://images.unsplash.com/photo-1695335753484-a677d447159c?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "https://images.unsplash.com/photo-1737508945718-f693ea374914?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "https://plus.unsplash.com/premium_photo-1765207887531-25dcf861c1f8?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "https://plus.unsplash.com/premium_photo-1760395451511-74096b293013?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "https://images.unsplash.com/photo-1633038891113-70b84e32336d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://i.pinimg.com/1200x/26/4e/02/264e02ec312182d992b25263c8cd5b0c.jpg",
+        "https://i.pinimg.com/736x/14/ad/ff/14adffd06b0d323349867da8cb6a0093.jpg",
+        "https://i.pinimg.com/736x/e5/05/ef/e505ef04bb45f9fc0ddf969e6ab8b520.jpg",
+        "https://i.pinimg.com/736x/1a/20/33/1a20334a926a244a4354fdcfb55ebe41.jpg",
+        "https://i.pinimg.com/1200x/19/ed/0b/19ed0ba311812673facb121dcbc997f7.jpg",
       ],
       names: [
         "Cognac Leather Jacket",
@@ -75,18 +75,19 @@ export default function MensCollection() {
         "Impeccably tailored trousers that define sophistication and comfort.",
       category: "Clothing",
       items: [
-        "https://plus.unsplash.com/premium_photo-1769131129681-3f5e1a931e44?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "https://images.unsplash.com/photo-1619470148547-0adbfc64b595?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "https://images.unsplash.com/photo-1549369130-1f99f678dc12?q=80&w=739&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "https://images.unsplash.com/photo-1629170563358-5454246dc1f4?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "https://plus.unsplash.com/premium_photo-1689977493146-ed929d07d97e?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://i.pinimg.com/736x/04/33/35/04333525131a348651744cced658314e.jpg",
+        "http://i.pinimg.com/1200x/59/6a/2e/596a2ebecf4ad2e856bfffdcd6b1e757.jpg",
+        "https://i.pinimg.com/1200x/84/e2/5b/84e25bcda6030d75d3af39868c2e91cd.jpg",
+        "https://i.pinimg.com/1200x/3b/bf/c8/3bbfc894a7cb87e87c043a859efcce99.jpg",
+        "https://i.pinimg.com/736x/65/a3/bf/65a3bff947cc51fcc2a7aa5656d4485c.jpg",
       ],
       names: [
         "Wool Dress Pants",
-        "Pleated Trousers",
+
         "Slim Fit Chinos",
         "Cargo Dress Pants",
         "Linen Blend",
+        "Pleated Trousers",
       ],
     },
     {
@@ -95,11 +96,11 @@ export default function MensCollection() {
         "Step into perfection with our handcrafted leather shoes and boots.",
       category: "Footwear",
       items: [
-        "https://plus.unsplash.com/premium_photo-1670983855679-05158dc6fb6a?q=80&w=627&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://i.pinimg.com/1200x/e2/8e/57/e28e570e5b39619fd5148a077d05869b.jpg",
         "https://images.unsplash.com/photo-1651626203070-ec71eee7870e?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "https://images.unsplash.com/photo-1658837407083-308b902ee99d?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://i.pinimg.com/1200x/23/9e/47/239e478b8f7f4faa049ff5562ded21e4.jpg",
         "https://images.unsplash.com/photo-1662541089338-c7d53b88be70?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "https://images.unsplash.com/photo-1629937757554-84e1271f0507?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://i.pinimg.com/1200x/ab/ea/31/abea31b8c4e5fa0e4c197beca3f01c78.jpg",
       ],
       names: [
         "Oxford Brogues",
@@ -470,7 +471,7 @@ export default function MensCollection() {
           {/* Man 1 (VISIBLE ON MOBILE) */}
           <div className="relative overflow-hidden">
             <Image
-              src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&q=90"
+              src="https://i.pinimg.com/736x/cf/cd/58/cfcd587d9c9c84fbafa770234e5de8dc.jpg"
               alt="Man in formal suit"
               fill
               className="object-cover object-center scale-105"
@@ -483,7 +484,7 @@ export default function MensCollection() {
           {/* Man 2 (HIDDEN ON MOBILE) */}
           <div className="relative overflow-hidden hidden md:block">
             <Image
-              src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=800&q=90"
+              src="https://i.pinimg.com/736x/49/26/06/492606c1f030112d631618ad03edd825.jpg"
               alt="Man in casual outfit"
               fill
               className="object-cover object-center scale-105"
@@ -496,7 +497,7 @@ export default function MensCollection() {
           {/* Man 3 (HIDDEN ON MOBILE) */}
           <div className="relative overflow-hidden hidden md:block">
             <Image
-              src="https://images.unsplash.com/photo-1504593811423-6dd665756598?w=800&q=90"
+              src="https://i.pinimg.com/736x/b4/40/f9/b440f9be151b995d26f07f575fbfc989.jpg"
               alt="Man in leather jacket"
               fill
               className="object-cover object-center scale-105"

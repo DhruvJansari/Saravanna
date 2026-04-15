@@ -15,21 +15,21 @@ const NEW_ARRIVALS_CONFIG = {
   images: [
     {
       id: 1,
-      src: "https://i.pinimg.com/736x/71/5e/2b/715e2b633187ddc5d112d222eb61e78d.jpg",
+      src: "https://i.pinimg.com/1200x/72/0f/2f/720f2f3b650aec63909eafb851d4fab8.jpg",
       alt: "Summer Collection",
       title: "Summer Collection",
       category: "Women's Wear",
     },
     {
       id: 2,
-      src: "https://i.pinimg.com/736x/44/66/05/446605bbe53fdcf8c733fb4ad2e9aa3d.jpg",
+      src: "https://i.pinimg.com/736x/f5/95/53/f595533cffba5505a4024893ab2d24f5.jpg",
       alt: "Gold Collection",
       title: "Gold Collection",
       category: "Jewellery",
     },
     {
       id: 3,
-      src: "https://i.pinimg.com/736x/c8/2b/36/c82b360907c51c41725a23d3362a40fa.jpg",
+      src: "https://i.pinimg.com/736x/15/94/9e/15949e0b952306d3b23dd563143c0a4c.jpg",
       alt: "Ethnic Collection",
       title: "Ethnic Collection",
       category: "Festival Wear",
@@ -56,7 +56,6 @@ const NewArrivals = () => {
       `}</style>
 
       <div className="max-w-7xl mx-auto px-6 md:px-10">
-
         {/* HEADER */}
         <div className="text-center mb-14 md:mb-20">
           <h2
@@ -92,10 +91,8 @@ const NewArrivals = () => {
               }`}
               style={{ transitionDelay: `${200 + index * 120}ms` }}
             >
-
               {/* IMAGE CARD */}
               <div className="relative overflow-hidden rounded-xs shadow-sm">
-
                 {/* IMAGE */}
                 <img
                   src={image.src}
@@ -108,7 +105,6 @@ const NewArrivals = () => {
 
                 {/* CONTENT */}
                 <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-
                   <p className="text-xs tracking-widest uppercase opacity-80 mb-1">
                     {image.category}
                   </p>
@@ -123,20 +119,17 @@ const NewArrivals = () => {
                     Shop Now →
                   </button> */}
                 </div>
-
-
               </div>
             </div>
           ))}
         </div>
-<div className="text-center mt-14">
-  <Link href="/womens">
-    <button className="px-10 py-3.5 border-2 border-black text-black hover:bg-black hover:text-white transition-all duration-300 text-sm tracking-wider uppercase font-semibold">
-      Explore Collection
-    </button>
-  </Link>
-</div>
-      
+        <div className="text-center mt-14">
+          <Link href="/womens">
+            <button className="px-10 py-3.5 border-2 border-black text-black hover:bg-black hover:text-white transition-all duration-300 text-sm tracking-wider uppercase font-semibold">
+              Explore Collection
+            </button>
+          </Link>
+        </div>
       </div>
     </section>
   );

@@ -15,10 +15,11 @@ export default function KidsCollection() {
         "Exquisite formal wear for your little ones, perfect for weddings, parties, and special occasions.",
       category: "Formal Wear",
       items: [
-        "https://images.unsplash.com/photo-1684244160171-97f5dac39204?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "https://images.unsplash.com/photo-1652274730844-990bea61e1f8?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "https://images.unsplash.com/photo-1763625639146-1d815371c289?q=80&w=688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "https://images.unsplash.com/photo-1684244160171-97f5dac39204?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://i.pinimg.com/1200x/97/1c/b5/971cb57b06a3d45a1ccfe4d4afda876a.jpg",
+        "https://i.pinimg.com/1200x/07/65/1c/07651cfed20e86a1e1941e655b9b0242.jpg",
+        "https://i.pinimg.com/1200x/6a/c3/dd/6ac3dda76f47f801e3b06df82589facb.jpg",
+        "https://i.pinimg.com/1200x/bc/b3/93/bcb3930ae142a88efe6affdfcad72d4e.jpg",
+        "https://i.pinimg.com/1200x/dd/c3/35/ddc335afabd1b60c8794e0fa0e791341.jpg",
       ],
       names: [
         "Mini Tuxedo Set",
@@ -34,11 +35,11 @@ export default function KidsCollection() {
         "Soft, breathable fabrics designed for maximum comfort during playtime and daily adventures.",
       category: "Casual Wear",
       items: [
-        "https://images.unsplash.com/photo-1545696968-1a5245650b36?w=800&q=80",
-        "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=800&q=80",
-        "https://images.unsplash.com/photo-1518834107812-67b0b7c58434?w=800&q=80",
-        "https://images.unsplash.com/photo-1545696968-1a5245650b36?w=800&q=80",
-        "https://images.unsplash.com/photo-1522771930-78848d9293e8?w=800&q=80",
+        "https://i.pinimg.com/736x/ab/eb/d6/abebd66d7a7984919e55824f9cbe8efe.jpg",
+        "https://i.pinimg.com/736x/a8/92/26/a89226318f967dcbd0cc62a2bc55620e.jpg",
+        "https://i.pinimg.com/1200x/72/5f/f8/725ff82937d4205688617e10293aa7c4.jpg",
+        "https://i.pinimg.com/1200x/62/3b/9d/623b9dcafdb00022d5a684b96234075b.jpg",
+        "https://i.pinimg.com/1200x/af/f0/7a/aff07a2e0d1095d72dfa316de9c29849.jpg",
       ],
       names: [
         "Cotton Romper",
@@ -54,11 +55,11 @@ export default function KidsCollection() {
         "Cozy and stylish jackets and coats to keep your little ones warm during colder months.",
       category: "Outerwear",
       items: [
-        "https://images.unsplash.com/photo-1534787238916-9ba6764efd4f?w=800&q=80",
-        "https://images.unsplash.com/photo-1482062364825-616fd23b4fcb?w=800&q=80",
-        "https://images.unsplash.com/photo-1502082553048-f009c37129b9?w=800&q=80",
-        "https://images.unsplash.com/photo-1534787238916-9ba6764efd4f?w=800&q=80",
-        "https://images.unsplash.com/photo-1482062364825-616fd23b4fcb?w=800&q=80",
+        "https://i.pinimg.com/1200x/6e/6d/6c/6e6d6c0e4d2129d6e0d4b3d509e9c15c.jpg",
+        "https://i.pinimg.com/1200x/37/17/cc/3717cca156e0268633263e1f514efe05.jpg",
+        "https://i.pinimg.com/1200x/ef/42/b7/ef42b714aab6a12a9727415876b267c5.jpg",
+        "https://i.pinimg.com/1200x/e3/85/fd/e385fd890f709a8dead992763ef78c79.jpg",
+        "https://i.pinimg.com/1200x/cc/13/d7/cc13d7d79fc5e659817e11625c208019.jpg",
       ],
       names: [
         "Quilted Puffer Jacket",
@@ -74,11 +75,11 @@ export default function KidsCollection() {
         "Beautiful dresses for birthday parties, family gatherings, and festive celebrations.",
       category: "Party Wear",
       items: [
-        "https://images.unsplash.com/photo-1518834107812-67b0b7c58434?w=800&q=80",
-        "https://images.unsplash.com/photo-1544717302-77f76373e6ac?w=800&q=80",
-        "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=800&q=80",
-        "https://images.unsplash.com/photo-1518834107812-67b0b7c58434?w=800&q=80",
-        "https://images.unsplash.com/photo-1544717302-77f76373e6ac?w=800&q=80",
+        "https://i.pinimg.com/1200x/0d/38/88/0d3888d2fb0b1627bc3ec5813485a983.jpg",
+        "https://i.pinimg.com/1200x/5f/11/9e/5f119e6ea1c404b8a56baa9b0ad6f75f.jpg",
+        "https://i.pinimg.com/736x/3d/1d/66/3d1d66de1ab12a72c4f98fcb4a872e28.jpg",
+        "https://i.pinimg.com/1200x/79/d6/a6/79d6a6edc5f9cde9a837f204468a5cca.jpg",
+        "https://i.pinimg.com/1200x/54/4f/a5/544fa5ec2349c33328ea44256cc6a71c.jpg",
       ],
       names: [
         "Tulle Tutu Dress",
@@ -94,11 +95,11 @@ export default function KidsCollection() {
         "Comfortable and durable shoes that support growing feet while keeping style in mind.",
       category: "Footwear",
       items: [
-        "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=800&q=80",
-        "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800&q=80",
-        "https://images.unsplash.com/photo-1607522370275-f14206abe5d3?w=800&q=80",
-        "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=800&q=80",
-        "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800&q=80",
+        "https://i.pinimg.com/1200x/ec/ba/21/ecba2174a7b213f462bad9c7b84bc5f3.jpg",
+        "https://i.pinimg.com/1200x/7a/12/06/7a1206eea2fec0d2f9c85b2944c7ed45.jpg",
+        "https://i.pinimg.com/736x/bc/67/f1/bc67f17bfb8e5dd178207d9209640d61.jpg",
+        "https://i.pinimg.com/1200x/9f/a7/89/9fa789b1a04783830bb3dd024f361fab.jpg",
+        "https://i.pinimg.com/736x/30/21/44/3021443bf3af62181b69f7660a7947d3.jpg",
       ],
       names: [
         "Leather Sneakers",
@@ -106,26 +107,6 @@ export default function KidsCollection() {
         "Velcro Sandals",
         "Ankle Boots",
         "Ballet Flats",
-      ],
-    },
-    {
-      title: "Accessories",
-      description:
-        "The perfect finishing touch - adorable accessories that complete any outfit.",
-      category: "Accessories",
-      items: [
-        "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=800&q=80",
-        "https://images.unsplash.com/photo-1544717302-77f76373e6ac?w=800&q=80",
-        "https://images.unsplash.com/photo-1482062364825-616fd23b4fcb?w=800&q=80",
-        "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=800&q=80",
-        "https://images.unsplash.com/photo-1544717302-77f76373e6ac?w=800&q=80",
-      ],
-      names: [
-        "Bow Headband",
-        "Mini Backpack",
-        "Satin Hair Ribbon",
-        "Sunglasses Set",
-        "Character Cap",
       ],
     },
   ];
@@ -489,7 +470,7 @@ export default function KidsCollection() {
           {/* Child 1 */}
           <div className="relative overflow-hidden">
             <Image
-              src="https://images.unsplash.com/photo-1684244160171-97f5dac39204?q=80&w=687&auto=format&fit=crop"
+              src="https://i.pinimg.com/736x/9a/34/46/9a34463c9fd974ad167823f995ee8483.jpg"
               alt="Child in formal wear"
               fill
               className="object-cover object-center scale-110 animate-zoomSlow"
@@ -501,7 +482,7 @@ export default function KidsCollection() {
           {/* Child 2 */}
           <div className="relative overflow-hidden hidden sm:block">
             <Image
-              src="https://images.unsplash.com/photo-1545696968-1a5245650b36?w=1200&q=90"
+              src="https://i.pinimg.com/736x/70/95/49/7095494380a462f0b2bef7b0fe4097be.jpg"
               alt="Child in casual outfit"
               fill
               className="object-cover object-center scale-110 animate-zoomSlow2"
@@ -513,7 +494,7 @@ export default function KidsCollection() {
           {/* Child 3 */}
           <div className="relative overflow-hidden hidden md:block">
             <Image
-              src="https://images.unsplash.com/photo-1518834107812-67b0b7c58434?w=1200&q=90"
+              src="https://i.pinimg.com/1200x/65/d8/d0/65d8d0e6f917aa510a10516803eb6dd0.jpg"
               alt="Child in party dress"
               fill
               className="object-cover object-center scale-110 animate-zoomSlow3"

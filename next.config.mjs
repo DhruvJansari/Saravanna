@@ -1,7 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ["images.unsplash.com", "plus.unsplash.com", "unsplash.com"],
+    domains: [
+      "images.unsplash.com",
+      "plus.unsplash.com",
+      "unsplash.com",
+      "i.pinimg.com",
+    ],
   },
   allowedDevOrigins: ["192.168.2.41"],
   /* config options here */

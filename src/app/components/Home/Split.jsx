@@ -10,8 +10,8 @@ const FONT_STYLE = {
 };
 
 const COUPLE_IMAGES = {
-  manImage: "./menss.png",
-  womanImage: "./womenss.png",
+  manImage: "/mensoutfit.png",
+  womanImage: "/womensoutfit2.png",
 };
 
 const FALLBACK_COUPLE = {
@@ -208,7 +208,7 @@ const SplitScreenCouple = () => {
                 e.target.src = FALLBACK_COUPLE.womanImage;
               }}
               style={{
-                objectPosition: "center 35%",
+                objectPosition: "center",
                 userSelect: "none",
                 WebkitUserDrag: "none",
               }}

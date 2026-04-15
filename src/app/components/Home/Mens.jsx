@@ -15,7 +15,7 @@ const MENS_WEAR_CONFIG = {
   images: [
     {
       id: 1,
-      src: "https://i.pinimg.com/736x/52/12/77/521277477144a93e97abfc082ead10ae.jpg",
+      src: "https://i.pinimg.com/736x/c6/1a/ad/c61aad7010147ce1b5520819f4385ddf.jpg",
       alt: "Designer Sherwani",
       title: "Classic Sherwani",
       category: "Wedding Wear",
@@ -24,7 +24,7 @@ const MENS_WEAR_CONFIG = {
     },
     {
       id: 2,
-      src: "https://i.pinimg.com/736x/2c/49/c0/2c49c05eeae85e0906f20a9daeb891c3.jpg",
+      src: "https://i.pinimg.com/736x/0a/d4/ea/0ad4ea05c28a2c9074e43e88a2997475.jpg",
       alt: "Designer Kurta",
       title: "Embroidered Kurta",
       category: "Festival Wear",
@@ -33,7 +33,7 @@ const MENS_WEAR_CONFIG = {
     },
     {
       id: 3,
-      src: "https://i.pinimg.com/736x/be/4c/73/be4c73bdc42b64ac966dd8c7d2823708.jpg",
+      src: "https://i.pinimg.com/736x/72/60/63/72606337afa94d0939a483b4244157f3.jpg",
       alt: "Designer Blazer",
       title: "Premium Blazer",
       category: "Formal Wear",
@@ -62,7 +62,6 @@ const MensWear = () => {
       `}</style>
 
       <div className="max-w-7xl mx-auto px-6 md:px-10">
-
         {/* HEADER */}
         <div className="text-center mb-14 md:mb-20">
           <h2
@@ -98,10 +97,8 @@ const MensWear = () => {
               }`}
               style={{ transitionDelay: `${200 + index * 120}ms` }}
             >
-
               {/* IMAGE CARD */}
               <div className="relative overflow-hidden rounded-xs shadow-lg">
-
                 {/* IMAGE */}
                 <img
                   src={item.src}
@@ -109,19 +106,15 @@ const MensWear = () => {
                   className="w-full h-[440px] object-cover transition-transform duration-700 ease-out group-hover:scale-105"
                 />
 
-              
-
                 {/* GRADIENT OVERLAY */}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent opacity-80 group-hover:opacity-95 transition"></div>
 
                 {/* CONTENT */}
                 <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-
                   <div className="flex items-center justify-between mb-1">
                     <p className="text-xs tracking-widest uppercase opacity-80">
                       {item.category}
                     </p>
-                 
                   </div>
 
                   <h3
@@ -142,14 +135,13 @@ const MensWear = () => {
         </div>
 
         {/* SHOP ALL BUTTON */}
-      <div className="text-center mt-14">
-  <Link href="/mens">
-    <button className="px-10 py-3.5 border-2 border-black text-black hover:bg-black hover:text-white transition-all duration-300 text-sm tracking-wider uppercase font-semibold">
-      Explore Collection
-    </button>
-  </Link>
-</div>
-      
+        <div className="text-center mt-14">
+          <Link href="/mens">
+            <button className="px-10 py-3.5 border-2 border-black text-black hover:bg-black hover:text-white transition-all duration-300 text-sm tracking-wider uppercase font-semibold">
+              Explore Collection
+            </button>
+          </Link>
+        </div>
       </div>
     </section>
   );
