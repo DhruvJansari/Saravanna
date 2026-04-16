@@ -675,7 +675,7 @@ export default function KidsCollection() {
       <div className="relative py-28 mt-12 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="https://images.unsplash.com/photo-1684244160171-97f5dac39204?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src="https://i.pinimg.com/736x/eb/c9/fe/ebc9fe55096d7b69cfbf59290bd59e77.jpg"
             alt="Featured Collection"
             fill
             className="object-cover"

@@ -691,7 +691,7 @@ export default function MensCollection() {
       <div className="relative py-28 mt-12 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="https://images.unsplash.com/photo-1684244160171-97f5dac39204?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src="https://i.pinimg.com/1200x/32/16/8e/32168e0467f1a6a8e9dbbdc0525d28d4.jpg"
             alt="Featured Collection"
             fill
             className="object-cover"

@@ -8,144 +8,187 @@ import Link from "next/link";
 
 export default function WomensCollection() {
   // All women's wear collections - different types of clothing and accessories
+  // const sections = [
+  //   {
+  //     title: "Evening Gowns",
+  //     description:
+  //       "Exquisite couture gowns that command attention, crafted for unforgettable evenings.",
+  //     category: "Formal Wear",
+  //     items: [
+  //       "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=800&q=80",
+  //       "https://images.unsplash.com/photo-1539008835657-9e8e9680c956?w=800&q=80",
+  //       "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=800&q=80",
+  //       "https://images.unsplash.com/photo-1564257631407-4deb1f99d992?w=800&q=80",
+  //       "https://images.unsplash.com/photo-1539008835657-9e8e9680c956?w=800&q=80",
+  //     ],
+  //     names: [
+  //       "Midnight Velvet Gown",
+  //       "Silk Chiffon Dress",
+  //       "Embellished Ball Gown",
+  //       "Sequin Mermaid Dress",
+  //       "Lace Column Dress",
+  //     ],
+  //   },
+  //   {
+  //     title: "Designer Suits & Blazers",
+  //     description:
+  //       "Powerful silhouettes that blend sophistication with contemporary elegance.",
+  //     category: "Power Wear",
+  //     items: [
+  //       "https://images.unsplash.com/photo-1619470149201-63960dec27cf?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  //       "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?w=800&q=80",
+  //       "https://images.unsplash.com/photo-1581954768700-06ff9c582704?q=80&w=763&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  //       "https://images.unsplash.com/photo-1712160059102-19368c085984?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  //       "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?w=800&q=80",
+  //     ],
+  //     names: [
+  //       "Cream Wool Blazer",
+  //       "Pinstripe Power Suit",
+  //       "Double-Breasted Blazer",
+  //       "Tweed Jacket",
+  //       "Silk Lapel Tuxedo",
+  //     ],
+  //   },
+  //   {
+  //     title: "Cocktail Dresses",
+  //     description:
+  //       "Effortlessly chic dresses for every celebration, from day to night.",
+  //     category: "Party Wear",
+  //     items: [
+  //       "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=800&q=80",
+  //       "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=800&q=80",
+  //       "https://images.unsplash.com/photo-1591369822096-ffd140ec948f?w=800&q=80",
+  //       "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=800&q=80",
+  //       "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=800&q=80",
+  //     ],
+  //     names: [
+  //       "Little Black Dress",
+  //       "Floral Wrap Dress",
+  //       "Satin Slip Dress",
+  //       "Bodycon Midi",
+  //       "Pleated Mini Dress",
+  //     ],
+  //   },
+  //   {
+  //     title: "Luxury Tops & Blouses",
+  //     description:
+  //       "Impeccably crafted tops that elevate any ensemble with refined detail.",
+  //     category: "Everyday Luxury",
+  //     items: [
+  //       "https://images.unsplash.com/photo-1539008835657-9e8e9680c956?w=800&q=80",
+  //       "https://images.unsplash.com/photo-1591369822096-ffd140ec948f?w=800&q=80",
+  //       "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=800&q=80",
+  //       "https://images.unsplash.com/photo-1539008835657-9e8e9680c956?w=800&q=80",
+  //       "https://images.unsplash.com/photo-1591369822096-ffd140ec948f?w=800&q=80",
+  //     ],
+  //     names: [
+  //       "Silk Satin Blouse",
+  //       "Lace Detail Top",
+  //       "Cashmere Sweater",
+  //       "Off-Shoulder Top",
+  //       "Beaded Mesh Top",
+  //     ],
+  //   },
+  //   {
+  //     title: "Skirts & Trousers",
+  //     description: "Architectural cuts and flowing lines for the modern woman.",
+  //     category: "Bottoms",
+  //     items: [
+  //       "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?w=800&q=80",
+  //       "https://images.unsplash.com/photo-1654512697735-d7ff21350443?q=80&w=688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  //       "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=800&q=80",
+  //       "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?w=800&q=80",
+  //       "https://images.unsplash.com/photo-1649315324621-3d63b5aae680?q=80&w=1176&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  //     ],
+  //     names: [
+  //       "Pleated Midi Skirt",
+  //       "Tailored Wool Pants",
+  //       "Leather Pencil Skirt",
+  //       "Wide Leg Trousers",
+  //       "A-Line Mini Skirt",
+  //     ],
+  //   },
+  //   {
+  //     title: "Luxury Footwear",
+  //     description:
+  //       "Step into perfection with our handcrafted heels, flats, and boots.",
+  //     category: "Footwear",
+  //     items: [
+  //       "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=800&q=80",
+  //       "https://images.unsplash.com/photo-1533867617858-e7b97e060509?w=800&q=80",
+  //       "https://images.unsplash.com/photo-1604136172384-b2e9c43271ec?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  //       "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=800&q=80",
+  //       "https://images.unsplash.com/photo-1533867617858-e7b97e060509?w=800&q=80",
+  //     ],
+  //     names: [
+  //       "Stiletto Heels",
+  //       "Leather Ankle Boots",
+  //       "Ballet Flats",
+  //       "Platform Sandals",
+  //       "Knee High Boots",
+  //     ],
+  //   },
+  //   {
+  //     title: "Accessories",
+  //     description:
+  //       "The perfect finishing touch - curated accessories that speak of understated luxury.",
+  //     category: "Accessories",
+  //     items: [
+  //       "https://images.unsplash.com/photo-1599643477877-530eb83abc8e?w=800&q=80",
+  //       "https://images.unsplash.com/photo-1588444837495-c6cfeb53f32d?w=800&q=80",
+  //       "https://images.unsplash.com/photo-1611085583191-a3b181a88401?w=800&q=80",
+  //       "https://images.unsplash.com/photo-1599643477877-530eb83abc8e?w=800&q=80",
+  //       "https://images.unsplash.com/photo-1588444837495-c6cfeb53f32d?w=800&q=80",
+  //     ],
+  //     names: [
+  //       "Diamond Drop Earrings",
+  //       "Gold Chain Necklace",
+  //       "Leather Handbag",
+  //       "Silk Scarf",
+  //       "Statement Cuff",
+  //     ],
+  //   },
+  // ];
+
   const sections = [
     {
-      title: "Evening Gowns",
+      title: "Premium & Wedding Sarees",
       description:
-        "Exquisite couture gowns that command attention, crafted for unforgettable evenings.",
-      category: "Formal Wear",
+        "Elegant sarees crafted for weddings and grand occasions, featuring rich fabrics, zari work, and timeless designs.",
+      category: "Wedding Wear",
       items: [
-        "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=800&q=80",
-        "https://images.unsplash.com/photo-1539008835657-9e8e9680c956?w=800&q=80",
-        "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=800&q=80",
-        "https://images.unsplash.com/photo-1564257631407-4deb1f99d992?w=800&q=80",
-        "https://images.unsplash.com/photo-1539008835657-9e8e9680c956?w=800&q=80",
+        "/sarees/saree2.png",
+        "/sarees/saree1.png",
+        "/sarees/saree3.png",
+        "/sarees/saree4.png",
+        "/sarees/saree5.png",
       ],
       names: [
-        "Midnight Velvet Gown",
-        "Silk Chiffon Dress",
-        "Embellished Ball Gown",
-        "Sequin Mermaid Dress",
-        "Lace Column Dress",
+        "Wedding Saree Silver Zari",
+        "One Gram Gold Border Saree",
+        "Wedding Saree Without Stone",
+        "Medium Silk Saree",
+        "RA Silk Saree",
       ],
     },
     {
-      title: "Designer Suits & Blazers",
+      title: "Fancy & Daily Wear Sarees",
       description:
-        "Powerful silhouettes that blend sophistication with contemporary elegance.",
-      category: "Power Wear",
+        "Stylish and comfortable sarees perfect for everyday wear and festive occasions with modern designs.",
+      category: "Daily & Fancy Wear",
       items: [
-        "https://images.unsplash.com/photo-1619470149201-63960dec27cf?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?w=800&q=80",
-        "https://images.unsplash.com/photo-1581954768700-06ff9c582704?q=80&w=763&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "https://images.unsplash.com/photo-1712160059102-19368c085984?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?w=800&q=80",
+        "/sarees/saree6.png",
+        "/sarees/saree8.png",
+        "/sarees/saree7.png",
+        "/sarees/saree10.png",
+        "/sarees/saree11.png",
       ],
       names: [
-        "Cream Wool Blazer",
-        "Pinstripe Power Suit",
-        "Double-Breasted Blazer",
-        "Tweed Jacket",
-        "Silk Lapel Tuxedo",
-      ],
-    },
-    {
-      title: "Cocktail Dresses",
-      description:
-        "Effortlessly chic dresses for every celebration, from day to night.",
-      category: "Party Wear",
-      items: [
-        "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=800&q=80",
-        "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=800&q=80",
-        "https://images.unsplash.com/photo-1591369822096-ffd140ec948f?w=800&q=80",
-        "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=800&q=80",
-        "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=800&q=80",
-      ],
-      names: [
-        "Little Black Dress",
-        "Floral Wrap Dress",
-        "Satin Slip Dress",
-        "Bodycon Midi",
-        "Pleated Mini Dress",
-      ],
-    },
-    {
-      title: "Luxury Tops & Blouses",
-      description:
-        "Impeccably crafted tops that elevate any ensemble with refined detail.",
-      category: "Everyday Luxury",
-      items: [
-        "https://images.unsplash.com/photo-1539008835657-9e8e9680c956?w=800&q=80",
-        "https://images.unsplash.com/photo-1591369822096-ffd140ec948f?w=800&q=80",
-        "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=800&q=80",
-        "https://images.unsplash.com/photo-1539008835657-9e8e9680c956?w=800&q=80",
-        "https://images.unsplash.com/photo-1591369822096-ffd140ec948f?w=800&q=80",
-      ],
-      names: [
-        "Silk Satin Blouse",
-        "Lace Detail Top",
-        "Cashmere Sweater",
-        "Off-Shoulder Top",
-        "Beaded Mesh Top",
-      ],
-    },
-    {
-      title: "Skirts & Trousers",
-      description: "Architectural cuts and flowing lines for the modern woman.",
-      category: "Bottoms",
-      items: [
-        "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?w=800&q=80",
-        "https://images.unsplash.com/photo-1654512697735-d7ff21350443?q=80&w=688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=800&q=80",
-        "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?w=800&q=80",
-        "https://images.unsplash.com/photo-1649315324621-3d63b5aae680?q=80&w=1176&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      ],
-      names: [
-        "Pleated Midi Skirt",
-        "Tailored Wool Pants",
-        "Leather Pencil Skirt",
-        "Wide Leg Trousers",
-        "A-Line Mini Skirt",
-      ],
-    },
-    {
-      title: "Luxury Footwear",
-      description:
-        "Step into perfection with our handcrafted heels, flats, and boots.",
-      category: "Footwear",
-      items: [
-        "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=800&q=80",
-        "https://images.unsplash.com/photo-1533867617858-e7b97e060509?w=800&q=80",
-        "https://images.unsplash.com/photo-1604136172384-b2e9c43271ec?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=800&q=80",
-        "https://images.unsplash.com/photo-1533867617858-e7b97e060509?w=800&q=80",
-      ],
-      names: [
-        "Stiletto Heels",
-        "Leather Ankle Boots",
-        "Ballet Flats",
-        "Platform Sandals",
-        "Knee High Boots",
-      ],
-    },
-    {
-      title: "Accessories",
-      description:
-        "The perfect finishing touch - curated accessories that speak of understated luxury.",
-      category: "Accessories",
-      items: [
-        "https://images.unsplash.com/photo-1599643477877-530eb83abc8e?w=800&q=80",
-        "https://images.unsplash.com/photo-1588444837495-c6cfeb53f32d?w=800&q=80",
-        "https://images.unsplash.com/photo-1611085583191-a3b181a88401?w=800&q=80",
-        "https://images.unsplash.com/photo-1599643477877-530eb83abc8e?w=800&q=80",
-        "https://images.unsplash.com/photo-1588444837495-c6cfeb53f32d?w=800&q=80",
-      ],
-      names: [
-        "Diamond Drop Earrings",
-        "Gold Chain Necklace",
-        "Leather Handbag",
-        "Silk Scarf",
-        "Statement Cuff",
+        "Fancy Saree with Stone",
+        "Medium Stone Saree",
+        "Soft Silk Saree",
+        "Tasar Soft Cotton Saree",
+        "Printed Daily Wear Saree",
       ],
     },
   ];
@@ -509,7 +552,7 @@ export default function WomensCollection() {
           {/* Woman 1 (VISIBLE ON MOBILE) */}
           <div className="relative overflow-hidden">
             <Image
-              src="https://images.unsplash.com/photo-1539008835657-9e8e9680c956?w=1200&q=90"
+              src="https://i.pinimg.com/736x/e4/5a/3d/e45a3dfb2dfecf1b25bc3c846a458b87.jpg"
               alt="Woman in evening gown"
               fill
               className="object-cover object-center scale-105 md:scale-110 animate-zoomSlow"
@@ -521,19 +564,19 @@ export default function WomensCollection() {
           {/* Woman 2 (HIDDEN ON MOBILE) */}
           <div className="relative overflow-hidden hidden md:block">
             <Image
-              src="https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?w=1200&q=90"
+              src="https://i.pinimg.com/736x/40/8b/a4/408ba44ee1fa7654fb7c13e615b4993c.jpg"
               alt="Woman in power suit"
               fill
               className="object-cover object-center scale-110 animate-zoomSlow2"
               priority
             />
-            <div className="absolute inset-0 bg-black/30 backdrop-blur-[2px]" />
+            <div className="absolute inset-0 bg-black/30" />
           </div>
 
           {/* Woman 3 (HIDDEN ON MOBILE) */}
           <div className="relative overflow-hidden hidden md:block">
             <Image
-              src="https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=1200&q=90"
+              src="https://i.pinimg.com/736x/f4/8d/ce/f48dce52389a331fa74a5a86e52a5665.jpg"
               alt="Woman in casual outfit"
               fill
               className="object-cover object-center scale-110 animate-zoomSlow3"
@@ -725,12 +768,12 @@ export default function WomensCollection() {
       <div className="relative py-28 mt-12 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="https://images.unsplash.com/photo-1483985988355-763728e1935b?w=1600&q=80"
+            src="https://i.pinimg.com/736x/6a/a6/44/6aa64415957759157e8c14fee5414f1d.jpg"
             alt="Featured Collection"
             fill
             className="object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/40" />
+          <div className="absolute inset-0 backdrop-blur-[3px] bg-gradient-to-r from-black/80 via-black/60 to-black/40" />
         </div>
 
         <div className="relative z-10 max-w-[1400px] mx-auto px-6 text-left">

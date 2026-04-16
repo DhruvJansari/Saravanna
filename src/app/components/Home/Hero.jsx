@@ -21,7 +21,7 @@ const getBorderRadius = (radius = {}) => ({
 const IMAGE_CONFIG = [
   {
     id: "brown-shirt",
-    src: "./womenss.png",
+    src: "https://i.pinimg.com/1200x/d2/a8/83/d2a88307eec835bef572c747db3fd9f0.jpg",
     alt: "Woman",
     top: "5%",
     left: "0%",
@@ -33,7 +33,7 @@ const IMAGE_CONFIG = [
   },
   {
     id: "necklace",
-    src: "./neck.jpg",
+    src: "https://i.pinimg.com/1200x/85/0e/42/850e423a5bdf88276d14aa37981b5af1.jpg",
     alt: "Jewellery",
     top: "0%",
     left: "20%",
@@ -43,7 +43,7 @@ const IMAGE_CONFIG = [
   },
   {
     id: "beige-shirt",
-    src: "./menss.png",
+    src: "https://i.pinimg.com/1200x/e8/27/1c/e8271c050d8d51966616cf9f6d1b7645.jpg",
     alt: "Men",
     bottom: "8%",
     left: "0%",
@@ -55,7 +55,7 @@ const IMAGE_CONFIG = [
   },
   {
     id: "black-blazer",
-    src: "./girls.png",
+    src: "https://i.pinimg.com/736x/7b/38/15/7b38155487c88fc653d2618ea5682944.jpg",
     alt: "Women",
     bottom: "8%",
     right: "0%",
@@ -85,10 +85,11 @@ const Hero = () => {
 
   return (
     <section className="w-full bg-white min-h-screen flex items-center">
-      <div className="max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-12 
+      <div
+        className="max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-12 
       pt-6 md:pt-1 pb-6 md:pb-12 
-      flex flex-col md:flex-row items-center justify-center gap-6 md:gap-10">
-
+      flex flex-col md:flex-row items-center justify-center gap-6 md:gap-10"
+      >
         {/* IMAGE FIRST ON MOBILE */}
         <div
           className={`w-full md:w-[60%] order-1 md:order-2 relative 
@@ -114,9 +115,7 @@ const Hero = () => {
                 zIndex: img.zIndex,
                 maxWidth: "100%",
                 ...getBorderRadius(img.radius),
-                boxShadow: img.shadow
-                  ? "0 6px 20px rgba(0,0,0,0.15)"
-                  : "none",
+                boxShadow: img.shadow ? "0 6px 20px rgba(0,0,0,0.15)" : "none",
               }}
             />
           ))}
@@ -132,9 +131,7 @@ const Hero = () => {
             className={`text-2xl sm:text-3xl md:text-7xl lg:text-8xl ${FONT_STYLE.weight} ${FONT_STYLE.heading} text-black leading-[1.1] md:leading-[1.00] tracking-tight mb-4 md:mb-10`}
           >
             {/* MOBILE → SINGLE LINE */}
-            <span className="block md:hidden">
-              Where Style Meets Elegance
-            </span>
+            <span className="block md:hidden">Where Style Meets Elegance</span>
 
             {/* DESKTOP → MULTI LINE */}
             <span className="hidden md:block">
@@ -147,14 +144,13 @@ const Hero = () => {
             </span>
           </h1>
 
-       <button
-  onClick={() => router.push("/mens")}
-  className="mt-2 px-6 sm:px-7 py-2.5 sm:py-3 border-2 border-black rounded-full text-black font-bold text-sm sm:text-base hover:bg-black hover:text-white transition-all duration-300"
->
-  {HERO_TEXT.buttonLabel}
-</button>
+          <button
+            onClick={() => router.push("/mens")}
+            className="mt-2 px-6 sm:px-7 py-2.5 sm:py-3 border-2 border-black rounded-full text-black font-bold text-sm sm:text-base hover:bg-black hover:text-white transition-all duration-300"
+          >
+            {HERO_TEXT.buttonLabel}
+          </button>
         </div>
-
       </div>
     </section>
   );
