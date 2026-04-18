@@ -35,38 +35,18 @@ export default function MensCollection() {
         "Effortless elegance meets comfort in our collection of premium casual shirts.",
       category: "Clothing",
       items: [
-        "https://images.unsplash.com/photo-1740711152088-88a009e877bb?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "https://plus.unsplash.com/premium_photo-1726880484249-a81d389f766c?q=80&w=1127&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "https://images.unsplash.com/photo-1603252110481-7ba873bf42ab?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "https://images.unsplash.com/photo-1715532485872-204a452f2ff6?q=80&w=627&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "https://images.unsplash.com/photo-1606724003282-df6ecad297ce?q=80&w=1073&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://i.pinimg.com/1200x/d4/10/a4/d410a4137f357310685fef6b702b0362.jpg",
+        "https://i.pinimg.com/736x/5b/bb/a4/5bbba44cabc974f50c831ae23eaa153f.jpg",
+        "https://i.pinimg.com/1200x/f9/51/8d/f9518da191c649a6b6ede60ac03e1e12.jpg",
+        "https://i.pinimg.com/1200x/2b/02/60/2b0260ac59060d9246e62e01143171a6.jpg",
+        "https://i.pinimg.com/1200x/65/7c/3c/657c3c7944c0c0ff3844b44b97b886a6.jpg",
       ],
       names: [
-        "Linen Oxford",
+        "Luxury Flannel",
         "Silk Casual",
         "Cotton Poplin",
         "Denim Button Down",
-        "Luxury Flannel",
-      ],
-    },
-    {
-      title: "Outerwear",
-      description:
-        "Elevate your silhouette with our sophisticated outerwear, from leather jackets to wool coats.",
-      category: "Clothing",
-      items: [
-        "https://i.pinimg.com/1200x/26/4e/02/264e02ec312182d992b25263c8cd5b0c.jpg",
-        "https://i.pinimg.com/736x/14/ad/ff/14adffd06b0d323349867da8cb6a0093.jpg",
-        "https://i.pinimg.com/736x/e5/05/ef/e505ef04bb45f9fc0ddf969e6ab8b520.jpg",
-        "https://i.pinimg.com/736x/1a/20/33/1a20334a926a244a4354fdcfb55ebe41.jpg",
-        "https://i.pinimg.com/1200x/19/ed/0b/19ed0ba311812673facb121dcbc997f7.jpg",
-      ],
-      names: [
-        "Cognac Leather Jacket",
-        "Cashmere Overcoat",
-        "Quilted Bomber",
-        "Wool Peacoat",
-        "Field Jacket",
+        "Linen Oxford",
       ],
     },
     {
@@ -77,59 +57,94 @@ export default function MensCollection() {
       items: [
         "https://i.pinimg.com/736x/04/33/35/04333525131a348651744cced658314e.jpg",
         "http://i.pinimg.com/1200x/59/6a/2e/596a2ebecf4ad2e856bfffdcd6b1e757.jpg",
-        "https://i.pinimg.com/1200x/84/e2/5b/84e25bcda6030d75d3af39868c2e91cd.jpg",
+        "https://i.pinimg.com/1200x/76/b7/88/76b788dace619e832637746b3159ca7a.jpg",
         "https://i.pinimg.com/1200x/3b/bf/c8/3bbfc894a7cb87e87c043a859efcce99.jpg",
         "https://i.pinimg.com/736x/65/a3/bf/65a3bff947cc51fcc2a7aa5656d4485c.jpg",
       ],
       names: [
         "Wool Dress Pants",
-
         "Slim Fit Chinos",
-        "Cargo Dress Pants",
+        "Formal Straight Fit",
         "Linen Blend",
         "Pleated Trousers",
       ],
     },
     {
-      title: "Luxury Footwear",
+      title: "Casual Bottomwear",
       description:
-        "Step into perfection with our handcrafted leather shoes and boots.",
-      category: "Footwear",
+        "Everyday comfort with versatile and stylish casual pants for modern wear.",
+      category: "Clothing",
       items: [
-        "https://i.pinimg.com/1200x/e2/8e/57/e28e570e5b39619fd5148a077d05869b.jpg",
-        "https://images.unsplash.com/photo-1651626203070-ec71eee7870e?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "https://i.pinimg.com/1200x/23/9e/47/239e478b8f7f4faa049ff5562ded21e4.jpg",
-        "https://images.unsplash.com/photo-1662541089338-c7d53b88be70?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "https://i.pinimg.com/1200x/ab/ea/31/abea31b8c4e5fa0e4c197beca3f01c78.jpg",
+        "https://i.pinimg.com/1200x/e6/1b/31/e61b31478c28b1c71a9a0496b0ca38e9.jpg",
+        "https://i.pinimg.com/736x/70/86/79/708679a0c8bfba33e6a838ab94d8edf4.jpg",
+        "https://i.pinimg.com/1200x/9f/b9/9d/9fb99d01c03a77feba1b4588878a02ed.jpg",
+        "https://i.pinimg.com/736x/c2/24/2a/c2242a98d8b46cda0c65147031cca87b.jpg",
       ],
       names: [
-        "Oxford Brogues",
-        "Chelsea Boots",
-        "Monk Strap",
-        "Driving Loafers",
-        "Italian Leather Sneakers",
+        "Jeans Pant",
+        "Cotton Pant",
+        "Six-Pocket Pant",
+        "Casual Fit Trousers",
       ],
     },
     {
-      title: "Accessories",
+      title: "Adidas T-Shirts & Tracks",
       description:
-        "The perfect finishing touch - curated accessories that speak of understated luxury.",
-      category: "Accessories",
+        "Premium Adidas activewear designed for comfort, performance, and everyday style.",
+      category: "Sportswear",
       items: [
-        "https://plus.unsplash.com/premium_photo-1726769202190-ad2a3f2f360b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "https://images.unsplash.com/photo-1628019049646-552bb07df11e?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "https://images.unsplash.com/photo-1748840176432-4b2474189d52?q=80&w=1078&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "https://images.unsplash.com/photo-1609803384069-19f3e5a70e75?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "https://images.unsplash.com/photo-1519766400364-8824dc3c4e26?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://i.pinimg.com/736x/1e/0c/4e/1e0c4edeab2d050acd2129cd5b3b213f.jpg",
+        "https://i.pinimg.com/1200x/be/87/f5/be87f54b248db36d9c965950f22b6281.jpg",
+        "https://i.pinimg.com/736x/7e/29/f9/7e29f94fa4a4af2f9956c286e2b53845.jpg",
+        "https://i.pinimg.com/736x/59/e9/15/59e9152de69abfe47c62559eb72b3df6.jpg",
       ],
       names: [
-        "Italian Leather Belt",
-        "Silk Tie Set",
-        "Cufflink Collection",
-        "Cashmere Scarf",
-        "Leather Gloves",
+        "Adidas T-Shirt",
+        "Adidas Performance Tee",
+        "Adidas Track Pant",
+        "Adidas Full Track Suit",
       ],
     },
+    // {
+    //   title: "Luxury Footwear",
+    //   description:
+    //     "Step into perfection with our handcrafted leather shoes and boots.",
+    //   category: "Footwear",
+    //   items: [
+    //     "https://i.pinimg.com/1200x/e2/8e/57/e28e570e5b39619fd5148a077d05869b.jpg",
+    //     "https://images.unsplash.com/photo-1651626203070-ec71eee7870e?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    //     "https://i.pinimg.com/1200x/23/9e/47/239e478b8f7f4faa049ff5562ded21e4.jpg",
+    //     "https://images.unsplash.com/photo-1662541089338-c7d53b88be70?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    //     "https://i.pinimg.com/1200x/ab/ea/31/abea31b8c4e5fa0e4c197beca3f01c78.jpg",
+    //   ],
+    //   names: [
+    //     "Oxford Brogues",
+    //     "Chelsea Boots",
+    //     "Monk Strap",
+    //     "Driving Loafers",
+    //     "Italian Leather Sneakers",
+    //   ],
+    // },
+    // {
+    //   title: "Accessories",
+    //   description:
+    //     "The perfect finishing touch - curated accessories that speak of understated luxury.",
+    //   category: "Accessories",
+    //   items: [
+    //     "https://plus.unsplash.com/premium_photo-1726769202190-ad2a3f2f360b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    //     "https://images.unsplash.com/photo-1628019049646-552bb07df11e?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    //     "https://images.unsplash.com/photo-1748840176432-4b2474189d52?q=80&w=1078&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    //     "https://images.unsplash.com/photo-1609803384069-19f3e5a70e75?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    //     "https://images.unsplash.com/photo-1519766400364-8824dc3c4e26?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    //   ],
+    //   names: [
+    //     "Italian Leather Belt",
+    //     "Silk Tie Set",
+    //     "Cufflink Collection",
+    //     "Cashmere Scarf",
+    //     "Leather Gloves",
+    //   ],
+    // },
   ];
 
   const scrollRefs = useRef([]);
@@ -564,7 +579,7 @@ export default function MensCollection() {
 
       {/* Main Content */}
       <div className="max-w-[1400px] mx-auto px-6 py-24">
-        <div className="space-y-40">
+        <div className="space-y-20">
           {sections.map((section, index) => (
             <motion.div
               key={index}
@@ -688,7 +703,7 @@ export default function MensCollection() {
       </div>
 
       {/* Featured Banner */}
-      <div className="relative py-28 mt-12 overflow-hidden">
+      <div className="relative py-28 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
             src="https://i.pinimg.com/1200x/32/16/8e/32168e0467f1a6a8e9dbbdc0525d28d4.jpg"

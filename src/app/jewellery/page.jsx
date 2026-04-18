@@ -583,7 +583,7 @@ export default function JewelryCollection() {
 
       {/* Main Content */}
       <div className="max-w-[1400px] mx-auto px-6 py-24">
-        <div className="space-y-40">
+        <div className="space-y-20">
           {sections.map((section, index) => (
             <motion.div
               key={index}
@@ -707,7 +707,7 @@ export default function JewelryCollection() {
       </div>
 
       {/* Featured Banner */}
-      <div className="relative py-28 mt-12 overflow-hidden">
+      <div className="relative py-24 md:py-28 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
             src="https://i.pinimg.com/736x/ff/e7/77/ffe777780cde4fcdc68c1c6b1228ca63.jpg"

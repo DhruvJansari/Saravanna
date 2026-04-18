@@ -7,149 +7,6 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 
 export default function WomensCollection() {
-  // All women's wear collections - different types of clothing and accessories
-  // const sections = [
-  //   {
-  //     title: "Evening Gowns",
-  //     description:
-  //       "Exquisite couture gowns that command attention, crafted for unforgettable evenings.",
-  //     category: "Formal Wear",
-  //     items: [
-  //       "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=800&q=80",
-  //       "https://images.unsplash.com/photo-1539008835657-9e8e9680c956?w=800&q=80",
-  //       "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=800&q=80",
-  //       "https://images.unsplash.com/photo-1564257631407-4deb1f99d992?w=800&q=80",
-  //       "https://images.unsplash.com/photo-1539008835657-9e8e9680c956?w=800&q=80",
-  //     ],
-  //     names: [
-  //       "Midnight Velvet Gown",
-  //       "Silk Chiffon Dress",
-  //       "Embellished Ball Gown",
-  //       "Sequin Mermaid Dress",
-  //       "Lace Column Dress",
-  //     ],
-  //   },
-  //   {
-  //     title: "Designer Suits & Blazers",
-  //     description:
-  //       "Powerful silhouettes that blend sophistication with contemporary elegance.",
-  //     category: "Power Wear",
-  //     items: [
-  //       "https://images.unsplash.com/photo-1619470149201-63960dec27cf?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  //       "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?w=800&q=80",
-  //       "https://images.unsplash.com/photo-1581954768700-06ff9c582704?q=80&w=763&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  //       "https://images.unsplash.com/photo-1712160059102-19368c085984?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  //       "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?w=800&q=80",
-  //     ],
-  //     names: [
-  //       "Cream Wool Blazer",
-  //       "Pinstripe Power Suit",
-  //       "Double-Breasted Blazer",
-  //       "Tweed Jacket",
-  //       "Silk Lapel Tuxedo",
-  //     ],
-  //   },
-  //   {
-  //     title: "Cocktail Dresses",
-  //     description:
-  //       "Effortlessly chic dresses for every celebration, from day to night.",
-  //     category: "Party Wear",
-  //     items: [
-  //       "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=800&q=80",
-  //       "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=800&q=80",
-  //       "https://images.unsplash.com/photo-1591369822096-ffd140ec948f?w=800&q=80",
-  //       "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=800&q=80",
-  //       "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=800&q=80",
-  //     ],
-  //     names: [
-  //       "Little Black Dress",
-  //       "Floral Wrap Dress",
-  //       "Satin Slip Dress",
-  //       "Bodycon Midi",
-  //       "Pleated Mini Dress",
-  //     ],
-  //   },
-  //   {
-  //     title: "Luxury Tops & Blouses",
-  //     description:
-  //       "Impeccably crafted tops that elevate any ensemble with refined detail.",
-  //     category: "Everyday Luxury",
-  //     items: [
-  //       "https://images.unsplash.com/photo-1539008835657-9e8e9680c956?w=800&q=80",
-  //       "https://images.unsplash.com/photo-1591369822096-ffd140ec948f?w=800&q=80",
-  //       "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=800&q=80",
-  //       "https://images.unsplash.com/photo-1539008835657-9e8e9680c956?w=800&q=80",
-  //       "https://images.unsplash.com/photo-1591369822096-ffd140ec948f?w=800&q=80",
-  //     ],
-  //     names: [
-  //       "Silk Satin Blouse",
-  //       "Lace Detail Top",
-  //       "Cashmere Sweater",
-  //       "Off-Shoulder Top",
-  //       "Beaded Mesh Top",
-  //     ],
-  //   },
-  //   {
-  //     title: "Skirts & Trousers",
-  //     description: "Architectural cuts and flowing lines for the modern woman.",
-  //     category: "Bottoms",
-  //     items: [
-  //       "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?w=800&q=80",
-  //       "https://images.unsplash.com/photo-1654512697735-d7ff21350443?q=80&w=688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  //       "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=800&q=80",
-  //       "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?w=800&q=80",
-  //       "https://images.unsplash.com/photo-1649315324621-3d63b5aae680?q=80&w=1176&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  //     ],
-  //     names: [
-  //       "Pleated Midi Skirt",
-  //       "Tailored Wool Pants",
-  //       "Leather Pencil Skirt",
-  //       "Wide Leg Trousers",
-  //       "A-Line Mini Skirt",
-  //     ],
-  //   },
-  //   {
-  //     title: "Luxury Footwear",
-  //     description:
-  //       "Step into perfection with our handcrafted heels, flats, and boots.",
-  //     category: "Footwear",
-  //     items: [
-  //       "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=800&q=80",
-  //       "https://images.unsplash.com/photo-1533867617858-e7b97e060509?w=800&q=80",
-  //       "https://images.unsplash.com/photo-1604136172384-b2e9c43271ec?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  //       "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=800&q=80",
-  //       "https://images.unsplash.com/photo-1533867617858-e7b97e060509?w=800&q=80",
-  //     ],
-  //     names: [
-  //       "Stiletto Heels",
-  //       "Leather Ankle Boots",
-  //       "Ballet Flats",
-  //       "Platform Sandals",
-  //       "Knee High Boots",
-  //     ],
-  //   },
-  //   {
-  //     title: "Accessories",
-  //     description:
-  //       "The perfect finishing touch - curated accessories that speak of understated luxury.",
-  //     category: "Accessories",
-  //     items: [
-  //       "https://images.unsplash.com/photo-1599643477877-530eb83abc8e?w=800&q=80",
-  //       "https://images.unsplash.com/photo-1588444837495-c6cfeb53f32d?w=800&q=80",
-  //       "https://images.unsplash.com/photo-1611085583191-a3b181a88401?w=800&q=80",
-  //       "https://images.unsplash.com/photo-1599643477877-530eb83abc8e?w=800&q=80",
-  //       "https://images.unsplash.com/photo-1588444837495-c6cfeb53f32d?w=800&q=80",
-  //     ],
-  //     names: [
-  //       "Diamond Drop Earrings",
-  //       "Gold Chain Necklace",
-  //       "Leather Handbag",
-  //       "Silk Scarf",
-  //       "Statement Cuff",
-  //     ],
-  //   },
-  // ];
-
   const sections = [
     {
       title: "Premium & Wedding Sarees",
@@ -169,6 +26,28 @@ export default function WomensCollection() {
         "Wedding Saree Without Stone",
         "Medium Silk Saree",
         "RA Silk Saree",
+      ],
+    },
+    {
+      title: "Women’s Apparel",
+      description:
+        "Explore a wide range of stylish and traditional outfits including tops, frocks, chudi sets, and lehengas designed for every occasion.",
+      category: "Clothing",
+      items: [
+        "https://i.pinimg.com/736x/58/9a/37/589a37c75ad1aca1a6eb6da267ea3268.jpg",
+        "https://i.pinimg.com/736x/b1/9a/7f/b19a7fb2a96bd69ff62c29ed0966a76d.jpg",
+        "https://i.pinimg.com/1200x/5e/1c/e6/5e1ce694c3490d8ea1811c2926d4a16d.jpg",
+        "https://i.pinimg.com/1200x/f4/4c/52/f44c5249bb20d0008d3f2bc9600794d0.jpg",
+        "https://i.pinimg.com/736x/02/80/32/028032ac7a7eb8d037292f32d7c29dc7.jpg",
+        "https://i.pinimg.com/736x/87/93/d1/8793d158bbb579d64c378ad971aacfec.jpg",
+      ],
+      names: [
+        "Tops",
+        "Frocks",
+        "Beaded Tops",
+        "Short Tops",
+        "Lehengas",
+        "Chudi Sets",
       ],
     },
     {
@@ -558,7 +437,7 @@ export default function WomensCollection() {
               className="object-cover object-center scale-105 md:scale-110 animate-zoomSlow"
               priority
             />
-            <div className="absolute inset-0 bg-black/50 md:bg-gradient-to-r md:from-black/60 md:via-black/20 md:to-transparent" />
+            <div className="absolute inset-0 bg-black/20 md:bg-gradient-to-r md:from-black/30 md:via-black/20 md:to-transparent" />
           </div>
 
           {/* Woman 2 (HIDDEN ON MOBILE) */}
@@ -641,7 +520,7 @@ export default function WomensCollection() {
 
       {/* Main Content */}
       <div className="max-w-[1400px] mx-auto px-6 py-24">
-        <div className="space-y-40">
+        <div className="space-y-20">
           {sections.map((section, index) => (
             <motion.div
               key={index}
@@ -765,7 +644,7 @@ export default function WomensCollection() {
       </div>
 
       {/* Featured Banner */}
-      <div className="relative py-28 mt-12 overflow-hidden">
+      <div className="relative py-28 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
             src="https://i.pinimg.com/736x/6a/a6/44/6aa64415957759157e8c14fee5414f1d.jpg"

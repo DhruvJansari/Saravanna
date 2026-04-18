@@ -90,25 +90,49 @@ export default function KidsCollection() {
       ],
     },
     {
-      title: "Footwear",
+      title: "Kids Traditional & Sets",
       description:
-        "Comfortable and durable shoes that support growing feet while keeping style in mind.",
-      category: "Footwear",
+        "A perfect blend of traditional and modern outfits including kurta sets, coat sets, and coordinated clothing for kids.",
+      category: "Ethnic & Sets",
       items: [
-        "https://i.pinimg.com/1200x/ec/ba/21/ecba2174a7b213f462bad9c7b84bc5f3.jpg",
-        "https://i.pinimg.com/1200x/7a/12/06/7a1206eea2fec0d2f9c85b2944c7ed45.jpg",
-        "https://i.pinimg.com/736x/bc/67/f1/bc67f17bfb8e5dd178207d9209640d61.jpg",
-        "https://i.pinimg.com/1200x/9f/a7/89/9fa789b1a04783830bb3dd024f361fab.jpg",
-        "https://i.pinimg.com/736x/30/21/44/3021443bf3af62181b69f7660a7947d3.jpg",
+        "https://i.pinimg.com/1200x/1d/26/42/1d26429a124fe9c1c935a0f080a172a9.jpg",
+        "https://i.pinimg.com/1200x/33/95/c3/3395c32d9a8cfb30fc33ad2b3c0b75d5.jpg",
+        "https://i.pinimg.com/736x/26/31/1f/26311f7f7242eaad1d8d5220eaf4e374.jpg",
+        "https://i.pinimg.com/736x/25/ea/36/25ea36aedc60ba4ee669cfde3307e08f.jpg",
       ],
-      names: [
-        "Leather Sneakers",
-        "Patent Leather Shoes",
-        "Velcro Sandals",
-        "Ankle Boots",
-        "Ballet Flats",
-      ],
+      names: ["Coat Set", "Pant Shirt Set", "Three-Fourth Set", "Kurta Set"],
     },
+    {
+      title: "New Born & Baby Essentials",
+      description:
+        "Soft and essential items for newborn babies including daily wear and carrying accessories for comfort and care.",
+      category: "Baby Care",
+      items: [
+        "https://i.pinimg.com/1200x/8a/97/9b/8a979be348749c680f5b10b261b7ade4.jpg",
+        "https://i.pinimg.com/736x/84/b9/78/84b97899ac4293b898ac44ecbcbf9645.jpg",
+      ],
+      names: ["New Born Baby Items", "Baby Carrying Bag"],
+    },
+    // {
+    //   title: "Footwear",
+    //   description:
+    //     "Comfortable and durable shoes that support growing feet while keeping style in mind.",
+    //   category: "Footwear",
+    //   items: [
+    //     "https://i.pinimg.com/1200x/ec/ba/21/ecba2174a7b213f462bad9c7b84bc5f3.jpg",
+    //     "https://i.pinimg.com/1200x/7a/12/06/7a1206eea2fec0d2f9c85b2944c7ed45.jpg",
+    //     "https://i.pinimg.com/736x/bc/67/f1/bc67f17bfb8e5dd178207d9209640d61.jpg",
+    //     "https://i.pinimg.com/1200x/9f/a7/89/9fa789b1a04783830bb3dd024f361fab.jpg",
+    //     "https://i.pinimg.com/736x/30/21/44/3021443bf3af62181b69f7660a7947d3.jpg",
+    //   ],
+    //   names: [
+    //     "Leather Sneakers",
+    //     "Patent Leather Shoes",
+    //     "Velcro Sandals",
+    //     "Ankle Boots",
+    //     "Ballet Flats",
+    //   ],
+    // },
   ];
 
   const scrollRefs = useRef([]);
@@ -548,7 +572,7 @@ export default function KidsCollection() {
 
       {/* Main Content */}
       <div className="max-w-[1400px] mx-auto px-6 py-24">
-        <div className="space-y-40">
+        <div className="space-y-20">
           {sections.map((section, index) => (
             <motion.div
               key={index}
@@ -672,7 +696,7 @@ export default function KidsCollection() {
       </div>
 
       {/* Featured Banner */}
-      <div className="relative py-28 mt-12 overflow-hidden">
+      <div className="relative py-28 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
             src="https://i.pinimg.com/736x/eb/c9/fe/ebc9fe55096d7b69cfbf59290bd59e77.jpg"
