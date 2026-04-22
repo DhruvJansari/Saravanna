@@ -646,7 +646,7 @@ export default function KidsCollection() {
                 onMouseMove={(e) => handleMouseMoveDrag(e, index)}
                 onMouseEnter={() => setIsHoveringImage(true)}
                 onMouseLeave={() => {
-                  setIsHoveringImage(false);
+                  setIsHoveringImage(false); 
                   if (!isDragging) {
                     setIsDragging(false);
                   }
@@ -699,7 +699,7 @@ export default function KidsCollection() {
       <div className="relative py-28 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="https://i.pinimg.com/736x/eb/c9/fe/ebc9fe55096d7b69cfbf59290bd59e77.jpg"
+            src="https://i.pinimg.com/1200x/cf/c6/0a/cfc60a9f553e74c8bc0804cefd21d709.jpg"
             alt="Featured Collection"
             fill
             className="object-cover"
@@ -716,15 +716,16 @@ export default function KidsCollection() {
             className="max-w-2xl"
           >
             <span className="text-[#C4A77D] tracking-[0.3em] text-xs font-['Cormorant_Garamond'] uppercase">
-              Limited Edition
+              Kids Collection
             </span>
             <h2 className="font-['Playfair_Display'] text-5xl md:text-6xl text-white font-normal tracking-wide mt-4 leading-tight">
-              Mini Couture
+              Mini Style, Maximum Comfort
             </h2>
             <div className="w-16 h-px bg-[#C4A77D] mt-6 mb-6" />
             <p className="text-white/60 font-['Cormorant_Garamond'] text-lg max-w-md font-light">
-              Experience personalized craftsmanship with our master designers.
-              Each piece is meticulously crafted for your little one.
+              Discover thoughtfully designed clothing for your little ones. Each
+              piece blends soft fabrics, playful style, and everyday
+              durability—perfect for growing adventures.
             </p>
             <button
               className="mt-8 px-10 py-3 border border-white/30 text-white hover:bg-white/10 hover:border-white/50 transition-all duration-500 font-['Cormorant_Garamond'] text-sm tracking-[0.2em] font-light"
