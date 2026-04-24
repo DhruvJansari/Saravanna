@@ -240,7 +240,7 @@ const Navbar = () => {
 
               {/* Mobile Text Only */}
               <span className="block font-['Playfair_Display'] text-lg text-black font-semibold tracking-wide md:-translate-x-10 lg:-translate-x-12">
-                SARAVANA
+                SARAVANAA
               </span>
             </Link>
 

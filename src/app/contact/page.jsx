@@ -29,7 +29,7 @@ export default function ContactPage() {
     e.preventDefault();
     setIsSubmitting(true);
     // Simulate form submission
-    await new Promise(resolve => setTimeout(resolve, 1500));
+    await new Promise((resolve) => setTimeout(resolve, 1500));
     setIsSubmitting(false);
     setIsSubmitted(true);
     setFormData({
@@ -45,18 +45,47 @@ export default function ContactPage() {
   const contactInfo = [
     {
       icon: (
-        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+        <svg
+          className="w-6 h-6"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={1.5}
+            d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+          />
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={1.5}
+            d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+          />
         </svg>
       ),
       title: "Visit Us",
-      details: ["123 Luxury Avenue", "Beverly Hills, CA 90210", "United States"],
+      details: [
+        "123 Luxury Avenue",
+        "Beverly Hills, CA 90210",
+        "United States",
+      ],
     },
     {
       icon: (
-        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+        <svg
+          className="w-6 h-6"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={1.5}
+            d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+          />
         </svg>
       ),
       title: "Call Us",
@@ -64,8 +93,18 @@ export default function ContactPage() {
     },
     {
       icon: (
-        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+        <svg
+          className="w-6 h-6"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={1.5}
+            d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+          />
         </svg>
       ),
       title: "Email Us",
@@ -73,26 +112,40 @@ export default function ContactPage() {
     },
     {
       icon: (
-        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+        <svg
+          className="w-6 h-6"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={1.5}
+            d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+          />
         </svg>
       ),
       title: "Business Hours",
-      details: ["Monday - Friday: 10AM - 7PM", "Saturday: 11AM - 6PM", "Sunday: By Appointment"],
+      details: [
+        "Monday - Friday: 10AM - 7PM",
+        "Saturday: 11AM - 6PM",
+        "Sunday: By Appointment",
+      ],
     },
   ];
 
   return (
     <div className="bg-[#FDFBF7] min-h-screen overflow-x-hidden">
       <style jsx global>{`
-        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Cormorant+Garamond:wght@300;400;500;600&display=swap');
+        @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Cormorant+Garamond:wght@300;400;500;600&display=swap");
 
         * {
           cursor: default;
         }
 
         .section-title {
-          font-family: 'Playfair Display', serif;
+          font-family: "Playfair Display", serif;
           font-size: 32px;
           letter-spacing: 0.02em;
           color: #1a1a1a;
@@ -100,7 +153,7 @@ export default function ContactPage() {
         }
 
         .input-field {
-          font-family: 'Cormorant Garamond', serif;
+          font-family: "Cormorant Garamond", serif;
           width: 100%;
           padding: 14px 0;
           background: transparent;
@@ -113,7 +166,7 @@ export default function ContactPage() {
         }
 
         .input-field:focus {
-          border-bottom-color: #8B7355;
+          border-bottom-color: #8b7355;
         }
 
         .input-field::placeholder {
@@ -128,7 +181,7 @@ export default function ContactPage() {
         }
 
         .submit-btn {
-          font-family: 'Cormorant Garamond', serif;
+          font-family: "Cormorant Garamond", serif;
           background: transparent;
           border: 1px solid #1a1a2e;
           padding: 14px 40px;
@@ -193,14 +246,14 @@ export default function ContactPage() {
             </h1>
           </motion.div>
 
-          <motion.div 
+          <motion.div
             initial={{ width: 0 }}
             animate={{ width: "60px" }}
             transition={{ duration: 0.8, delay: 0.3 }}
             className="h-px bg-[#C4A77D] mx-auto mt-6"
           />
 
-          <motion.p 
+          <motion.p
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.5 }}
@@ -214,7 +267,6 @@ export default function ContactPage() {
       {/* Main Content */}
       <div className="max-w-[1400px] mx-auto px-6 py-24">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
-          
           {/* Contact Form */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
@@ -225,7 +277,8 @@ export default function ContactPage() {
             <h2 className="section-title">Send a Message</h2>
             <div className="w-12 h-px bg-[#8B7355] mt-4 mb-8" />
             <p className="text-[#666] font-['Cormorant_Garamond'] text-lg mb-10">
-              For inquiries about our collections, custom orders, or general questions, please fill out the form below.
+              For inquiries about our collections, custom orders, or general
+              questions, please fill out the form below.
             </p>
 
             {isSubmitted ? (
@@ -234,12 +287,25 @@ export default function ContactPage() {
                 animate={{ opacity: 1, y: 0 }}
                 className="bg-[#1a1a2e]/5 p-8 text-center"
               >
-                <svg className="w-16 h-16 text-[#8B7355] mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M5 13l4 4L19 7" />
+                <svg
+                  className="w-16 h-16 text-[#8B7355] mx-auto mb-4"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={1.5}
+                    d="M5 13l4 4L19 7"
+                  />
                 </svg>
-                <h3 className="font-['Playfair_Display'] text-2xl text-[#1a1a2e] mb-2">Thank You!</h3>
+                <h3 className="font-['Playfair_Display'] text-2xl text-[#1a1a2e] mb-2">
+                  Thank You!
+                </h3>
                 <p className="font-['Cormorant_Garamond'] text-[#666] text-lg">
-                  Your message has been sent. We'll get back to you within 24 hours.
+                  Your message has been sent. We'll get back to you within 24
+                  hours.
                 </p>
               </motion.div>
             ) : (
@@ -301,7 +367,7 @@ export default function ContactPage() {
                   type="submit"
                   disabled={isSubmitting}
                   className="submit-btn"
-                  style={{ cursor: 'pointer' }}
+                  style={{ cursor: "pointer" }}
                 >
                   {isSubmitting ? "SENDING..." : "SEND MESSAGE"}
                 </button>
@@ -319,7 +385,8 @@ export default function ContactPage() {
             <h2 className="section-title">Get in Touch</h2>
             <div className="w-12 h-px bg-[#8B7355] mt-4 mb-8" />
             <p className="text-[#666] font-['Cormorant_Garamond'] text-lg mb-10">
-              Visit our flagship boutique or reach out through any of the channels below.
+              Visit our flagship boutique or reach out through any of the
+              channels below.
             </p>
 
             <div className="space-y-8">
@@ -332,15 +399,16 @@ export default function ContactPage() {
                   viewport={{ once: true }}
                   className="info-card flex gap-5"
                 >
-                  <div className="text-[#8B7355] mt-1">
-                    {info.icon}
-                  </div>
+                  <div className="text-[#8B7355] mt-1">{info.icon}</div>
                   <div>
                     <h3 className="font-['Playfair_Display'] text-xl text-[#1a1a2e] mb-3">
                       {info.title}
                     </h3>
                     {info.details.map((detail, i) => (
-                      <p key={i} className="font-['Cormorant_Garamond'] text-[#666] text-base leading-relaxed">
+                      <p
+                        key={i}
+                        className="font-['Cormorant_Garamond'] text-[#666] text-base leading-relaxed"
+                      >
                         {detail}
                       </p>
                     ))}
@@ -355,15 +423,17 @@ export default function ContactPage() {
                 Follow Us
               </h3>
               <div className="flex gap-6">
-                {["Instagram", "Facebook", "Pinterest", "YouTube"].map((social, i) => (
-                  <button
-                    key={i}
-                    className="text-[#666] hover:text-[#8B7355] transition-colors duration-300 font-['Cormorant_Garamond'] text-sm tracking-wide"
-                    style={{ cursor: 'pointer' }}
-                  >
-                    {social}
-                  </button>
-                ))}
+                {["Instagram", "Facebook", "Pinterest", "YouTube"].map(
+                  (social, i) => (
+                    <button
+                      key={i}
+                      className="text-[#666] hover:text-[#8B7355] transition-colors duration-300 font-['Cormorant_Garamond'] text-sm tracking-wide"
+                      style={{ cursor: "pointer" }}
+                    >
+                      {social}
+                    </button>
+                  ),
+                )}
               </div>
             </div>
           </motion.div>
@@ -374,9 +444,24 @@ export default function ContactPage() {
       <div className="relative h-[400px] w-full mt-12 overflow-hidden">
         <div className="absolute inset-0 bg-[#1a1a2e] flex items-center justify-center">
           <div className="text-center">
-            <svg className="w-16 h-16 text-white/20 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+            <svg
+              className="w-16 h-16 text-white/20 mx-auto mb-4"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={1}
+                d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+              />
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={1}
+                d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+              />
             </svg>
             <p className="text-white/40 font-['Cormorant_Garamond'] text-lg tracking-wide">
               123 Luxury Avenue, Beverly Hills, CA 90210
@@ -410,19 +495,19 @@ export default function ContactPage() {
           {[
             {
               q: "Do you offer international shipping?",
-              a: "Yes, we offer worldwide shipping with fully insured delivery. Shipping times and costs vary by destination."
+              a: "Yes, we offer worldwide shipping with fully insured delivery. Shipping times and costs vary by destination.",
             },
             {
-              q: "Can I request a custom jewelry piece?",
-              a: "Absolutely! Our bespoke service allows you to create a unique piece. Contact our concierge team to begin the consultation."
+              q: "Can I request a custom jewellery piece?",
+              a: "Absolutely! Our bespoke service allows you to create a unique piece. Contact our concierge team to begin the consultation.",
             },
             {
               q: "What is your return policy?",
-              a: "We offer a 14-day return policy on unworn items in original condition. Custom pieces are final sale."
+              a: "We offer a 14-day return policy on unworn items in original condition. Custom pieces are final sale.",
             },
             {
-              q: "Do you provide jewelry cleaning services?",
-              a: "Yes, we offer complimentary cleaning and inspection for all pieces purchased from our boutique."
+              q: "Do you provide jewellery cleaning services?",
+              a: "Yes, we offer complimentary cleaning and inspection for all pieces purchased from our boutique.",
             },
           ].map((faq, index) => (
             <motion.div
@@ -458,18 +543,19 @@ export default function ContactPage() {
             </h3>
             <div className="w-12 h-px bg-[#8B7355] mx-auto mb-6" />
             <p className="text-white/50 font-['Cormorant_Garamond'] text-base tracking-wide max-w-2xl mx-auto font-light mb-8">
-              Subscribe to receive exclusive updates, early access to collections, and special invitations.
+              Subscribe to receive exclusive updates, early access to
+              collections, and special invitations.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 max-w-lg mx-auto">
               <input
                 type="email"
                 placeholder="Your email address"
                 className="flex-1 px-6 py-3 bg-white/5 border border-white/20 text-white placeholder:text-white/30 font-['Cormorant_Garamond'] text-base outline-none focus:border-[#8B7355] transition-colors"
-                style={{ cursor: 'text' }}
+                style={{ cursor: "text" }}
               />
-              <button 
+              <button
                 className="px-8 py-3 border border-white/30 text-white hover:bg-white/10 hover:border-white/50 transition-all duration-500 font-['Cormorant_Garamond'] text-sm tracking-[0.2em] font-light"
-                style={{ cursor: 'pointer' }}
+                style={{ cursor: "pointer" }}
               >
                 SUBSCRIBE
               </button>

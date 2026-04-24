@@ -70,13 +70,9 @@ export default function Loader({ onComplete }) {
               }}
             >
               {fullText.split("").map((char, i) => {
-                const charProgress =
-                  (progress / 100) * fullText.length - i;
+                const charProgress = (progress / 100) * fullText.length - i;
 
-                const visible = Math.max(
-                  0,
-                  Math.min(1, charProgress)
-                );
+                const visible = Math.max(0, Math.min(1, charProgress));
 
                 return (
                   <motion.span
@@ -101,7 +97,6 @@ export default function Loader({ onComplete }) {
 
             {/* PROGRESS BAR */}
             <div className="flex flex-col items-center gap-3 sm:gap-4 w-full max-w-[300px]">
-              
               <div className="w-full h-[2px] bg-white/10 overflow-hidden">
                 <motion.div
                   style={{
@@ -121,9 +116,7 @@ export default function Loader({ onComplete }) {
                   letterSpacing: "0.35em",
                 }}
               >
-                {Math.floor(progress)
-                  .toString()
-                  .padStart(3, "0")} %
+                {Math.floor(progress).toString().padStart(3, "0")} %
               </span>
             </div>
           </motion.div>

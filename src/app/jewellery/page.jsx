@@ -1,4 +1,4 @@
-// app/jewelry/page.jsx
+// app/jewellery/page.jsx
 "use client";
 
 import React, { useRef, useState, useEffect } from "react";
@@ -6,8 +6,8 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import Link from "next/link";
 
-export default function JewelryCollection() {
-  // All jewelry collections - different types of jewelry
+export default function jewelleryCollection() {
+  // All jewellery collections - different types of jewellery
   // const sections = [
   //   {
   //     title: "Necklaces",
@@ -112,7 +112,7 @@ export default function JewelryCollection() {
   //   {
   //     title: "Accessories",
   //     description:
-  //       "Complete your look with our curated selection of jewelry accessories that add that extra sparkle.",
+  //       "Complete your look with our curated selection of jewellery accessories that add that extra sparkle.",
   //     category: "Accessories",
   //     items: [
   //       "https://i.pinimg.com/736x/5e/00/d6/5e00d6489fb27e55e5966c8b16e67e21.jpg",
@@ -123,7 +123,7 @@ export default function JewelryCollection() {
   //     ],
   //     names: [
   //       "Brooch Pin",
-  //       "Hair Jewelry",
+  //       "Hair jewellery",
   //       "Anklet Set",
   //       "Cufflinks",
   //       "Tie Pin",
@@ -138,15 +138,13 @@ export default function JewelryCollection() {
         "Elegant antique necklace designs inspired by timeless craftsmanship.",
       category: "Necklaces",
       items: [
-        "/jwellery/antique/img1.jpeg",
-        "/jwellery/antique/img3.jpeg",
-        "/jwellery/antique/img6.jpeg",
-        "/jwellery/antique/img5.jpeg",
-        "/jwellery/antique/img2.jpeg",
-        "/jwellery/antique/img4.jpeg",
+        "/jewellery/antique/img1.jpeg",
+        "/jewellery/antique/img3.jpeg",
+        "/jewellery/antique/img6.jpeg",
+        "/jewellery/antique/img5.jpeg",
+        "/jewellery/antique/img4.jpeg",
       ],
       names: [
-        "Antique Necklace",
         "Antique Necklace",
         "Antique Necklace",
         "Antique Necklace",
@@ -161,26 +159,25 @@ export default function JewelryCollection() {
         "Beautiful casting fancy malai & chains designs crafted with precision and style.",
       category: "Necklaces",
       items: [
-        "/jwellery/cfmalai/img1.jpeg",
-        "/jwellery/Nagas malai/img1.jpeg",
-
-        "/jwellery/cfchain/img2.jpeg",
-        "/jwellery/cfchain/img3.jpeg",
-        "/jwellery/Nagas malai/img2.jpeg",
-        "/jwellery/Nagas malai/img3.jpeg",
-        "/jwellery/cfchain/img1.jpeg",
-        "/jwellery/cfchain/img4.jpeg",
-        "/jwellery/cfmalai/img2.jpeg",
+        "/jewellery/cfmalai/img1.jpeg",
+        "/jewellery/Nagas malai/img1.jpeg",
+        "/jewellery/cfchain/img11.png",
+        "/jewellery/cfchain/img44.png",
+        "/jewellery/cfchain/img2.jpeg",
+        "/jewellery/cfchain/img3.jpeg",
+        "/jewellery/Nagas malai/img2.jpeg",
+        "/jewellery/Nagas malai/img3.jpeg",
+        "/jewellery/cfmalai/img2.jpeg",
       ],
       names: [
         "Casting Fancy Malai",
         "Nagas Malai",
         "Casting fancy Chain",
         "Casting fancy Chain",
-        "Nagas Malai",
-        "Nagas Malai",
         "Casting fancy Chain",
         "Casting fancy Chain",
+        "Nagas Malai",
+        "Nagas Malai",
         "Casting Fancy Malai",
       ],
     },
@@ -191,18 +188,19 @@ export default function JewelryCollection() {
         "Elegant rings crafted to make every moment special and memorable.",
       category: "Rings",
       items: [
-        "/jwellery/cfring/img1.jpeg",
-        "/jwellery/cfring/img2.jpeg",
-        "/jwellery/Maharaja Ring/img1.jpeg",
-        "/jwellery/Maharaja Ring/img2.jpeg",
-        "/jwellery/cfring/img4.jpeg",
+        "/jewellery/cfring/img11.png",
+        "/jewellery/cfring/img5.png",
+        "/jewellery/Maharaja Ring/img11.png",
+        "/jewellery/cfring/img44.png",
+        "/jewellery/Maharaja Ring/img2.jpeg",
       ],
       names: [
         "Casting Fancy Ring",
         "Casting Fancy Ring",
         "Maharaja Ring",
-        "Maharaja Ring",
         "Casting Fancy Ring",
+        "Maharaja Ring",
+        ,
       ],
     },
     {
@@ -211,11 +209,11 @@ export default function JewelryCollection() {
         "Stylish earrings that enhance your beauty with traditional and modern appeal.",
       category: "Earrings",
       items: [
-        "/jwellery/Fancy earring/img1.jpeg",
-        "/jwellery/Fancy earring/img2.jpeg",
-        "/jwellery/Fancy earring/img3.jpeg",
-        "/jwellery/Fancy earring/img4.jpeg",
-        "/jwellery/Fancy earring/img5.jpeg",
+        "/jewellery/Fancy earring/img1.jpeg",
+        "/jewellery/Fancy earring/img2.jpeg",
+        "/jewellery/Fancy earring/img3.jpeg",
+        "/jewellery/Fancy earring/img4.jpeg",
+        "/jewellery/Fancy earring/img5.jpeg",
       ],
       names: [
         "Fancy Earring",
@@ -232,11 +230,11 @@ export default function JewelryCollection() {
         "Stylish earrings that enhance your beauty with traditional and modern appeal.",
       category: "Earrings",
       items: [
-        "/jwellery/Jimki earring/img1.jpeg",
-        "/jwellery/Jimki earring/img2.jpeg",
-        "/jwellery/Jimki earring/img3.jpeg",
-        "/jwellery/Jimki earring/img4.jpeg",
-        "/jwellery/Jimki earring/img5.jpeg",
+        "/jewellery/Jimki earring/img1.jpeg",
+        "/jewellery/Jimki earring/img2.jpeg",
+        "/jewellery/Jimki earring/img3.jpeg",
+        "/jewellery/Jimki earring/img4.jpeg",
+        "/jewellery/Jimki earring/img5.jpeg",
       ],
       names: [
         "Jimki Earring",
@@ -597,19 +595,19 @@ export default function JewelryCollection() {
         </div>
       )}
 
-      {/* Hero Section - Multiple Jewelry Pieces */}
+      {/* Hero Section - Multiple jewellery Pieces */}
       <div className="relative h-[85vh] md:h-screen flex items-center justify-center overflow-hidden bg-black">
         {/* Cinematic Overlay */}
         <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/20 to-black/80 z-10" />
 
         {/* 🔥 RESPONSIVE IMAGE GRID */}
         <div className="absolute inset-0 z-0 grid grid-cols-1 md:grid-cols-3">
-          {/* Jewelry 1 - (VISIBLE ON MOBILE) */}
+          {/* jewellery 1 - (VISIBLE ON MOBILE) */}
 
-          {/* Jewelry 2 (HIDDEN ON MOBILE) */}
+          {/* jewellery 2 (HIDDEN ON MOBILE) */}
           <div className="relative overflow-hidden hidden md:block">
             <Image
-              src="/jwellery/img2.png"
+              src="/jewellery/img2.png"
               alt="Gold Earrings"
               fill
               className="object-contain object-center scale-80 animate-zoomSlow2"
@@ -619,7 +617,7 @@ export default function JewelryCollection() {
           </div>
           <div className="relative overflow-hidden">
             <Image
-              src="/jwellery/img3.png"
+              src="/jewellery/img3.png"
               alt="Diamond Necklace"
               fill
               className="object-cover object-center scale-110 md:scale-110 animate-zoomSlow"
@@ -627,10 +625,10 @@ export default function JewelryCollection() {
             />
             <div className="absolute inset-0 bg-black/50 md:bg-gradient-to-r md:from-black/50 md:via-black/20 md:to-transparent" />
           </div>
-          {/* Jewelry 3 (HIDDEN ON MOBILE) */}
+          {/* jewellery 3 (HIDDEN ON MOBILE) */}
           <div className="relative overflow-hidden hidden md:block">
             <Image
-              src="/jwellery/img1.png"
+              src="/jewellery/img5.png"
               alt="Maharaja Ring"
               fill
               className="object-contain object-center scale-80 animate-zoomSlow3"
@@ -653,11 +651,11 @@ export default function JewelryCollection() {
 
             <h1 className="font-['Playfair_Display'] text-white tracking-tight leading-[0.95] text-[34px] sm:text-[50px] md:text-[90px] lg:text-[120px]">
               {/* MOBILE → SINGLE LINE */}
-              <span className="block md:hidden">Fine Jewelry</span>
+              <span className="block md:hidden">Fine jewellery</span>
 
               {/* DESKTOP → SPLIT */}
               <span className="hidden md:block">
-                Fine <br /> Jewelry
+                Fine <br /> jewellery
               </span>
             </h1>
           </motion.div>
@@ -827,7 +825,7 @@ export default function JewelryCollection() {
       <div className="relative py-24 md:py-28 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/jwellery/img4.png"
+            src="/jewellery/img4.png"
             alt="Featured Collection"
             fill
             className="object-cover"

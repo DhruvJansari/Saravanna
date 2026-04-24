@@ -19,7 +19,7 @@ const Footer = () => {
             <div className="flex items-center justify-center md:justify-start gap-3 mb-4">
               <img
                 src="/logo1.png" // change to your logo path
-                alt="Saravanaa Logo"
+                alt="SARAVANAA Logo"
                 className="h-14 w-14 object-contain"
               />
 
