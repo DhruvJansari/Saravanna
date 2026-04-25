@@ -18,7 +18,7 @@ const Footer = () => {
             {/* Logo + Company Name */}
             <div className="flex items-center justify-center md:justify-start gap-3 mb-4">
               <img
-                src="/logo1.png" // change to your logo path
+                src="/logo2.png" // change to your logo path
                 alt="SARAVANAA Logo"
                 className="h-14 w-14 object-contain"
               />
@@ -44,7 +44,7 @@ const Footer = () => {
             {/* QUICK LINKS + CATEGORIES */}
             <div className="col-span-1 md:col-span-2">
               {/* ✅ Mobile → 2 columns | Desktop → normal */}
-              <div className="grid grid-cols-2 gap-6 md:grid-cols-2">
+              <div className="felx flex-col space-y-4 gap-6 md:grid md:grid-cols-2">
                 {/* QUICK LINKS */}
                 <div className="text-center md:text-left">
                   <h3 className="text-sm uppercase tracking-wider text-gray-500 mb-4">
@@ -54,7 +54,7 @@ const Footer = () => {
                   <ul className="space-y-2 text-sm">
                     <li>
                       <Link
-                        href="/#about"
+                        href="/about"
                         className="text-gray-700 hover:text-black transition"
                       >
                         About
@@ -74,7 +74,7 @@ const Footer = () => {
 
                 {/* CATEGORIES */}
                 <div className="text-center md:text-left">
-                  <h3 className="text-sm uppercase tracking-wider text-gray-500 mb-4">
+                  <h3 className="text-sm uppercase tracking-wider text-gray-500 mb-2">
                     Categories
                   </h3>
 

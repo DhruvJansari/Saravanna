@@ -230,16 +230,16 @@ const Navbar = () => {
               {/* Logo Image */}
               <div className="relative w-[110px] md:w-[180px] h-[50px]">
                 <Image
-                  src="/logo1.png"
+                  src="/logo3.png"
                   alt="Logo"
                   fill
-                  className="object-contain transition-transform duration-300 hover:scale-105"
+                  className="object-contain mix-blend-multiply"
                   priority
                 />
               </div>
 
               {/* Mobile Text Only */}
-              <span className="block font-['Playfair_Display'] text-lg text-black font-semibold tracking-wide md:-translate-x-10 lg:-translate-x-12">
+              <span className="block  font-['Playfair_Display'] text-lg text-black font-semibold tracking-wide translate-x-10 md:-translate-x-10 lg:-translate-x-12">
                 SARAVANAA
               </span>
             </Link>
