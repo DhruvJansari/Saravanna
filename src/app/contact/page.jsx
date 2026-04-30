@@ -5,6 +5,12 @@ import React, { useState } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaPinterestP,
+  FaYoutube,
+} from "react-icons/fa";
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
@@ -67,9 +73,9 @@ export default function ContactPage() {
       ),
       title: "Visit Us",
       details: [
-        "123 Luxury Avenue",
-        "Beverly Hills, CA 90210",
-        "United States",
+        "94/95 main bajar",
+        "Theni road usilampatti",
+        "Pin code. 625532",
       ],
     },
     {
@@ -89,7 +95,7 @@ export default function ContactPage() {
         </svg>
       ),
       title: "Call Us",
-      details: ["+1 (888) 123-4567", "+1 (888) 765-4321"],
+      details: ["+91 9090202037", "+91 9443052199"],
     },
     {
       icon: (
@@ -108,31 +114,34 @@ export default function ContactPage() {
         </svg>
       ),
       title: "Email Us",
-      details: ["hello@luxurybrand.com", "support@luxurybrand.com"],
-    },
-    {
-      icon: (
-        <svg
-          className="w-6 h-6"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={1.5}
-            d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
-          />
-        </svg>
-      ),
-      title: "Business Hours",
       details: [
-        "Monday - Friday: 10AM - 7PM",
-        "Saturday: 11AM - 6PM",
-        "Sunday: By Appointment",
+        "kandhasamy2037@gmail.com",
+        "Srisaravanagarmentsandjwelles@gmail.com",
       ],
     },
+    // {
+    //   icon: (
+    //     <svg
+    //       className="w-6 h-6"
+    //       fill="none"
+    //       stroke="currentColor"
+    //       viewBox="0 0 24 24"
+    //     >
+    //       <path
+    //         strokeLinecap="round"
+    //         strokeLinejoin="round"
+    //         strokeWidth={1.5}
+    //         d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+    //       />
+    //     </svg>
+    //   ),
+    //   title: "Business Hours",
+    //   details: [
+    //     "Monday - Friday: 10AM - 7PM",
+    //     "Saturday: 11AM - 6PM",
+    //     "Sunday: By Appointment",
+    //   ],
+    // },
   ];
 
   return (
@@ -218,9 +227,8 @@ export default function ContactPage() {
           }
         }
       `}</style>
-
       {/* Hero Section */}
-      <div className="relative h-[50vh] flex items-center justify-center overflow-hidden bg-black">
+      <div className="relative lg:h-[92vh] md:h-[92vh] h-[80vh] flex items-center justify-center overflow-hidden bg-black">
         <div className="absolute inset-0 z-0">
           <Image
             src="https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?w=1600&q=90"
@@ -418,22 +426,42 @@ export default function ContactPage() {
             </div>
 
             {/* Social Links */}
+
             <div className="mt-12 pt-8 border-t border-[#1a1a2e]/10">
               <h3 className="font-['Playfair_Display'] text-lg text-[#1a1a2e] mb-5">
                 Follow Us
               </h3>
+
               <div className="flex gap-6">
-                {["Instagram", "Facebook", "Pinterest", "YouTube"].map(
-                  (social, i) => (
-                    <button
-                      key={i}
-                      className="text-[#666] hover:text-[#8B7355] transition-colors duration-300 font-['Cormorant_Garamond'] text-sm tracking-wide"
-                      style={{ cursor: "pointer" }}
-                    >
-                      {social}
-                    </button>
-                  ),
-                )}
+                <a
+                  href="/abc"
+                  className="text-[#666] hover:text-[#8B7355] transition-all duration-300 text-lg"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaInstagram />
+                </a>
+
+                <a
+                  href="/def"
+                  className="text-[#666] hover:text-[#8B7355] transition-all duration-300 text-lg"
+                >
+                  <FaFacebookF />
+                </a>
+
+                <a
+                  href="ghi"
+                  className="text-[#666] hover:text-[#8B7355] transition-all duration-300 text-lg"
+                >
+                  <FaPinterestP />
+                </a>
+
+                <a
+                  href="klmnopqrstuvwxyz"
+                  className="text-[#666] hover:text-[#8B7355] transition-all duration-300 text-lg"
+                >
+                  <FaYoutube />
+                </a>
               </div>
             </div>
           </motion.div>
@@ -441,36 +469,16 @@ export default function ContactPage() {
       </div>
 
       {/* Map Section */}
-      <div className="relative h-[400px] w-full mt-12 overflow-hidden">
-        <div className="absolute inset-0 bg-[#1a1a2e] flex items-center justify-center">
-          <div className="text-center">
-            <svg
-              className="w-16 h-16 text-white/20 mx-auto mb-4"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={1}
-                d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
-              />
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={1}
-                d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
-              />
-            </svg>
-            <p className="text-white/40 font-['Cormorant_Garamond'] text-lg tracking-wide">
-              123 Luxury Avenue, Beverly Hills, CA 90210
-            </p>
-            <p className="text-white/30 text-sm mt-2 font-['Cormorant_Garamond']">
-              Interactive Map Loading...
-            </p>
-          </div>
-        </div>
+      <div className="relative h-[500px] w-full mt-8 overflow-hidden">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d306.6822963912426!2d77.78782727478148!3d9.964979200000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b07378c7276f38f%3A0xcd84180d7a23857!2sSri%20Saravana%20jewellers%20and%20Garments!5e1!3m2!1sen!2sin!4v1777540009124!5m2!1sen!2sin"
+          className="w-full h-full border-0"
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+        ></iframe>
+
+        {/* Overlay for luxury feel */}
+        <div className="absolute inset-0 pointer-events-none"></div>
       </div>
 
       {/* FAQ Section */}
@@ -526,41 +534,6 @@ export default function ContactPage() {
               </p>
             </motion.div>
           ))}
-        </div>
-      </div>
-
-      {/* Newsletter Banner */}
-      <div className="bg-[#1a1a2e] py-20">
-        <div className="max-w-[1400px] mx-auto px-6 text-center">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7 }}
-            viewport={{ once: true }}
-          >
-            <h3 className="font-['Playfair_Display'] text-3xl md:text-4xl text-white font-normal tracking-wide mb-4">
-              Join Our Inner Circle
-            </h3>
-            <div className="w-12 h-px bg-[#8B7355] mx-auto mb-6" />
-            <p className="text-white/50 font-['Cormorant_Garamond'] text-base tracking-wide max-w-2xl mx-auto font-light mb-8">
-              Subscribe to receive exclusive updates, early access to
-              collections, and special invitations.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 max-w-lg mx-auto">
-              <input
-                type="email"
-                placeholder="Your email address"
-                className="flex-1 px-6 py-3 bg-white/5 border border-white/20 text-white placeholder:text-white/30 font-['Cormorant_Garamond'] text-base outline-none focus:border-[#8B7355] transition-colors"
-                style={{ cursor: "text" }}
-              />
-              <button
-                className="px-8 py-3 border border-white/30 text-white hover:bg-white/10 hover:border-white/50 transition-all duration-500 font-['Cormorant_Garamond'] text-sm tracking-[0.2em] font-light"
-                style={{ cursor: "pointer" }}
-              >
-                SUBSCRIBE
-              </button>
-            </div>
-          </motion.div>
         </div>
       </div>
     </div>

@@ -40,111 +40,70 @@ export default function MensCollection() {
         "https://i.pinimg.com/1200x/f9/51/8d/f9518da191c649a6b6ede60ac03e1e12.jpg",
         "https://i.pinimg.com/1200x/2b/02/60/2b0260ac59060d9246e62e01143171a6.jpg",
         "https://i.pinimg.com/1200x/65/7c/3c/657c3c7944c0c0ff3844b44b97b886a6.jpg",
+        "/Men/Half-sleev.jpg",
       ],
       names: [
         "Luxury Flannel",
         "Silk Casual",
         "Cotton Poplin",
         "Denim Button Down",
-        "Linen Oxford",
+        "Linen Oxford Plain Shirt",
+        "Half Sleeve Shirt",
       ],
     },
     {
-      title: "Formal Trousers",
+      title: "Pants",
       description:
-        "Impeccably tailored trousers that define sophistication and comfort.",
+        "Impeccably tailored pantsthat define sophistication and comfort.",
       category: "Clothing",
       items: [
-        "https://i.pinimg.com/736x/04/33/35/04333525131a348651744cced658314e.jpg",
-        "http://i.pinimg.com/1200x/59/6a/2e/596a2ebecf4ad2e856bfffdcd6b1e757.jpg",
-        "https://i.pinimg.com/1200x/76/b7/88/76b788dace619e832637746b3159ca7a.jpg",
-        "https://i.pinimg.com/1200x/3b/bf/c8/3bbfc894a7cb87e87c043a859efcce99.jpg",
-        "https://i.pinimg.com/736x/65/a3/bf/65a3bff947cc51fcc2a7aa5656d4485c.jpg",
-      ],
-      names: [
-        "Wool Dress Pants",
-        "Slim Fit Chinos",
-        "Formal Straight Fit",
-        "Linen Blend",
-        "Pleated Trousers",
-      ],
-    },
-    {
-      title: "Casual Bottomwear",
-      description:
-        "Everyday comfort with versatile and stylish casual pants for modern wear.",
-      category: "Clothing",
-      items: [
-        "https://i.pinimg.com/1200x/e6/1b/31/e61b31478c28b1c71a9a0496b0ca38e9.jpg",
-        "https://i.pinimg.com/736x/70/86/79/708679a0c8bfba33e6a838ab94d8edf4.jpg",
-        "https://i.pinimg.com/1200x/9f/b9/9d/9fb99d01c03a77feba1b4588878a02ed.jpg",
-        "https://i.pinimg.com/736x/c2/24/2a/c2242a98d8b46cda0c65147031cca87b.jpg",
+        "/Men/jeans.jpg",
+        "/Men/formal.jpg",
+        "/Men/Cotton.jpg",
+        "/Men/Six-pocket.jpg",
+        "/Men/Baggie.jpg",
+        "/Men/tone.jpg",
       ],
       names: [
         "Jeans Pant",
+        "Formal Pant",
         "Cotton Pant",
-        "Six-Pocket Pant",
-        "Casual Fit Trousers",
+        "Six Pocket Pant",
+        "Baggie Pant",
+        "Tone Pant",
       ],
     },
+    // {
+    //   title: "Casual Bottomwear",
+    //   description:
+    //     "Everyday comfort with versatile and stylish casual pants for modern wear.",
+    //   category: "Clothing",
+    //   items: [
+    //     "https://i.pinimg.com/1200x/e6/1b/31/e61b31478c28b1c71a9a0496b0ca38e9.jpg",
+    //     "https://i.pinimg.com/736x/70/86/79/708679a0c8bfba33e6a838ab94d8edf4.jpg",
+    //     "https://i.pinimg.com/1200x/9f/b9/9d/9fb99d01c03a77feba1b4588878a02ed.jpg",
+    //     "https://i.pinimg.com/736x/c2/24/2a/c2242a98d8b46cda0c65147031cca87b.jpg",
+    //   ],
+    //   names: [
+    //     "Jeans Pant",
+    //     "Cotton Pant",
+    //     "Six-Pocket Pant",
+    //     "Casual Fit Trousers",
+    //   ],
+    // },
     {
-      title: "Adidas T-Shirts & Tracks",
+      title: "T-shirt, Track & Shorts",
       description:
         "Premium Adidas activewear designed for comfort, performance, and everyday style.",
       category: "Sportswear",
       items: [
-        "https://i.pinimg.com/736x/1e/0c/4e/1e0c4edeab2d050acd2129cd5b3b213f.jpg",
-        "https://i.pinimg.com/1200x/be/87/f5/be87f54b248db36d9c965950f22b6281.jpg",
-        "https://i.pinimg.com/736x/7e/29/f9/7e29f94fa4a4af2f9956c286e2b53845.jpg",
-        "https://i.pinimg.com/736x/59/e9/15/59e9152de69abfe47c62559eb72b3df6.jpg",
+        "/Men/tishirt.jpg",
+        "/Men/Track.jpg",
+        "/Men/Shorts.jpg",
+        "/Men/Full-Track-Suit.jpg",
       ],
-      names: [
-        "Adidas T-Shirt",
-        "Adidas Performance Tee",
-        "Adidas Track Pant",
-        "Adidas Full Track Suit",
-      ],
+      names: ["T-Shirt", "Track Pant", "Shorts", "Full Track Suit"],
     },
-    // {
-    //   title: "Luxury Footwear",
-    //   description:
-    //     "Step into perfection with our handcrafted leather shoes and boots.",
-    //   category: "Footwear",
-    //   items: [
-    //     "https://i.pinimg.com/1200x/e2/8e/57/e28e570e5b39619fd5148a077d05869b.jpg",
-    //     "https://images.unsplash.com/photo-1651626203070-ec71eee7870e?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    //     "https://i.pinimg.com/1200x/23/9e/47/239e478b8f7f4faa049ff5562ded21e4.jpg",
-    //     "https://images.unsplash.com/photo-1662541089338-c7d53b88be70?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    //     "https://i.pinimg.com/1200x/ab/ea/31/abea31b8c4e5fa0e4c197beca3f01c78.jpg",
-    //   ],
-    //   names: [
-    //     "Oxford Brogues",
-    //     "Chelsea Boots",
-    //     "Monk Strap",
-    //     "Driving Loafers",
-    //     "Italian Leather Sneakers",
-    //   ],
-    // },
-    // {
-    //   title: "Accessories",
-    //   description:
-    //     "The perfect finishing touch - curated accessories that speak of understated luxury.",
-    //   category: "Accessories",
-    //   items: [
-    //     "https://plus.unsplash.com/premium_photo-1726769202190-ad2a3f2f360b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    //     "https://images.unsplash.com/photo-1628019049646-552bb07df11e?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    //     "https://images.unsplash.com/photo-1748840176432-4b2474189d52?q=80&w=1078&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    //     "https://images.unsplash.com/photo-1609803384069-19f3e5a70e75?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    //     "https://images.unsplash.com/photo-1519766400364-8824dc3c4e26?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    //   ],
-    //   names: [
-    //     "Italian Leather Belt",
-    //     "Silk Tie Set",
-    //     "Cufflink Collection",
-    //     "Cashmere Scarf",
-    //     "Leather Gloves",
-    //   ],
-    // },
   ];
 
   const scrollRefs = useRef([]);
@@ -683,7 +642,7 @@ export default function MensCollection() {
                           <span className="product-name">
                             {section.names[i]}
                           </span>
-                          import Link from "next/link";
+
                           <Link
                             href="/contact"
                             className="view-btn"

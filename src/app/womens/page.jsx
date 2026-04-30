@@ -34,12 +34,11 @@ export default function WomensCollection() {
         "Explore a wide range of stylish and traditional outfits including tops, frocks, chudi sets, and lehengas designed for every occasion.",
       category: "Clothing",
       items: [
-        "https://i.pinimg.com/736x/58/9a/37/589a37c75ad1aca1a6eb6da267ea3268.jpg",
-        "https://i.pinimg.com/736x/b1/9a/7f/b19a7fb2a96bd69ff62c29ed0966a76d.jpg",
-        "https://i.pinimg.com/1200x/5e/1c/e6/5e1ce694c3490d8ea1811c2926d4a16d.jpg",
-        "https://i.pinimg.com/1200x/f4/4c/52/f44c5249bb20d0008d3f2bc9600794d0.jpg",
-        "https://i.pinimg.com/736x/02/80/32/028032ac7a7eb8d037292f32d7c29dc7.jpg",
-        "https://i.pinimg.com/736x/87/93/d1/8793d158bbb579d64c378ad971aacfec.jpg",
+        "/jewellery/Tops.jpg",
+        "/jewellery/Frowg.jpg",
+        "/jewellery/Open-top.png",
+        "/jewellery/short-top.png",
+        "/jewellery/Lehengas.jpg",
       ],
       names: [
         "Tops",
@@ -624,7 +623,6 @@ export default function WomensCollection() {
                           <span className="product-name">
                             {section.names[i]}
                           </span>
-                          import Link from "next/link";
                           <Link
                             href="/contact"
                             className="view-btn"

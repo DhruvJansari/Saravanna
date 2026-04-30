@@ -7,7 +7,6 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 
 export default function KidsCollection() {
-  // All kids' wear collections - different types of clothing and accessories
   const sections = [
     {
       title: "Little Royals",
@@ -17,14 +16,12 @@ export default function KidsCollection() {
       items: [
         "https://i.pinimg.com/1200x/97/1c/b5/971cb57b06a3d45a1ccfe4d4afda876a.jpg",
         "https://i.pinimg.com/1200x/07/65/1c/07651cfed20e86a1e1941e655b9b0242.jpg",
-        "https://i.pinimg.com/1200x/6a/c3/dd/6ac3dda76f47f801e3b06df82589facb.jpg",
         "https://i.pinimg.com/1200x/bc/b3/93/bcb3930ae142a88efe6affdfcad72d4e.jpg",
         "https://i.pinimg.com/1200x/dd/c3/35/ddc335afabd1b60c8794e0fa0e791341.jpg",
       ],
       names: [
         "Mini Tuxedo Set",
         "Velvet Blazer",
-        "Princess Gown",
         "Silk Bow Dress",
         "Formal Suit Set",
       ],
@@ -36,38 +33,11 @@ export default function KidsCollection() {
       category: "Casual Wear",
       items: [
         "https://i.pinimg.com/736x/ab/eb/d6/abebd66d7a7984919e55824f9cbe8efe.jpg",
-        "https://i.pinimg.com/736x/a8/92/26/a89226318f967dcbd0cc62a2bc55620e.jpg",
         "https://i.pinimg.com/1200x/72/5f/f8/725ff82937d4205688617e10293aa7c4.jpg",
-        "https://i.pinimg.com/1200x/62/3b/9d/623b9dcafdb00022d5a684b96234075b.jpg",
-        "https://i.pinimg.com/1200x/af/f0/7a/aff07a2e0d1095d72dfa316de9c29849.jpg",
+        "https://i.pinimg.com/736x/85/cc/a9/85cca9053147a32df732193b7007ab75.jpg",
+        "https://i.pinimg.com/736x/4a/35/da/4a35da8a16dacfbcc828e4037a428e36.jpg",
       ],
-      names: [
-        "Cotton Romper",
-        "Denim Overalls",
-        "Striped Tee Set",
-        "Printed Leggings",
-        "Hoodie Jumpsuit",
-      ],
-    },
-    {
-      title: "Outerwear",
-      description:
-        "Cozy and stylish jackets and coats to keep your little ones warm during colder months.",
-      category: "Outerwear",
-      items: [
-        "https://i.pinimg.com/1200x/6e/6d/6c/6e6d6c0e4d2129d6e0d4b3d509e9c15c.jpg",
-        "https://i.pinimg.com/1200x/37/17/cc/3717cca156e0268633263e1f514efe05.jpg",
-        "https://i.pinimg.com/1200x/ef/42/b7/ef42b714aab6a12a9727415876b267c5.jpg",
-        "https://i.pinimg.com/1200x/e3/85/fd/e385fd890f709a8dead992763ef78c79.jpg",
-        "https://i.pinimg.com/1200x/cc/13/d7/cc13d7d79fc5e659817e11625c208019.jpg",
-      ],
-      names: [
-        "Quilted Puffer Jacket",
-        "Wool Peacoat",
-        "Raincoat Set",
-        "Fleece Zip-Up",
-        "Denim Jacket",
-      ],
+      names: ["Cotton Romper", "Striped Tee Set", "Night wear", "Summer Wear"],
     },
     {
       title: "Party Dresses",
@@ -75,6 +45,7 @@ export default function KidsCollection() {
         "Beautiful dresses for birthday parties, family gatherings, and festive celebrations.",
       category: "Party Wear",
       items: [
+        "/Child/Princess-gown.png",
         "https://i.pinimg.com/1200x/0d/38/88/0d3888d2fb0b1627bc3ec5813485a983.jpg",
         "https://i.pinimg.com/1200x/5f/11/9e/5f119e6ea1c404b8a56baa9b0ad6f75f.jpg",
         "https://i.pinimg.com/736x/3d/1d/66/3d1d66de1ab12a72c4f98fcb4a872e28.jpg",
@@ -82,6 +53,7 @@ export default function KidsCollection() {
         "https://i.pinimg.com/1200x/54/4f/a5/544fa5ec2349c33328ea44256cc6a71c.jpg",
       ],
       names: [
+        "Princess Gown",
         "Tulle Tutu Dress",
         "Floral Print Dress",
         "Sparkle Sequin Gown",
@@ -97,10 +69,10 @@ export default function KidsCollection() {
       items: [
         "https://i.pinimg.com/1200x/1d/26/42/1d26429a124fe9c1c935a0f080a172a9.jpg",
         "https://i.pinimg.com/1200x/33/95/c3/3395c32d9a8cfb30fc33ad2b3c0b75d5.jpg",
-        "https://i.pinimg.com/736x/26/31/1f/26311f7f7242eaad1d8d5220eaf4e374.jpg",
+        "/Child/Western.png",
         "https://i.pinimg.com/736x/25/ea/36/25ea36aedc60ba4ee669cfde3307e08f.jpg",
       ],
-      names: ["Coat Set", "Pant Shirt Set", "Three-Fourth Set", "Kurta Set"],
+      names: ["Coat Set", "Pant Shirt Set", "Western", "Kurta Set"],
     },
     {
       title: "New Born & Baby Essentials",
@@ -110,29 +82,34 @@ export default function KidsCollection() {
       items: [
         "https://i.pinimg.com/1200x/8a/97/9b/8a979be348749c680f5b10b261b7ade4.jpg",
         "https://i.pinimg.com/736x/84/b9/78/84b97899ac4293b898ac44ecbcbf9645.jpg",
+        "https://i.pinimg.com/1200x/c3/5d/6e/c35d6e424542a078b907864c254e6536.jpg",
+        "https://i.pinimg.com/1200x/81/8d/bd/818dbdd42576f55d12fc1c898347d1cc.jpg",
       ],
-      names: ["New Born Baby Items", "Baby Carrying Bag"],
+      names: [
+        "New Born Baby Items",
+        "Baby Carrying Bag",
+        "New Born Baby clothing",
+        "New Born Baby Stylish",
+      ],
     },
-    // {
-    //   title: "Footwear",
-    //   description:
-    //     "Comfortable and durable shoes that support growing feet while keeping style in mind.",
-    //   category: "Footwear",
-    //   items: [
-    //     "https://i.pinimg.com/1200x/ec/ba/21/ecba2174a7b213f462bad9c7b84bc5f3.jpg",
-    //     "https://i.pinimg.com/1200x/7a/12/06/7a1206eea2fec0d2f9c85b2944c7ed45.jpg",
-    //     "https://i.pinimg.com/736x/bc/67/f1/bc67f17bfb8e5dd178207d9209640d61.jpg",
-    //     "https://i.pinimg.com/1200x/9f/a7/89/9fa789b1a04783830bb3dd024f361fab.jpg",
-    //     "https://i.pinimg.com/736x/30/21/44/3021443bf3af62181b69f7660a7947d3.jpg",
-    //   ],
-    //   names: [
-    //     "Leather Sneakers",
-    //     "Patent Leather Shoes",
-    //     "Velcro Sandals",
-    //     "Ankle Boots",
-    //     "Ballet Flats",
-    //   ],
-    // },
+    {
+      title: "Cozy Baby Beds",
+      description:
+        "Comfortable and safe baby beds, travel cots, and sleeping essentials designed for peaceful naps at home or on the go.",
+      category: "Baby Bedding",
+      items: [
+        "/child/Portable-travel-bed.jpg",
+        "https://i.pinimg.com/1200x/d9/0c/e3/d90ce30c664adba6a1d52fd9de08c953.jpg",
+        "https://i.pinimg.com/736x/69/32/f0/6932f0a79cba6295a56be1ece6d16815.jpg",
+        "https://i.pinimg.com/736x/b8/2a/e6/b82ae67c04a66cbaf25a33a3f857728a.jpg",
+      ],
+      names: [
+        "Portable Baby Travel Bed",
+        "Foldable Baby Crib",
+        "Soft Baby Nest Bed",
+        "Luxury Baby Cot Set",
+      ],
+    },
   ];
 
   const scrollRefs = useRef([]);
@@ -676,7 +653,6 @@ export default function KidsCollection() {
                           <span className="product-name">
                             {section.names[i]}
                           </span>
-                          import Link from "next/link";
                           <Link
                             href="/contact"
                             className="view-btn"

@@ -15,21 +15,21 @@ const NEW_ARRIVALS_CONFIG = {
   images: [
     {
       id: 1,
-      src: "https://i.pinimg.com/1200x/72/0f/2f/720f2f3b650aec63909eafb851d4fab8.jpg",
+      src: "/jewellery/top.jpg",
       alt: "Summer Collection",
       title: "Summer Collection",
       category: "Women's Wear",
     },
     {
       id: 2,
-      src: "/jewellery/img2.png",
+      src: "/jewellery/Malai-necklace.jpg",
       alt: "Gold Collection",
       title: "Gold Collection",
       category: "Jewellery",
     },
     {
       id: 3,
-      src: "https://i.pinimg.com/736x/15/94/9e/15949e0b952306d3b23dd563143c0a4c.jpg",
+      src: "/jewellery/festival-wear.jpg",
       alt: "Ethnic Collection",
       title: "Ethnic Collection",
       category: "Festival Wear",

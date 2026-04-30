@@ -10,8 +10,8 @@ const FONT_STYLE = {
 };
 
 const COUPLE_IMAGES = {
-  manImage: "/mensoutfit.png",
-  womanImage: "/womensoutfit2.png",
+  manImage: "/jewellery/dhoti.png",
+  womanImage: "/jewellery/sarees.png",
 };
 
 const FALLBACK_COUPLE = {

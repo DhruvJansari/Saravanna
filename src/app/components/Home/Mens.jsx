@@ -15,7 +15,7 @@ const MENS_WEAR_CONFIG = {
   images: [
     {
       id: 1,
-      src: "https://i.pinimg.com/736x/c6/1a/ad/c61aad7010147ce1b5520819f4385ddf.jpg",
+      src: "/jewellery/wedding-men.jpg",
       alt: "Designer Sherwani",
       title: "Classic Sherwani",
       category: "Wedding Wear",
@@ -24,7 +24,7 @@ const MENS_WEAR_CONFIG = {
     },
     {
       id: 2,
-      src: "https://i.pinimg.com/736x/0a/d4/ea/0ad4ea05c28a2c9074e43e88a2997475.jpg",
+      src: "/jewellery/dhoti3.jpg",
       alt: "Designer Kurta",
       title: "Embroidered Kurta",
       category: "Festival Wear",
@@ -33,7 +33,7 @@ const MENS_WEAR_CONFIG = {
     },
     {
       id: 3,
-      src: "https://i.pinimg.com/736x/72/60/63/72606337afa94d0939a483b4244157f3.jpg",
+      src: "/jewellery/premium-blazier.jpg",
       alt: "Designer Blazer",
       title: "Premium Blazer",
       category: "Formal Wear",

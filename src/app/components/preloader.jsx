@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 export default function Loader({ onComplete }) {
-  const fullText = "SARAVANAA";
+  const fullText = "SRI SARAVANA";
   const [progress, setProgress] = useState(0);
   const [exiting, setExiting] = useState(false);
 
@@ -71,8 +71,20 @@ export default function Loader({ onComplete }) {
             >
               {fullText.split("").map((char, i) => {
                 const charProgress = (progress / 100) * fullText.length - i;
-
                 const visible = Math.max(0, Math.min(1, charProgress));
+
+                // 👇 handle space
+                if (char === " ") {
+                  return (
+                    <span
+                      key={i}
+                      style={{
+                        display: "inline-block",
+                        width: "0.5em", // adjust spacing here
+                      }}
+                    />
+                  );
+                }
 
                 return (
                   <motion.span

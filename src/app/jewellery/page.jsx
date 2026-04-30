@@ -133,30 +133,31 @@ export default function jewelleryCollection() {
 
   const sections = [
     {
-      title: "Antique Necklace",
+      title: "Fancy malai & Fancy Necklace",
       description:
-        "Elegant antique necklace designs inspired by timeless craftsmanship.",
+        "Elegant Fancy malai & Fancy Necklace designs inspired by timeless craftsmanship.",
       category: "Necklaces",
       items: [
-        "/jewellery/antique/img1.jpeg",
         "/jewellery/antique/img3.jpeg",
         "/jewellery/antique/img6.jpeg",
-        "/jewellery/antique/img5.jpeg",
-        "/jewellery/antique/img4.jpeg",
+        "https://i.pinimg.com/1200x/89/9e/01/899e01109ec11c7f2582427d3e943c74.jpg",
+        "https://i.pinimg.com/736x/3c/a8/d1/3ca8d1562b1c7173b1075daaaf6614b7.jpg",
+        // "/jewellery/antique/img5.jpeg",
+        // "/jewellery/antique/img4.jpeg",
       ],
       names: [
-        "Antique Necklace",
-        "Antique Necklace",
-        "Antique Necklace",
+        "Fancy Malai",
+        "Turkey",
+        "Lakshmi Kasu Maalai",
         "Antique Necklace",
         "Antique Necklace",
       ],
     },
 
     {
-      title: "Casting Fancy Malai, Nagas malai & Chains",
+      title: "Fancy chains",
       description:
-        "Beautiful casting fancy malai & chains designs crafted with precision and style.",
+        "Beautiful Fancy chains designs crafted with precision and style.",
       category: "Necklaces",
       items: [
         "/jewellery/cfmalai/img1.jpeg",
@@ -165,25 +166,19 @@ export default function jewelleryCollection() {
         "/jewellery/cfchain/img44.png",
         "/jewellery/cfchain/img2.jpeg",
         "/jewellery/cfchain/img3.jpeg",
-        "/jewellery/Nagas malai/img2.jpeg",
-        "/jewellery/Nagas malai/img3.jpeg",
-        "/jewellery/cfmalai/img2.jpeg",
       ],
       names: [
-        "Casting Fancy Malai",
         "Nagas Malai",
-        "Casting fancy Chain",
-        "Casting fancy Chain",
-        "Casting fancy Chain",
-        "Casting fancy Chain",
-        "Nagas Malai",
-        "Nagas Malai",
-        "Casting Fancy Malai",
+        "Temple Design Malai",
+        "Indho Itali",
+        "Cocktail Chain",
+        "Fancy Chain",
+        "Casting Cocktail Chain",
       ],
     },
 
     {
-      title: "Casting Fancy Rings & Maharaja Rings",
+      title: "Fancy Rings",
       description:
         "Elegant rings crafted to make every moment special and memorable.",
       category: "Rings",
@@ -192,19 +187,17 @@ export default function jewelleryCollection() {
         "/jewellery/cfring/img5.png",
         "/jewellery/Maharaja Ring/img11.png",
         "/jewellery/cfring/img44.png",
-        "/jewellery/Maharaja Ring/img2.jpeg",
       ],
       names: [
         "Casting Fancy Ring",
-        "Casting Fancy Ring",
+        "Gens Casting Ring",
         "Maharaja Ring",
-        "Casting Fancy Ring",
-        "Maharaja Ring",
+        "Ladies Casting Ring",
         ,
       ],
     },
     {
-      title: "Fancy Earring",
+      title: "Fancy Earrings",
       description:
         "Stylish earrings that enhance your beauty with traditional and modern appeal.",
       category: "Earrings",
@@ -217,7 +210,7 @@ export default function jewelleryCollection() {
       ],
       names: [
         "Fancy Earring",
-        "Fancy Earring",
+        "Casting Fancy Earring",
         "Fancy Earring",
         "Fancy Earring",
         "Fancy Earring",
@@ -225,23 +218,22 @@ export default function jewelleryCollection() {
     },
 
     {
-      title: "Jimki Earring",
+      title: "Jimki Earrings",
       description:
         "Stylish earrings that enhance your beauty with traditional and modern appeal.",
       category: "Earrings",
       items: [
         "/jewellery/Jimki earring/img1.jpeg",
-        "/jewellery/Jimki earring/img2.jpeg",
-        "/jewellery/Jimki earring/img3.jpeg",
+        // "/jewellery/Jimki earring/img3.jpeg",
         "/jewellery/Jimki earring/img4.jpeg",
         "/jewellery/Jimki earring/img5.jpeg",
+        "/jewellery/Jimki earring/img2.jpeg",
       ],
       names: [
         "Jimki Earring",
         "Jimki Earring",
         "Jimki Earring",
-        "Jimki Earring",
-        "Jimki Earring",
+        "Emposing earings",
       ],
     },
   ];
@@ -802,7 +794,7 @@ export default function jewelleryCollection() {
                           <span className="product-name">
                             {section.names[i]}
                           </span>
-                          import Link from "next/link";
+
                           <Link
                             href="/contact"
                             className="view-btn"
