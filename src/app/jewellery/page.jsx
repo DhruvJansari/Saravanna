@@ -802,14 +802,19 @@ export default function jewelleryCollection() {
                           <span className="product-name">
                             {section.names[i]}
                           </span>
-                          <button
+                          import Link from "next/link";
+                          <Link
+                            href="/contact"
                             className="view-btn"
-                            style={{ cursor: "pointer" }}
+                            style={{
+                              cursor: "pointer",
+                              display: "inline-block",
+                            }}
                             onMouseEnter={() => setIsHoveringImage(false)}
                             onMouseLeave={() => setIsHoveringImage(true)}
                           >
                             DISCOVER
-                          </button>
+                          </Link>
                         </div>
                       </div>
                     </div>
