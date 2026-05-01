@@ -45,7 +45,7 @@ export default function KidsCollection() {
         "Beautiful dresses for birthday parties, family gatherings, and festive celebrations.",
       category: "Party Wear",
       items: [
-        "/Child/Princess-gown.png",
+        "/child/Princess-gown.png",
         "https://i.pinimg.com/1200x/0d/38/88/0d3888d2fb0b1627bc3ec5813485a983.jpg",
         "https://i.pinimg.com/1200x/5f/11/9e/5f119e6ea1c404b8a56baa9b0ad6f75f.jpg",
         "https://i.pinimg.com/736x/3d/1d/66/3d1d66de1ab12a72c4f98fcb4a872e28.jpg",
@@ -69,7 +69,7 @@ export default function KidsCollection() {
       items: [
         "https://i.pinimg.com/1200x/1d/26/42/1d26429a124fe9c1c935a0f080a172a9.jpg",
         "https://i.pinimg.com/1200x/33/95/c3/3395c32d9a8cfb30fc33ad2b3c0b75d5.jpg",
-        "/Child/Western.png",
+        "/child/Western.png",
         "https://i.pinimg.com/736x/25/ea/36/25ea36aedc60ba4ee669cfde3307e08f.jpg",
       ],
       names: ["Coat Set", "Pant Shirt Set", "Western", "Kurta Set"],

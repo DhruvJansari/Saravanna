@@ -8,8 +8,7 @@ const nextConfig = {
       "i.pinimg.com",
     ],
   },
-  allowedDevOrigins: ["192.168.2.41"],
-  /* config options here */
+
   reactCompiler: true,
 };
 

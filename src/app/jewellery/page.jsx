@@ -138,6 +138,8 @@ export default function jewelleryCollection() {
         "Elegant Fancy malai & Fancy Necklace designs inspired by timeless craftsmanship.",
       category: "Necklaces",
       items: [
+        "/jewellery/cfmalai/img1.jpeg",
+        "/jewellery/Nagas malai/img1.jpeg",
         "/jewellery/antique/img3.jpeg",
         "/jewellery/antique/img6.jpeg",
         "https://i.pinimg.com/1200x/89/9e/01/899e01109ec11c7f2582427d3e943c74.jpg",
@@ -146,6 +148,8 @@ export default function jewelleryCollection() {
         // "/jewellery/antique/img4.jpeg",
       ],
       names: [
+        "Nagas Malai",
+        "Temple Design Malai",
         "Fancy Malai",
         "Turkey",
         "Lakshmi Kasu Maalai",
@@ -160,16 +164,12 @@ export default function jewelleryCollection() {
         "Beautiful Fancy chains designs crafted with precision and style.",
       category: "Necklaces",
       items: [
-        "/jewellery/cfmalai/img1.jpeg",
-        "/jewellery/Nagas malai/img1.jpeg",
         "/jewellery/cfchain/img11.png",
         "/jewellery/cfchain/img44.png",
         "/jewellery/cfchain/img2.jpeg",
         "/jewellery/cfchain/img3.jpeg",
       ],
       names: [
-        "Nagas Malai",
-        "Temple Design Malai",
         "Indho Itali",
         "Cocktail Chain",
         "Fancy Chain",
@@ -218,7 +218,7 @@ export default function jewelleryCollection() {
     },
 
     {
-      title: "Jimki Earrings",
+      title: "Earrings",
       description:
         "Stylish earrings that enhance your beauty with traditional and modern appeal.",
       category: "Earrings",
@@ -229,12 +229,7 @@ export default function jewelleryCollection() {
         "/jewellery/Jimki earring/img5.jpeg",
         "/jewellery/Jimki earring/img2.jpeg",
       ],
-      names: [
-        "Jimki Earring",
-        "Jimki Earring",
-        "Jimki Earring",
-        "Emposing earings",
-      ],
+      names: ["Earring", "Earring", "Earring", "Emposing earings"],
     },
   ];
 

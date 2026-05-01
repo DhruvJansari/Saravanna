@@ -39,7 +39,7 @@ export default function MensCollection() {
         "https://i.pinimg.com/736x/5b/bb/a4/5bbba44cabc974f50c831ae23eaa153f.jpg",
         "https://i.pinimg.com/1200x/f9/51/8d/f9518da191c649a6b6ede60ac03e1e12.jpg",
         "https://i.pinimg.com/1200x/2b/02/60/2b0260ac59060d9246e62e01143171a6.jpg",
-        "https://i.pinimg.com/1200x/65/7c/3c/657c3c7944c0c0ff3844b44b97b886a6.jpg",
+        "https://i.pinimg.com/1200x/b6/e4/df/b6e4df67d4d62346b444976f9f1fd43c.jpg",
         "/Men/Half-sleev.jpg",
       ],
       names: [
@@ -47,7 +47,7 @@ export default function MensCollection() {
         "Silk Casual",
         "Cotton Poplin",
         "Denim Button Down",
-        "Linen Oxford Plain Shirt",
+        "Plain Shirt",
         "Half Sleeve Shirt",
       ],
     },
@@ -73,24 +73,7 @@ export default function MensCollection() {
         "Tone Pant",
       ],
     },
-    // {
-    //   title: "Casual Bottomwear",
-    //   description:
-    //     "Everyday comfort with versatile and stylish casual pants for modern wear.",
-    //   category: "Clothing",
-    //   items: [
-    //     "https://i.pinimg.com/1200x/e6/1b/31/e61b31478c28b1c71a9a0496b0ca38e9.jpg",
-    //     "https://i.pinimg.com/736x/70/86/79/708679a0c8bfba33e6a838ab94d8edf4.jpg",
-    //     "https://i.pinimg.com/1200x/9f/b9/9d/9fb99d01c03a77feba1b4588878a02ed.jpg",
-    //     "https://i.pinimg.com/736x/c2/24/2a/c2242a98d8b46cda0c65147031cca87b.jpg",
-    //   ],
-    //   names: [
-    //     "Jeans Pant",
-    //     "Cotton Pant",
-    //     "Six-Pocket Pant",
-    //     "Casual Fit Trousers",
-    //   ],
-    // },
+
     {
       title: "T-shirt, Track & Shorts",
       description:

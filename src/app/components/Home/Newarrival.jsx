@@ -22,7 +22,7 @@ const NEW_ARRIVALS_CONFIG = {
     },
     {
       id: 2,
-      src: "/jewellery/Malai-necklace.jpg",
+      src: "/jewellery/image.png",
       alt: "Gold Collection",
       title: "Gold Collection",
       category: "Jewellery",
@@ -97,7 +97,7 @@ const NewArrivals = () => {
                 <img
                   src={image.src}
                   alt={image.alt}
-                  className="w-full h-[420px] object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+                  className="w-full h-[460px] object-cover transition-transform duration-700 ease-out group-hover:scale-105"
                 />
 
                 {/* GRADIENT OVERLAY */}
