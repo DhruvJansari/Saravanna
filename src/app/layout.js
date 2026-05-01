@@ -1,11 +1,6 @@
-"use client";
-
-import { useEffect, useState } from "react";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Navbar from "./components/Navbar";
-import Loader from "./components/preloader";
-import Footer from "./components/Footer";
+import ClientWrapper from "./ClientWrapper";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -17,35 +12,23 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+export const metadata = {
+  title: "SRI SARAVANAA",
+  description: "Affordable fashion and trusted gold jewellery",
+  icons: {
+    icon: "/logo.png",
+    apple: "/logo.png",
+  },
+};
 
 export default function RootLayout({ children }) {
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setLoading(false);
-    }, 4000); // match your loader animation
-
-    return () => clearTimeout(timer);
-  }, []);
-
   return (
     <html
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-black">
-        
-        {loading ? (
-          <Loader />   // ✅ ONLY loader first
-        ) : (
-          <>
-            <Navbar />
-            {children}
-            <Footer />
-          </>
-        )}
-
+        <ClientWrapper>{children}</ClientWrapper>
       </body>
     </html>
   );
