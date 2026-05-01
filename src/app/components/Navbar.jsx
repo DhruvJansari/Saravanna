@@ -239,7 +239,7 @@ const Navbar = () => {
               </div>
 
               {/* Mobile Text Only */}
-              <span className="block  font-['Playfair_Display'] text-lg text-black font-semibold tracking-wide translate-x-4 xs:-translate-x-15 sm:translate-x-40 md:-translate-x-10 lg:-translate-x-12">
+              <span className="block font-['Playfair_Display'] text-lg text-black font-semibold tracking-wide translate-x-2 xs:-translate-x-15 sm:translate-x-40 md:-translate-x-10 lg:-translate-x-12">
                 SRI SARAVANA
               </span>
             </Link>

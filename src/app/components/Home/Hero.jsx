@@ -84,16 +84,15 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className="w-full bg-white min-h-screen flex items-center">
+    <section className="w-full bg-white min-h-[90vh] flex items-center">
       <div
-        className="max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-12 
-      pt-6 md:pt-1 pb-6 md:pb-12 
+        className="max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-12 pb-12 md:pb-12 
       flex flex-col md:flex-row items-center justify-center gap-6 md:gap-10"
       >
         {/* IMAGE FIRST ON MOBILE */}
         <div
           className={`w-full md:w-[60%] order-1 md:order-2 relative 
-          h-[55vh] sm:h-[60vh] md:h-[680px] min-h-[350px] overflow-hidden 
+          h-[60vh] sm:h-[60vh] md:h-[680px] min-h-[350px] overflow-hidden 
           transition-all duration-700 ${
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
           }`}
