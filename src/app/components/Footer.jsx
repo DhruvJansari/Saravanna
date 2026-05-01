@@ -25,7 +25,7 @@ const Footer = () => {
               <h2
                 className={`text-2xl text-black ${FONT_STYLE.heading} ${FONT_STYLE.weight}`}
               >
-                SRI SARAVANAA
+                SRI SARAVANA
               </h2>
             </div>
 
@@ -117,7 +117,7 @@ const Footer = () => {
       {/* BOTTOM */}
       <div className="border-t border-gray-200"></div>
       <div className="flex justify-center items-center text-sm text-black py-4">
-        <p>© {new Date().getFullYear()} SARAVANAA. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} SRI SARAVANA. All rights reserved.</p>
       </div>
     </footer>
   );

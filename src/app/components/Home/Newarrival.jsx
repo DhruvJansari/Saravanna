@@ -22,7 +22,7 @@ const NEW_ARRIVALS_CONFIG = {
     },
     {
       id: 2,
-      src: "/jewellery/image.png",
+      src: "/jewellery/image2.png",
       alt: "Gold Collection",
       title: "Gold Collection",
       category: "Jewellery",
