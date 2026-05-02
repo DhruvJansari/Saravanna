@@ -95,7 +95,7 @@ export default function jewelleryCollection() {
     },
 
     {
-      title: "Earrings",
+      title: "Jimki Earrings",
       description:
         "Stylish earrings that enhance your beauty with traditional and modern appeal.",
       category: "Earrings",
@@ -106,7 +106,7 @@ export default function jewelleryCollection() {
         "/jewellery/Jimki earring1/img5.png",
         "/jewellery/Jimki earring1/img2.png",
       ],
-      names: ["Earring", "Earring", "Earring"],
+      names: ["Earring", "Earring", "Earring", "Earring"],
       // "Emposing earings"
     },
   ];
