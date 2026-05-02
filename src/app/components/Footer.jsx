@@ -107,9 +107,11 @@ const Footer = () => {
             </h3>
 
             <ul className="space-y-2 text-sm text-black leading-relaxed">
-              <li>USILAMPATTI, Madurai, Tamil Nadu, Pincode-625532</li>
+              <li>94/95 main bajar, Theni road usilampatti,Pincode-625532</li>
+              <li>Srisaravanagarmentsandjwelles@gmail.com</li>
+              <li>kandhasamy2037@gmail.com</li>
+              <li>+91 9090202037</li>
               <li>+91 9443052199</li>
-              <li>kandanmonica@gmail.com</li>
             </ul>
           </div>
         </div>

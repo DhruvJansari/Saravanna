@@ -7,130 +7,6 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 
 export default function jewelleryCollection() {
-  // All jewellery collections - different types of jewellery
-  // const sections = [
-  //   {
-  //     title: "Necklaces",
-  //     description:
-  //       "Discover elegance that adorns your neckline with our exquisite necklace collection, perfect for every occasion.",
-  //     category: "Necklaces",
-  //     items: [
-  //       "https://i.pinimg.com/1200x/81/28/21/812821effc86bf1d4b45aa057d100ba3.jpg",
-  //       "https://i.pinimg.com/1200x/9d/6d/7c/9d6d7c1ef92f1fcbde353f81c20b0378.jpg",
-  //       "https://i.pinimg.com/736x/86/0e/23/860e2341ee10a731cc1bc8f838b48b45.jpg",
-  //       "https://i.pinimg.com/736x/ab/4e/5d/ab4e5d4f759b3928473f7a7bdc3a06f3.jpg",
-  //       "https://i.pinimg.com/736x/1b/73/02/1b730284588a878d79c10a2367074a80.jpg",
-  //     ],
-  //     names: [
-  //       "Diamond Pendant",
-  //       "Pearl Cascade",
-  //       "Sapphire Choker",
-  //       "Gold Locket",
-  //       "Ruby Necklace",
-  //     ],
-  //   },
-  //   {
-  //     title: "Earrings",
-  //     description:
-  //       "Frame your face with sparkle and sophistication from our stunning earring collection that catches every eye.",
-  //     category: "Earrings",
-  //     items: [
-  //       "https://i.pinimg.com/1200x/61/99/a2/6199a2c1d0d05ae9ed3416fa2331fc8b.jpg",
-  //       "https://i.pinimg.com/1200x/35/a4/ba/35a4bafc5d91f0ac9382f5e4c96d10b6.jpg",
-  //       "https://i.pinimg.com/1200x/aa/59/05/aa59057f200a5e7a308af5ddac011adc.jpg",
-  //       "https://i.pinimg.com/1200x/72/93/44/7293445cd29a076753b627d5664ccd4b.jpg",
-  //       "https://i.pinimg.com/1200x/84/3b/36/843b367f4ed6e012684620e6dc239d11.jpg",
-  //     ],
-  //     names: [
-  //       "Diamond Drops",
-  //       "Pearl Studs",
-  //       "Gold Hoops",
-  //       "Emerald Tears",
-  //       "Sapphire Studs",
-  //     ],
-  //   },
-  //   {
-  //     title: "Rings",
-  //     description:
-  //       "Celebrate life's precious moments with our timeless and elegant ring collection that symbolizes forever.",
-  //     category: "Rings",
-  //     items: [
-  //       "https://i.pinimg.com/736x/64/62/91/6462913b7c5397f10b3e8e02e535fcad.jpg",
-  //       "https://i.pinimg.com/736x/f8/30/82/f83082961e79ee29b30b5c177313aac7.jpg",
-  //       "https://i.pinimg.com/736x/b9/78/1b/b9781b4bb9d62b3aaac44077821cf33d.jpg",
-  //       "https://i.pinimg.com/736x/17/81/65/1781654fc4f7efa40c9ae758b8fdcfe5.jpg",
-  //       "https://i.pinimg.com/736x/65/fd/b1/65fdb17b08f4aa6142998fb66112a69b.jpg",
-  //     ],
-  //     names: [
-  //       "Solitaire Ring",
-  //       "Emerald Halo",
-  //       "Vintage Gold",
-  //       "Eternity Band",
-  //       "Sapphire Crown",
-  //     ],
-  //   },
-  //   {
-  //     title: "Bracelets",
-  //     description:
-  //       "Add the perfect finishing touch to any ensemble with our elegant bracelet designs that grace your wrist.",
-  //     category: "Bracelets",
-  //     items: [
-  //       "https://i.pinimg.com/736x/e1/e9/58/e1e9585cc8127a823cd0600c5b292d9b.jpg",
-  //       "https://i.pinimg.com/736x/82/9e/a8/829ea80ecd133622f095ce32bc4107b6.jpg",
-  //       "https://i.pinimg.com/1200x/81/25/45/812545403ac407a98940373cf4f99df9.jpg",
-  //       "https://i.pinimg.com/736x/e1/35/07/e135072ab8afb8a22701fbcb550e8e9c.jpg",
-  //       "https://i.pinimg.com/1200x/13/a0/2e/13a02e6e4edc1639665a0f578f0bd98d.jpg",
-  //     ],
-  //     names: [
-  //       "Tennis Bracelet",
-  //       "Gold Chain",
-  //       "Diamond Bangle",
-  //       "Pearl Bracelet",
-  //       "Sapphire Cuff",
-  //     ],
-  //   },
-  //   {
-  //     title: "Pendants",
-  //     description:
-  //       "Express your personal style with our meaningful pendant collection, each piece tells a unique story.",
-  //     category: "Pendants",
-  //     items: [
-  //       "https://i.pinimg.com/1200x/19/b2/28/19b22895f70a378443a1124b8da7c087.jpg",
-  //       "https://i.pinimg.com/736x/8a/b7/30/8ab730225c0bef77e9986916bb4f4b24.jpg",
-  //       "https://i.pinimg.com/1200x/d8/4d/1c/d84d1cdc9a293d79e670587e6247d7dc.jpg",
-  //       "https://i.pinimg.com/736x/69/f9/97/69f997ea2205a0338375afad42c72169.jpg",
-  //       "https://i.pinimg.com/736x/df/e3/7e/dfe37e1d74f25cd688405338b455cb90.jpg",
-  //     ],
-  //     names: [
-  //       "Infinity Pendant",
-  //       "Heart Locket",
-  //       "Star Charm",
-  //       "Cross Pendant",
-  //       "Evil Eye",
-  //     ],
-  //   },
-  //   {
-  //     title: "Accessories",
-  //     description:
-  //       "Complete your look with our curated selection of jewellery accessories that add that extra sparkle.",
-  //     category: "Accessories",
-  //     items: [
-  //       "https://i.pinimg.com/736x/5e/00/d6/5e00d6489fb27e55e5966c8b16e67e21.jpg",
-  //       "https://i.pinimg.com/1200x/dc/f1/7e/dcf17e9bad4394e33b5e51368ec0977c.jpg",
-  //       "https://i.pinimg.com/1200x/0e/a9/41/0ea9410f8aee06525c96faa1d948f2f8.jpg",
-  //       "https://i.pinimg.com/1200x/d9/49/ce/d949ce5916da10d2c4d41fda0a155604.jpg",
-  //       "https://i.pinimg.com/736x/41/e5/db/41e5dbe05e305b6d236f63dcd6fc4d14.jpg",
-  //     ],
-  //     names: [
-  //       "Brooch Pin",
-  //       "Hair jewellery",
-  //       "Anklet Set",
-  //       "Cufflinks",
-  //       "Tie Pin",
-  //     ],
-  //   },
-  // ];
-
   const sections = [
     {
       title: "Fancy malai & Fancy Necklace",
@@ -138,14 +14,17 @@ export default function jewelleryCollection() {
         "Elegant Fancy malai & Fancy Necklace designs inspired by timeless craftsmanship.",
       category: "Necklaces",
       items: [
-        "/jewellery/cfmalai/img1.jpeg",
-        "/jewellery/Nagas malai/img1.jpeg",
-        "/jewellery/antique/img3.jpeg",
-        "/jewellery/antique/img6.jpeg",
-        "https://i.pinimg.com/1200x/89/9e/01/899e01109ec11c7f2582427d3e943c74.jpg",
-        "https://i.pinimg.com/736x/3c/a8/d1/3ca8d1562b1c7173b1075daaaf6614b7.jpg",
-        // "/jewellery/antique/img5.jpeg",
-        // "/jewellery/antique/img4.jpeg",
+        "/jewellery/Jwellery/img1.png",
+        "/jewellery/Jwellery/img21.png",
+        "/jewellery/Jwellery/img3.png",
+        "/jewellery/Jwellery/img6.png",
+        "/jewellery/Jwellery/img4.png",
+        "/jewellery/Jwellery/img5.png",
+
+        //  "/jewellery/cfmalai/img1.jpeg",
+        // "/jewellery/Nagas malai/img1.jpeg",
+        // "/jewellery/antique/img3.jpeg",
+        // "/jewellery/antique/img6.jpeg",
       ],
       names: [
         "Nagas Malai",
@@ -153,8 +32,7 @@ export default function jewelleryCollection() {
         "Fancy Malai",
         "Turkey",
         "Lakshmi Kasu Maalai",
-        "Antique Necklace",
-        "Antique Necklace",
+        "Lakshmi Kasu Maalai",
       ],
     },
 
@@ -193,7 +71,6 @@ export default function jewelleryCollection() {
         "Gens Casting Ring",
         "Maharaja Ring",
         "Ladies Casting Ring",
-        ,
       ],
     },
     {
@@ -202,11 +79,11 @@ export default function jewelleryCollection() {
         "Stylish earrings that enhance your beauty with traditional and modern appeal.",
       category: "Earrings",
       items: [
-        "/jewellery/Fancy earring/img1.jpeg",
-        "/jewellery/Fancy earring/img2.jpeg",
-        "/jewellery/Fancy earring/img3.jpeg",
-        "/jewellery/Fancy earring/img4.jpeg",
-        "/jewellery/Fancy earring/img5.jpeg",
+        "/jewellery/Fancy Earing1/img1.png",
+        "/jewellery/Fancy Earing1/img2.png",
+        "/jewellery/Fancy Earing1/img3.png",
+        "/jewellery/Fancy Earing1/img4.png",
+        "/jewellery/Fancy Earing1/img5.png",
       ],
       names: [
         "Fancy Earring",
@@ -223,13 +100,14 @@ export default function jewelleryCollection() {
         "Stylish earrings that enhance your beauty with traditional and modern appeal.",
       category: "Earrings",
       items: [
-        "/jewellery/Jimki earring/img1.jpeg",
-        // "/jewellery/Jimki earring/img3.jpeg",
-        "/jewellery/Jimki earring/img4.jpeg",
-        "/jewellery/Jimki earring/img5.jpeg",
-        "/jewellery/Jimki earring/img2.jpeg",
+        "/jewellery/Jimki earring1/img1.png",
+        "/jewellery/Jimki earring1/img3.png",
+        "/jewellery/Jimki earring1/img4.png",
+        "/jewellery/Jimki earring1/img5.png",
+        "/jewellery/Jimki earring1/img2.png",
       ],
-      names: ["Earring", "Earring", "Earring", "Emposing earings"],
+      names: ["Earring", "Earring", "Earring"],
+      // "Emposing earings"
     },
   ];
 
@@ -776,7 +654,7 @@ export default function jewelleryCollection() {
                       <div className="relative overflow-hidden">
                         <Image
                           src={img}
-                          alt={section.names[i]}
+                          alt={section.names[i] || "Jewellery image"}
                           width={400}
                           height={550}
                           className="w-full h-[440px] object-cover"
