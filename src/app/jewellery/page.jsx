@@ -106,7 +106,13 @@ export default function jewelleryCollection() {
         "/jewellery/Jimki earring1/img5.png",
         "/jewellery/Jimki earring1/img2.png",
       ],
-      names: ["Earring", "Earring", "Earring", "Earring", "Earring"],
+      names: [
+        "Earring",
+        "Earring",
+        "Earring",
+        "Casting Fancy malai",
+        "Casting Fancy malai",
+      ],
       // "Emposing earings"
     },
   ];
