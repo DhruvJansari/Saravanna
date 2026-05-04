@@ -101,17 +101,15 @@ export default function jewelleryCollection() {
       category: "Earrings",
       items: [
         "/jewellery/Jimki earring1/img1.png",
-        "/jewellery/Jimki earring1/img3.png",
         "/jewellery/Jimki earring1/img4.png",
         "/jewellery/Jimki earring1/img5.png",
-        "/jewellery/Jimki earring1/img2.png",
+        "/jewellery/Jimki earring1/img3.png",
       ],
       names: [
         "Classic Plain Jimikki",
-        "Green Stone Temple Jimikki",
         "Ruby Drop Jimikki",
         "Bridal Antique Jimikki",
-        "Temple Antique Casting Jimikki",
+        "Green Stone Temple Jimikki",
       ],
       // "Emposing earings"
     },
