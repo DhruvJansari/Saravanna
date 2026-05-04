@@ -31,8 +31,8 @@ export default function jewelleryCollection() {
         "Temple Design Malai",
         "Fancy Malai",
         "Turkey",
-        "Lakshmi Kasu Maalai",
-        "Lakshmi Kasu Maalai",
+        "Temple Fancy Malai Necklace",
+        "Antique Fancy Pendant Malai",
       ],
     },
 
@@ -44,8 +44,8 @@ export default function jewelleryCollection() {
       items: [
         "/jewellery/cfchain/img11.png",
         "/jewellery/cfchain/img44.png",
-        "/jewellery/cfchain/img2.jpeg",
-        "/jewellery/cfchain/img3.jpeg",
+        "/jewellery/cfchain/image.png",
+        "/jewellery/cfchain/image2.png",
       ],
       names: [
         "Indho Itali",
@@ -86,11 +86,11 @@ export default function jewelleryCollection() {
         "/jewellery/Fancy Earing1/img5.png",
       ],
       names: [
-        "Fancy Earring",
-        "Casting Fancy Earring",
-        "Fancy Earring",
-        "Fancy Earring",
-        "Fancy Earring",
+        "Lakshmi Pearl Drops",
+        "Butterfly Stone Drops",
+        "Floral Antique Drops",
+        "Ruby Cage Drops",
+        "Emerald Leaf Drops",
       ],
     },
 
@@ -107,11 +107,11 @@ export default function jewelleryCollection() {
         "/jewellery/Jimki earring1/img2.png",
       ],
       names: [
-        "Earring",
-        "Earring",
-        "Earring",
-        "Casting Fancy malai",
-        "Casting Fancy malai",
+        "Classic Plain Jimikki",
+        "Green Stone Temple Jimikki",
+        "Ruby Drop Jimikki",
+        "Bridal Antique Jimikki",
+        "Temple Antique Casting Jimikki",
       ],
       // "Emposing earings"
     },
